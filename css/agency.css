@@ -177,6 +177,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #A99977;
+    display: none;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -290,7 +291,7 @@ header .intro-text .intro-heading {
     -moz-background-size: auto;
     background-size: auto;
     -o-background-size: auto;
-    line-height: 150px;
+    line-height: 200px;
 }
 
 header .intro-text .intro-lead-in {
@@ -302,7 +303,8 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
+    margin-bottom: 0px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
@@ -330,7 +332,7 @@ header .intro-text .intro-heading {
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
-        background-image: url(../img/RidingBytes_Logo.png);
+        background-image: url(../img/Riding_Bytes_weiss.png);
         /*line-height: 75px;*/
         line-height: 200px;
     }
