@@ -87,6 +87,9 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
 }
 .section-404 {
   @include rb-section("../img/sections/404_large.jpg");
+    &::before {
+      top: 0;
+    }
 }
 
 /*------------------------------------------------------------------

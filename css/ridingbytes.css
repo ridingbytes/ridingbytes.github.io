@@ -4396,6 +4396,9 @@ a.gm-toggle-link {
   will-change: transform;
   z-index: -1;
 }
+.section-404::before {
+  top: 0;
+}
 
 /*------------------------------------------------------------------
 [4. Pages/Listings]
