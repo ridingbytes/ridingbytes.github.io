@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Riding Bytes</title>
+    <link>http://ridingbytes.com/tags/web/</link>
+    <description>Recent content in Web on Riding Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 28 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ridingbytes.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RIDING BYTES Website</title>
+      <link>http://ridingbytes.com/portfolio/ridingbytes/</link>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://ridingbytes.com/portfolio/ridingbytes/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview:b3e3419bd41c8c3b6ff5162fccbbabaa&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;The RIDING BYTES website is based on a general-purpose website framework called
+&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Unlike systems like WordPress, Ghost and Drupal, &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; doesn’t depend
+on administrative privileges, databases, runtimes, interpreters or external
+libraries. It creates the website only once, when you create new content.&lt;/p&gt;
+
+&lt;h2 id=&#34;about:b3e3419bd41c8c3b6ff5162fccbbabaa&#34;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;Sites built with &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; are extremely fast and very secure. &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; sites can be
+hosted anywhere, including &lt;a href=&#34;https://www.heroku.com&#34;&gt;Heroku&lt;/a&gt;, &lt;a href=&#34;https://www.godaddy.com&#34;&gt;GoDaddy&lt;/a&gt;, &lt;a href=&#34;http://www.dreamhost.com/&#34;&gt;DreamHost&lt;/a&gt;, &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;,
+&lt;a href=&#34;http://cloud.google.com/storage/&#34;&gt;Google Cloud Storage&lt;/a&gt;, &lt;a href=&#34;http://aws.amazon.com/s3&#34;&gt;Amazon S3&lt;/a&gt; and &lt;a href=&#34;http://aws.amazon.com/cloudfront&#34;&gt;CloudFront&lt;/a&gt;, and work well with CDNs.
+&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; sites run without dependencies on expensive runtimes like Ruby, Python or
+PHP and without dependencies on any databases.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

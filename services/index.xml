@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Riding Bytes</title>
+    <link>http://ridingbytes.com/services/</link>
+    <description>Recent content in Services on Riding Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 22 Sep 2015 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://ridingbytes.com/services/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Development</title>
+      <link>http://ridingbytes.com/services/development/</link>
+      <pubDate>Tue, 22 Sep 2015 00:00:00 +0200</pubDate>
+      
+      <guid>http://ridingbytes.com/services/development/</guid>
+      <description>
+
+&lt;h1 id=&#34;development:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Development&lt;/h1&gt;
+
+&lt;p&gt;RIDING BYTES offers a variety of custom development services. Starting from small
+scripts for task automation or data manipulation, up to enterprise server based
+solutions, like content management systems or enterprise resource planning
+systems.&lt;/p&gt;
+
+&lt;p&gt;The next sections provide a small overview of used systems, technologies
+and the provided services.&lt;/p&gt;
+
+&lt;h2 id=&#34;python:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Python&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt; is a modern, powerful and fast programming
+language, that runs on all platforms. It is successfully used in thousands of
+real-world business applications around the world, including many large and
+mission critical system.&lt;/p&gt;
+
+&lt;p&gt;We offer custom tailored programs built with &lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt;, starting
+from a small command line script up to full web systems.&lt;/p&gt;
+
+&lt;h2 id=&#34;plone:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Plone&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; is one of the biggest and most popular content
+management solutions which uses &lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt; under the hood. It
+has been actively developed since 2001, is available in more than 40 languages,
+and has the best security track record of any major CMS. It is owned by the
+Plone Foundation, a 501&amp;copy;(3) not-for-profit organization, and is available for
+all major operating systems.&lt;/p&gt;
+
+&lt;p&gt;We offer full service and customization for &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt;,
+integrate it in your new or existing infrastructure and support you with the
+necessary consultancy and trainings.&lt;/p&gt;
+
+&lt;h2 id=&#34;odoo:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Odoo&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.odoo.com&#34;&gt;Odoo&lt;/a&gt; is another open source enterprise resource planning
+(ERP) and customer relations management (CRM) system, which is built with
+&lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt;. The main applications included in
+&lt;a href=&#34;http://www.odoo.com&#34;&gt;Odoo&lt;/a&gt; are an Open Source CRM, Website Builder, eCommerce,
+Project Management, Billing &amp;amp; Accounting, Point of Sale, Human Resources,
+Marketing, Manufacturing, Purchase Management.&lt;/p&gt;
+
+&lt;p&gt;We offer full service and customization for &lt;a href=&#34;http://www.odoo.com&#34;&gt;Odoo&lt;/a&gt;,
+integrate it in your new or existing infrastructure and support you with the
+necessary consultancy and trainings.&lt;/p&gt;
+
+&lt;h2 id=&#34;flask:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Flask&lt;/h2&gt;
+
+&lt;p&gt;You want to build your custom server solution from scratch? Than
+&lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt; is the right solution.
+&lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt; is a microframework for
+&lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt; based on Werkzeug, Jinja 2 and good intentions.  It
+can basically handle any database backend and ships with powerful extensions.&lt;/p&gt;
+
+&lt;p&gt;We offer complete support in the planning of the architecture and the development of
+any &lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt; based solution.&lt;/p&gt;
+
+&lt;h2 id=&#34;extjs:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;ExtJS&lt;/h2&gt;
+
+&lt;p&gt;Desktop application? Mobile/Phone application? Both?
+&lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt; provides a solution for all
+devices. &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt; is a sophisticated
+JavaScript framework with the capability to build enterprise applications, which
+handles thousands of data records with great performance.&lt;/p&gt;
+
+&lt;p&gt;We provide the full service, starting from the planning phase up to development
+and hosting. Powered by &lt;a href=&#34;https://github.com/atom/electron&#34;&gt;Electron&lt;/a&gt;, it is even
+possible to run dedicated applications on MacOS, Linux and Windows.&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Hugo&lt;/h2&gt;
+
+&lt;p&gt;You want to have a static website? Something that does not depend on
+administrative privileges, databases, runtimes, interpreters or external
+libraries? Than probably &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is the right thing for you.
+Sites built with &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; can be deployed on S3, GitHub Pages,
+Dropbox or any web host.&lt;/p&gt;
+
+&lt;p&gt;We offer a full integration and customization from any web based template for
+&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Either you offer a template, choose a nice one
+from &lt;a href=&#34;https://wrapbootstrap.com/themes&#34;&gt;{wrap}bootstrap&lt;/a&gt;, or we assemble one for
+you based on a mock up.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UIUX</title>
+      <link>http://ridingbytes.com/services/uiux/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0200</pubDate>
+      
+      <guid>http://ridingbytes.com/services/uiux/</guid>
+      <description>
+
+&lt;h1 id=&#34;ui-ux:bf92aecb4a13be047ab9446fb93b6fd0&#34;&gt;UI/UX&lt;/h1&gt;
+
+&lt;p&gt;These two terms stand for &lt;em&gt;User Interface&lt;/em&gt; and &lt;em&gt;User Experience&lt;/em&gt;. While the
+first one is mainly concerned with the layout of application elements, the
+latter one cares about how the interaction with the application feels to the user.&lt;/p&gt;
+
+&lt;p&gt;Both terms are linked to each other and highly influence the user acceptance of
+the finished application/product.&lt;/p&gt;
+
+&lt;p&gt;RIDING BYTES is specialized in web based user interfaces, which provide a great
+user experience by logical application flows and an intuitive layout.  We offer
+consulting, support and development of custom web-, mobile-, or desktop
+applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consulting</title>
+      <link>http://ridingbytes.com/services/consulting/</link>
+      <pubDate>Sun, 20 Sep 2015 00:00:00 +0200</pubDate>
+      
+      <guid>http://ridingbytes.com/services/consulting/</guid>
+      <description>
+
+&lt;h1 id=&#34;consulting:a25d6bd4dcb7d62219c6846057abf7cb&#34;&gt;Consulting&lt;/h1&gt;
+
+&lt;p&gt;Communication is the key for a successful partnership in business relations and
+horseback riding. We offer consulting services, to understand the needs and the
+requirement of our customers and to provide the professional expertise of all
+our knowledge.&lt;/p&gt;
+
+&lt;p&gt;We offer in house consulting services to analyze current workflows, optimize
+business processes and find the right IT solutions to support the management or
+the staff to get their work done more effective and efficient.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Administration</title>
+      <link>http://ridingbytes.com/services/administration/</link>
+      <pubDate>Sat, 19 Sep 2015 00:00:00 +0200</pubDate>
+      
+      <guid>http://ridingbytes.com/services/administration/</guid>
+      <description>
+
+&lt;h1 id=&#34;administration:13211676e978b46d236d2a86bdb3cd25&#34;&gt;Administration&lt;/h1&gt;
+
+&lt;p&gt;Every computer system need an optimal environment to work properly. It is
+necessary to monitor, update and run several maintenance tasks on business
+critical servers periodically.&lt;/p&gt;
+
+&lt;p&gt;We provide support for the deployment and maintenance of our software solutions
+or offer the complete service in house or remote through a secure tunnel
+connection. We support servers based on Linux, MacOS or Windows and help you
+with all administrative questions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
