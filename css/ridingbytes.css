@@ -4345,6 +4345,7 @@ a.gm-toggle-link {
 }
 .section-about::before {
   top: 0;
+  background-position: center center;
 }
 
 .section-contact {
