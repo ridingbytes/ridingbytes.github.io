@@ -18,7 +18,7 @@
       <guid>http://ridingbytes.com/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
       <description>
 
-&lt;h1 id=&#34;problem:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Problem&lt;/h1&gt;
+&lt;h2 id=&#34;problem:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;I wanted to use a binary field to store image data to a custom model.
 Therefore I used a field of the type &lt;code&gt;Binary&lt;/code&gt; in my model. Unfortunately only
