@@ -142,7 +142,7 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
   }
 }
 
-/* portfolio section*/
+/* portfolio section */
 .template-portfolio-section {
   /* smaller content fonts */
   #content {
@@ -160,29 +160,31 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
   }
 }
 
+/* blog section */
 .blog-page-single {
   @include rb-section("../img/sections/blogpost_large.jpg");
 }
-
-.portfolio-page-single {
-  @include rb-section("../img/sections/project_large.jpg");
-}
-
 .post-content {
   @include rb-content-fonts;
   padding-bottom: 2em;
 }
-
 .comment-baloon {
-    a {
-      text-decoration: none;
-      color: white;
-    }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.widget_categories {
+  text-transform: uppercase;
 }
 
+/* portfolio section */
 .portfolio-content {
   @include rb-content-fonts;
   padding-bottom: 2em;
+}
+.portfolio-page-single {
+  @include rb-section("../img/sections/project_large.jpg");
 }
 
 /* contact section */

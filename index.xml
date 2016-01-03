@@ -18,11 +18,13 @@
       <guid>http://ridingbytes.com/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
       <description>
 
+&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
+
 &lt;h2 id=&#34;problem:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;I wanted to use a binary field to store image data to a custom model.
 Therefore I used a field of the type &lt;code&gt;Binary&lt;/code&gt; in my model. Unfortunately only
-the base64 encoded file was stored in the database and not the filename. This
+the base64 encoded file was stored in the database but not the filename. This
 resulted in an unknown binary file download with the name of the current model.&lt;/p&gt;
 
 &lt;h2 id=&#34;solution:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Solution&lt;/h2&gt;
@@ -103,12 +105,14 @@ filename directly.&lt;/p&gt;
       <guid>http://ridingbytes.com/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
       <description>
 
-&lt;h1 id=&#34;europe-meets-south-africa:097114a2a17769020b00fc1c5cf37c2f&#34;&gt;Europe meets South Africa&lt;/h1&gt;
+&lt;h1 id=&#34;riding-bytes-bika-labs-partnership:097114a2a17769020b00fc1c5cf37c2f&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
 
 &lt;!-- &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;More than just a Company – A strong Network of Partners.&amp;#10;RIDING BYTES is now official Partner of Bika Lab Systems &lt;a href=&#34;https://t.co/07B6ap3DMO&#34;&gt;https://t.co/07B6ap3DMO&lt;/a&gt;&lt;/p&gt;&amp;mdash; RIDING BYTES (@ridingbytes) &lt;a href=&#34;https://twitter.com/ridingbytes/status/677201899674800129&#34;&gt;December 16, 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; --&gt;
 
 &lt;p&gt;Since December 15, 2015 RIDING BYTES and Bika Labs (South Africa) are official Partners.&lt;/p&gt;
+
+&lt;h2 id=&#34;about:097114a2a17769020b00fc1c5cf37c2f&#34;&gt;About&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://bikalabs.com&#34;&gt;Bika Labs&lt;/a&gt; provides up-market Open Source
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Laboratory_information_management_system&#34;&gt;Laboratory Information Management Systems&lt;/a&gt;
@@ -224,7 +228,7 @@ full potential.&lt;/p&gt;
       <guid>http://ridingbytes.com/2015/09/23/plone-commander/</guid>
       <description>
 
-&lt;h1 id=&#34;about-plone-commander:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;About Plone Commander&lt;/h1&gt;
+&lt;h1 id=&#34;plone-commander:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;Plone Commander&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a
 cross platform application built with &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;

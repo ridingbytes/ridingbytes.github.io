@@ -208,11 +208,13 @@
             <div class="col-md-12">
               
 
+<h1 id="odoo-remember-the-filename-of-binary-files:51dcd0e056b827b692cfb67aa92761b8">Odoo: Remember the filename of binary files</h1>
+
 <h2 id="problem:51dcd0e056b827b692cfb67aa92761b8">Problem</h2>
 
 <p>I wanted to use a binary field to store image data to a custom model.
 Therefore I used a field of the type <code>Binary</code> in my model. Unfortunately only
-the base64 encoded file was stored in the database and not the filename. This
+the base64 encoded file was stored in the database but not the filename. This
 resulted in an unknown binary file download with the name of the current model.</p>
 
 <h2 id="solution:51dcd0e056b827b692cfb67aa92761b8">Solution</h2>
