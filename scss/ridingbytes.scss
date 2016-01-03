@@ -255,6 +255,16 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
 }
 
 @media (max-width: 768px) {
+
+  // Reduce the size of the headlines on mobile devices
+  #header-wrapper-mp .container #page-title .page-title-details {
+    h1 {
+      font-size: 40px;
+      text-transform: uppercase;
+      line-height: 44px;
+    }
+  }
+
   .section-blog {
     @include rb-section("../img/sections/blog_medium.jpg");
   }
@@ -291,6 +301,14 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
 }
 
 @media (max-width: 400px) {
+  // Reduce the size of the headlines on mobile devices
+  #header-wrapper-mp .container #page-title .page-title-details {
+    h1 {
+      font-size: 30px;
+      text-transform: uppercase;
+      line-height: 33px;
+    }
+  }
 }
 
 /*------------------------------------------------------------------
@@ -331,7 +349,6 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
     /*background-color: $rb-gold;*/
   }
 }
-
 
 .hp-customers {
   background-color: #fff;
