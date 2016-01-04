@@ -117,6 +117,16 @@ and &lt;code&gt;image_small&lt;/code&gt;:&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/p&gt;
 
+&lt;p&gt;
+&lt;figure class=&#34;image-left&#34;&gt;
+    
+        &lt;img src=&#34;http://ridingbytes.com/media/blog/odoo-dynamic-image-resizing.png&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/p&gt;
+
 &lt;p&gt;I also wanted to prevent that the images get stored in the database, to avoid
 unnecessary data growth. Therefore I used a computed field
 (&lt;code&gt;compute=&amp;quot;_get_image&amp;quot;&lt;/code&gt;) and passed in the &lt;code&gt;store=False&lt;/code&gt; option.&lt;/p&gt;
