@@ -216,7 +216,7 @@ immutable &lt;code&gt;context&lt;/code&gt; with the method &lt;code&gt;with_cont
 
 &lt;p&gt;Or simply by the URL itself:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:8069/website/image/slider.revolution.slide/1/image_medium&#34;&gt;http://localhost:8069/website/image/slider.revolution.slide/1/image_medium&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:8069/website/image/my.model/1/image_medium&#34;&gt;http://localhost:8069/website/image/my.model/1/image_medium&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;conclusion:be6a283372191872c3bb5719c603d50b&#34;&gt;Conclusion&lt;/h2&gt;
 
