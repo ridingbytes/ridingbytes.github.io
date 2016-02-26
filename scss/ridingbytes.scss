@@ -371,7 +371,12 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
 .highlight pre {
     background: #5C6777;
 }
-
+.image-inline {
+  display: inline-block;
+  padding: 1em 0.5em 1em 0;
+  background-color: white;
+  text-align: left;
+}
 .image-left {
   background-color: white;
   text-align: left;

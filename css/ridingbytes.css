@@ -653,7 +653,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   color: #333;
-  font: 14px/1.7 "Oxygen", sans-serif;
+  font: 15px/1.8 "Oxygen", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -webkit-backface-visibility: hidden;
@@ -5108,6 +5108,13 @@ a.gm-toggle-link {
 
 .highlight pre {
   background: #5C6777;
+}
+
+.image-inline {
+  display: inline-block;
+  padding: 1em 0.5em 1em 0;
+  background-color: white;
+  text-align: left;
 }
 
 .image-left {
