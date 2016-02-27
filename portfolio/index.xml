@@ -7,8 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 28 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Feb 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ridingbytes.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alpenleder ERP</title>
+      <link>http://ridingbytes.com/portfolio/alpenleder/</link>
+      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ridingbytes.com/portfolio/alpenleder/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview:066e12919b087aa07a84f4ccce0ce0d8&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://alpenleder.com&#34;&gt;Alpenleder&lt;/a&gt; is an international bag manufacturing company and retailer.  They
+have special requirements to their IT system, like shop functionality, reseller
+and customer login, multi-language support, product variants, inventory and
+HR capabilities.  &lt;a href=&#34;https://www.odoo.com/page/odoo-9&#34;&gt;Odoo 9&lt;/a&gt; serves all their needs and is ready for future
+requirements by customizations from RIDING BYTES.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES ERP</title>
+      <link>http://ridingbytes.com/portfolio/ridingbytes-odoo/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ridingbytes.com/portfolio/ridingbytes-odoo/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview:fdd2b0958f735df08e2cc8e02d37ca14&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ridingbytes.com&#34;&gt;RIDING BYTES&lt;/a&gt; manages a variety of business intelligence tasks with &lt;a href=&#34;https://www.odoo.com/page/odoo-9&#34;&gt;Odoo 9&lt;/a&gt;. Custom
+Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order
+process for national and international customers.
+Project and Timesheet Bookings gives customers transparence to their projects
+and allows controlling and planning at any time.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>RIDING BYTES Website</title>

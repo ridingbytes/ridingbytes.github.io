@@ -7,8 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 04 Jan 2016 11:44:06 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 27 Feb 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ridingbytes.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alpenleder ERP</title>
+      <link>http://ridingbytes.com/portfolio/alpenleder/</link>
+      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ridingbytes.com/portfolio/alpenleder/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview:066e12919b087aa07a84f4ccce0ce0d8&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://alpenleder.com&#34;&gt;Alpenleder&lt;/a&gt; is an international bag manufacturing company and retailer.  They
+have special requirements to their IT system, like shop functionality, reseller
+and customer login, multi-language support, product variants, inventory and
+HR capabilities.  &lt;a href=&#34;https://www.odoo.com/page/odoo-9&#34;&gt;Odoo 9&lt;/a&gt; serves all their needs and is ready for future
+requirements by customizations from RIDING BYTES.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Odoo: Dynamic image resizing</title>
@@ -344,6 +362,24 @@ filename directly.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES ERP</title>
+      <link>http://ridingbytes.com/portfolio/ridingbytes-odoo/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ridingbytes.com/portfolio/ridingbytes-odoo/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview:fdd2b0958f735df08e2cc8e02d37ca14&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ridingbytes.com&#34;&gt;RIDING BYTES&lt;/a&gt; manages a variety of business intelligence tasks with &lt;a href=&#34;https://www.odoo.com/page/odoo-9&#34;&gt;Odoo 9&lt;/a&gt;. Custom
+Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order
+process for national and international customers.
+Project and Timesheet Bookings gives customers transparence to their projects
+and allows controlling and planning at any time.&lt;/p&gt;
 </description>
     </item>
     
@@ -936,8 +972,8 @@ effective and efficient.&lt;/p&gt;
 &lt;p&gt;The right IT solution needs the right operating environment to work properly.
 Server based IT are always coupled with administrative tasks such as
 &lt;em&gt;Installation&lt;/em&gt;, &lt;em&gt;Configuration&lt;/em&gt;, &lt;em&gt;Updates&lt;/em&gt;, &lt;em&gt;Monitoring&lt;/em&gt;, &lt;em&gt;Optimizations&lt;/em&gt;,
-&lt;em&gt;Backups&lt;/em&gt;, &lt;em&gt;Custom Scripts&lt;/em&gt;, &lt;em&gt;Domain-, Hosting-, DNS-, Email-Support&lt;/em&gt;,
-&lt;em&gt;Operational Support&lt;/em&gt;, &lt;em&gt;and more&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;Backups&lt;/em&gt;, &lt;em&gt;Custom Scripts&lt;/em&gt;, &lt;em&gt;Domain-, Hosting-, DNS- and Email Setup&lt;/em&gt;,
+&lt;em&gt;Operational Support&lt;/em&gt;, &lt;em&gt;&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;what-we-offer:13211676e978b46d236d2a86bdb3cd25&#34;&gt;What we offer&lt;/h2&gt;
 
@@ -985,29 +1021,6 @@ a &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_state_transfer&#
 
 &lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/MiwgkWLMUqk&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Plone Commander</title>
-      <link>http://ridingbytes.com/portfolio/plone-commander/</link>
-      <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://ridingbytes.com/portfolio/plone-commander/</guid>
-      <description>
-
-&lt;h1 id=&#34;overview:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;Overview&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a cross platform web application based on &lt;a href=&#34;http://electron.atom.io&#34;&gt;Electron&lt;/a&gt; and
-&lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;. It communicates with &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; through &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;see-it-in-action:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;See it in Action&lt;/h1&gt;
-
-&lt;div class=&#34;embed video-player&#34;&gt;
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/h9Bc37_eutE&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 
