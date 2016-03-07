@@ -7,8 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 04 Jan 2016 11:44:06 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 06 Mar 2016 23:44:26 +0100</lastBuildDate>
     <atom:link href="http://ridingbytes.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Odoo: Developer mode</title>
+      <link>http://ridingbytes.com/2016/03/06/odoo-developer-mode/</link>
+      <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
+      
+      <guid>http://ridingbytes.com/2016/03/06/odoo-developer-mode/</guid>
+      <description>
+
+&lt;h1 id=&#34;odoo-access-technical-features:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Odoo: Access Technical Features&lt;/h1&gt;
+
+&lt;p&gt;In Odoo 9 you might miss the &lt;code&gt;Technical Features&lt;/code&gt; checkbox in the &lt;em&gt;Access
+Rights&lt;/em&gt; of your user. These settings are now visible if you activate the
+&lt;strong&gt;Developer Mode&lt;/strong&gt; from the &lt;strong&gt;About&lt;/strong&gt; menu.&lt;/p&gt;
+
+&lt;p&gt;I had to access this many times during development and found out, that I lose
+too much time accessing the menu and clicking on the button. I had to change
+this!&lt;/p&gt;
+
+&lt;p&gt;I created this small &lt;a href=&#34;#bookmarklet:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Bookmarklet&lt;/a&gt;,
+which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
+
+
+&lt;figure class=&#34;image-center&#34;&gt;
+    
+        &lt;img src=&#34;http://ridingbytes.com/media/blog/odoo-about.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;bookmarklet:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Odoo Developer Bookmarklet&lt;/h2&gt;
+
+&lt;p&gt;Drag&amp;amp;Drop this Button to your Bookmarks Bar to toggle Odoo Developer Mode:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-success&#34; href=&#34;javascript:(function(){
+  var url=location.href.split(location.hash)[0];
+  if(!url.endsWith(&#39;?debug&#39;)){
+    location.href=url+&#39;?debug&#39;+location.hash;
+  }else{
+    if (confirm(&#39;Already in developer Mode. Do you want to Leave?&#39;)){
+      url=url.split(&#39;?debug&#39;)[0];
+      location.href=url+location.hash;
+    }
+  }})()&#34;&gt;
+  Toggle Odoo Dev-Mode
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure class=&#34;image-left&#34;&gt;
+    
+        &lt;img src=&#34;http://ridingbytes.com/media/blog/odoo-dev-mode-toggle.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;e-block-centered&#34;&gt;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+    &lt;/div&gt;
+    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Odoo: Dynamic image resizing</title>

@@ -201,6 +201,77 @@
       
       <div class="container">
         <div class="row">
+          <div id="odoo: developer mode">
+            
+            <div class="col-md-12">
+              
+
+<h1 id="odoo-access-technical-features:2889342df3d5b7b1c547f9edd3b143c0">Odoo: Access Technical Features</h1>
+
+<p>In Odoo 9 you might miss the <code>Technical Features</code> checkbox in the <em>Access
+Rights</em> of your user. These settings are now visible if you activate the
+<strong>Developer Mode</strong> from the <strong>About</strong> menu.</p>
+
+<p>I had to access this many times during development and found out, that I lose
+too much time accessing the menu and clicking on the button. I had to change
+this!</p>
+
+<p>I created this small <a href="#bookmarklet:2889342df3d5b7b1c547f9edd3b143c0">Bookmarklet</a>,
+which toggles the developer mode by a single click&hellip;</p>
+
+
+<figure class="image-center">
+    
+        <img src="/media/blog/odoo-about.png" />
+    
+    
+</figure>
+
+
+<h2 id="bookmarklet:2889342df3d5b7b1c547f9edd3b143c0">Odoo Developer Bookmarklet</h2>
+
+<p>Drag&amp;Drop this Button to your Bookmarks Bar to toggle Odoo Developer Mode:</p>
+
+<p><a class="btn btn-success" href="javascript:(function(){
+  var url=location.href.split(location.hash)[0];
+  if(!url.endsWith('?debug')){
+    location.href=url+'?debug'+location.hash;
+  }else{
+    if (confirm('Already in developer Mode. Do you want to Leave?')){
+      url=url.split('?debug')[0];
+      location.href=url+location.hash;
+    }
+  }})()">
+  Toggle Odoo Dev-Mode
+</a></p>
+
+<p>
+<figure class="image-left">
+    
+        <img src="/media/blog/odoo-dev-mode-toggle.png" />
+    
+    
+</figure>
+</p>
+
+<p><div class="container rb-divider">
+  <div class="row">
+    <div class="dividewhite2"></div>
+    <div class="e-block-centered">
+      &mdash; <img src="/img/rb_logo_32x32.png" /> &mdash;
+    </div>
+    <div class="dividewhite2"></div>
+  </div>
+</div>
+</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row">
           <div id="odoo: dynamic image resizing">
             
             <div class="col-md-12">

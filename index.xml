@@ -7,8 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Mar 2016 23:44:26 +0100</lastBuildDate>
     <atom:link href="http://ridingbytes.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Odoo: Developer mode</title>
+      <link>http://ridingbytes.com/2016/03/06/odoo-developer-mode/</link>
+      <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
+      
+      <guid>http://ridingbytes.com/2016/03/06/odoo-developer-mode/</guid>
+      <description>
+
+&lt;h1 id=&#34;odoo-access-technical-features:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Odoo: Access Technical Features&lt;/h1&gt;
+
+&lt;p&gt;In Odoo 9 you might miss the &lt;code&gt;Technical Features&lt;/code&gt; checkbox in the &lt;em&gt;Access
+Rights&lt;/em&gt; of your user. These settings are now visible if you activate the
+&lt;strong&gt;Developer Mode&lt;/strong&gt; from the &lt;strong&gt;About&lt;/strong&gt; menu.&lt;/p&gt;
+
+&lt;p&gt;I had to access this many times during development and found out, that I lose
+too much time accessing the menu and clicking on the button. I had to change
+this!&lt;/p&gt;
+
+&lt;p&gt;I created this small &lt;a href=&#34;#bookmarklet:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Bookmarklet&lt;/a&gt;,
+which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
+
+
+&lt;figure class=&#34;image-center&#34;&gt;
+    
+        &lt;img src=&#34;http://ridingbytes.com/media/blog/odoo-about.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;bookmarklet:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Odoo Developer Bookmarklet&lt;/h2&gt;
+
+&lt;p&gt;Drag&amp;amp;Drop this Button to your Bookmarks Bar to toggle Odoo Developer Mode:&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-success&#34; href=&#34;javascript:(function(){
+  var url=location.href.split(location.hash)[0];
+  if(!url.endsWith(&#39;?debug&#39;)){
+    location.href=url+&#39;?debug&#39;+location.hash;
+  }else{
+    if (confirm(&#39;Already in developer Mode. Do you want to Leave?&#39;)){
+      url=url.split(&#39;?debug&#39;)[0];
+      location.href=url+location.hash;
+    }
+  }})()&#34;&gt;
+  Toggle Odoo Dev-Mode
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure class=&#34;image-left&#34;&gt;
+    
+        &lt;img src=&#34;http://ridingbytes.com/media/blog/odoo-dev-mode-toggle.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;e-block-centered&#34;&gt;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+    &lt;/div&gt;
+    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Alpenleder ERP</title>
@@ -981,49 +1050,6 @@ Server based IT are always coupled with administrative tasks such as
 software solutions or offer the complete service in house or remote through a
 secure tunnel connection. We support servers based on Linux, MacOS or Windows
 and help you with all administrative questions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Plone JSON API</title>
-      <link>http://ridingbytes.com/portfolio/plone-jsonapi/</link>
-      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://ridingbytes.com/portfolio/plone-jsonapi/</guid>
-      <description>
-
-&lt;h1 id=&#34;overview:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Overview&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://api.travis-ci.org/collective/plone.jsonapi.routes.png?branch=master&#34; alt=&#34;Build Status&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is an add-on package for &lt;a href=&#34;https://github.com/collective/plone.jsonapi.core&#34;&gt;plone.jsonapi.core&lt;/a&gt; which provides resource URLs
-for Plone standard contents (and more).&lt;/p&gt;
-
-&lt;h1 id=&#34;motivation:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Motivation&lt;/h1&gt;
-
-&lt;p&gt;The routes package is built on top of the &lt;a href=&#34;https://github.com/collective/plone.jsonapi.core&#34;&gt;plone.jsonapi.core&lt;/a&gt; package to allow
-Plone developers to build modern (JavaScript) web UIs which communicate through
-a &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_state_transfer&#34;&gt;RESTful&lt;/a&gt; API with their Plone site.&lt;/p&gt;
-
-&lt;h1 id=&#34;compatibility:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Compatibility&lt;/h1&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt; is compatible with &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; 4.&lt;/p&gt;
-
-&lt;h1 id=&#34;documentation:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Documentation&lt;/h1&gt;
-
-&lt;p&gt;Read the latest documentation: &lt;a href=&#34;http://plonejsonapiroutes.readthedocs.org&#34;&gt;http://plonejsonapiroutes.readthedocs.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;where-to-get:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Where to get?&lt;/h1&gt;
-
-&lt;p&gt;Get the latest version on the Python Package Index: &lt;a href=&#34;https://pypi.python.org/pypi/plone.jsonapi.routes&#34;&gt;https://pypi.python.org/pypi/plone.jsonapi.routes&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;see-it-in-action:7066a99628bbca58c6cdd96152a54e17&#34;&gt;See it in action&lt;/h1&gt;
-
-&lt;div class=&#34;embed video-player&#34;&gt;
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/MiwgkWLMUqk&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-
 </description>
     </item>
     

@@ -374,16 +374,20 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
 .image-inline {
   display: inline-block;
   padding: 1em 0.5em 1em 0;
-  background-color: white;
+  background-color: transparent;
   text-align: left;
 }
 .image-left {
-  background-color: white;
+  background-color: transparent;
   text-align: left;
 }
 .image-right {
-  background-color: white;
+  background-color: transparent;
   text-align: right;
+}
+.image-center {
+  background-color: transparent;
+  text-align: center;
 }
 .rb-divider {
   color: $rb-gold;
