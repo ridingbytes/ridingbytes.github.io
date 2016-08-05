@@ -18,7 +18,7 @@
       <guid>http://ridingbytes.com/2016/03/06/odoo-developer-mode/</guid>
       <description>
 
-&lt;h1 id=&#34;odoo-access-technical-features:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Odoo: Access Technical Features&lt;/h1&gt;
+&lt;h1 id=&#34;odoo-access-technical-features&#34;&gt;Odoo: Access Technical Features&lt;/h1&gt;
 
 &lt;p&gt;In Odoo 9 you might miss the &lt;code&gt;Technical Features&lt;/code&gt; checkbox in the &lt;em&gt;Access
 Rights&lt;/em&gt; of your user. These settings are now visible if you activate the
@@ -28,7 +28,7 @@ Rights&lt;/em&gt; of your user. These settings are now visible if you activate t
 too much time accessing the menu and clicking on the button. I had to change
 this!&lt;/p&gt;
 
-&lt;p&gt;I created this small &lt;a href=&#34;#bookmarklet:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Bookmarklet&lt;/a&gt;,
+&lt;p&gt;I created this small &lt;a href=&#34;#bookmarklet&#34;&gt;Bookmarklet&lt;/a&gt;,
 which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
 
 
@@ -40,7 +40,7 @@ which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
 &lt;/figure&gt;
 
 
-&lt;h2 id=&#34;bookmarklet:2889342df3d5b7b1c547f9edd3b143c0&#34;&gt;Odoo Developer Bookmarklet&lt;/h2&gt;
+&lt;h2 id=&#34;bookmarklet&#34;&gt;Odoo Developer Bookmarklet&lt;/h2&gt;
 
 &lt;p&gt;Drag&amp;amp;Drop this Button to your Bookmarks Bar to toggle Odoo Developer Mode:&lt;/p&gt;
 
@@ -57,16 +57,16 @@ which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
   Toggle Odoo Dev-Mode
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;
+
 &lt;figure class=&#34;image-left&#34;&gt;
     
         &lt;img src=&#34;http://ridingbytes.com/media/blog/odoo-dev-mode-toggle.png&#34; /&gt;
     
     
 &lt;/figure&gt;
-&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+
+&lt;div class=&#34;container rb-divider&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
@@ -75,7 +75,7 @@ which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
@@ -87,7 +87,7 @@ which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
       <guid>http://ridingbytes.com/portfolio/alpenleder/</guid>
       <description>
 
-&lt;h1 id=&#34;overview:066e12919b087aa07a84f4ccce0ce0d8&#34;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://alpenleder.com&#34;&gt;Alpenleder&lt;/a&gt; is an international bag manufacturing company and retailer.  They
 have special requirements to their IT system, like shop functionality, reseller
@@ -105,13 +105,13 @@ requirements by customizations from RIDING BYTES.&lt;/p&gt;
       <guid>http://ridingbytes.com/2016/01/04/odoo-dynamic-image-resizing/</guid>
       <description>
 
-&lt;h1 id=&#34;odoo-scale-images-on-the-fly:be6a283372191872c3bb5719c603d50b&#34;&gt;Odoo: Scale images on the fly&lt;/h1&gt;
+&lt;h1 id=&#34;odoo-scale-images-on-the-fly&#34;&gt;Odoo: Scale images on the fly&lt;/h1&gt;
 
 &lt;p&gt;Odoo uses Python Imaging Library (PIL) to support image resizing on the fly.
 This functionality ships with the &lt;code&gt;image.py&lt;/code&gt; module, which is located in
 &lt;code&gt;openerp.tools.image&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;problem:be6a283372191872c3bb5719c603d50b&#34;&gt;Problem&lt;/h2&gt;
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;I implemented a custom model which defined a binary field called &lt;code&gt;image&lt;/code&gt;:&lt;/p&gt;
 
@@ -138,7 +138,7 @@ image tag:&lt;/p&gt;
 HTML feels kind of awkward to me and it also uses the full image size, which
 was not suitable for me.&lt;/p&gt;
 
-&lt;h2 id=&#34;solution:be6a283372191872c3bb5719c603d50b&#34;&gt;Solution&lt;/h2&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
 
 &lt;p&gt;Odoo&amp;rsquo;s &lt;code&gt;website&lt;/code&gt; addon ships with a controller, which allows to access image
 fields of any model through an URL. This controller is located in
@@ -170,18 +170,18 @@ fields of any model through an URL. This controller is located in
 &lt;p&gt;With this route, I could change my inline rendered image to use this URL and do
 the resizing as well:&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/website/image/my.model/{{ my.model.id }}/image/128x128&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/website/image/my.model/{{ my.model.id }}/image/128x128&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
 
-&lt;h2 id=&#34;going-further:be6a283372191872c3bb5719c603d50b&#34;&gt;Going further&lt;/h2&gt;
+
+&lt;h2 id=&#34;going-further&#34;&gt;Going further&lt;/h2&gt;
 
 &lt;p&gt;As I could use this nice URL to access the image of my custom model, I thought
 about using an attribute on the model to provide the scaled image directly.
 Therefore I changed the code of my model and added the fields &lt;code&gt;image_medium&lt;/code&gt;
 and &lt;code&gt;image_small&lt;/code&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
 
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;image&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;fields&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Binary(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;Image&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;required&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;True)&lt;/span&gt;
@@ -202,9 +202,9 @@ and &lt;code&gt;image_small&lt;/code&gt;:&lt;/p&gt;
                                      &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;resized as a 64x64px image, with aspect ratio preserved. &amp;quot;&lt;/span&gt; \
                                      &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Use this field in form views or some kanban views.&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
 
-&lt;p&gt;
+
+
 &lt;figure class=&#34;image-left&#34;&gt;
     
         &lt;img src=&#34;http://ridingbytes.com/media/blog/odoo-dynamic-image-resizing.png&#34; class=&#34;img-responsive&#34;  /&gt;
@@ -212,7 +212,7 @@ and &lt;code&gt;image_small&lt;/code&gt;:&lt;/p&gt;
     
 &lt;/figure&gt;
 
-&lt;/p&gt;
+
 
 &lt;p&gt;I also wanted to prevent that the images get stored in the database, to avoid
 unnecessary data growth. Therefore I used a computed field
@@ -220,7 +220,7 @@ unnecessary data growth. Therefore I used a computed field
 
 &lt;p&gt;My first shot of the &lt;code&gt;_get_image&lt;/code&gt; method looked like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
 
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
@@ -238,7 +238,7 @@ unnecessary data growth. Therefore I used a computed field
         &lt;span style=&#34;color: #f8f8f2&#34;&gt;self&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;image_small&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;data[&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;image_small&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
         &lt;span style=&#34;color: #66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;True&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;I was unlucky again, since this code worked exactly once, and that was when the
 &lt;code&gt;image&lt;/code&gt; field was initially set.&lt;/p&gt;
@@ -248,14 +248,14 @@ with the name &lt;code&gt;bin_size&lt;/code&gt; and the value &lt;code&gt;True&l
 image field to return only the image size instead of the full &lt;code&gt;base64&lt;/code&gt; encoded
 image. The complete &lt;code&gt;context&lt;/code&gt; I inspected within this method looked like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;ipdb&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;self&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;env&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;context&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;ipdb&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;self&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;env&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;context&lt;/span&gt;
 &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;lang&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;en_US&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;bin_size&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;True,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;tz&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;Europe/Berlin&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;uid&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;I found the corresponding field definition for the binary field in &lt;code&gt;openerp.osv.fields&lt;/code&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;binary&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(_column):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;binary&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(_column):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_type&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;binary&amp;#39;&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
     &lt;span style=&#34;color: #66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(self,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;cr,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;obj,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;ids,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;name,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;user&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;None,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;context&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;None,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;values&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;None):&lt;/span&gt;
@@ -270,7 +270,7 @@ image. The complete &lt;code&gt;context&lt;/code&gt; I inspected within this met
             &lt;span style=&#34;color: #f8f8f2&#34;&gt;res[i]&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;tools&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;human_size(long(val))&lt;/span&gt;
         &lt;span style=&#34;color: #f8f8f2&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;After some research I figured out that it is possible to overwrite this
 immutable &lt;code&gt;context&lt;/code&gt; with the method &lt;code&gt;with_context&lt;/code&gt; on the model itself.&lt;/p&gt;
@@ -279,7 +279,7 @@ immutable &lt;code&gt;context&lt;/code&gt; with the method &lt;code&gt;with_cont
 
 &lt;p&gt;So the final version of my &lt;code&gt;_get_image&lt;/code&gt; method looked like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
 
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
@@ -302,20 +302,20 @@ immutable &lt;code&gt;context&lt;/code&gt; with the method &lt;code&gt;with_cont
         &lt;span style=&#34;color: #f8f8f2&#34;&gt;self&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;image_small&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;data[&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;image_small&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
         &lt;span style=&#34;color: #66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;True&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;Now it was possible to access the computed fields directly with the URL of the
 &lt;code&gt;website&lt;/code&gt; controller:&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/website/image/my.model/{{ my.model.id }}/image_small&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/website/image/my.model/{{ my.model.id }}/image_small&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;Or simply by the URL itself:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://localhost:8069/website/image/my.model/1/image_medium&#34;&gt;http://localhost:8069/website/image/my.model/1/image_medium&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion:be6a283372191872c3bb5719c603d50b&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;The size calculation of the images takes some time and this should be
 considered with regard to the servers performance. So I guess it makes
@@ -334,7 +334,7 @@ instructions in the internet on how to do this using the old Odoo V7 API.&lt;/p&
 
 &lt;p&gt;So I hope this is useful for someone:)&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+&lt;div class=&#34;container rb-divider&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
@@ -343,7 +343,7 @@ instructions in the internet on how to do this using the old Odoo V7 API.&lt;/p&
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
@@ -355,16 +355,16 @@ instructions in the internet on how to do this using the old Odoo V7 API.&lt;/p&
       <guid>http://ridingbytes.com/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
       <description>
 
-&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
+&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
 
-&lt;h2 id=&#34;problem:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Problem&lt;/h2&gt;
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;I wanted to use a binary field to store image data to a custom model.
 Therefore I used a field of the type &lt;code&gt;Binary&lt;/code&gt; in my model. Unfortunately only
 the base64 encoded file was stored in the database but not the filename. This
 resulted in an unknown binary file download with the name of the current model.&lt;/p&gt;
 
-&lt;h2 id=&#34;solution:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Solution&lt;/h2&gt;
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
 
 &lt;p&gt;Luckily I found a solution for this problem. First, I added another field to my
 model to store the filename. The name of this field can be arbitrary.
@@ -373,7 +373,7 @@ The next step was to tell the image widget to use this field to store the filena
 
 &lt;p&gt;Below is the full code listing to make it work:&lt;/p&gt;
 
-&lt;h3 id=&#34;python-code:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Python Code&lt;/h3&gt;
+&lt;h3 id=&#34;python-code&#34;&gt;Python Code&lt;/h3&gt;
 
 &lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
@@ -383,9 +383,9 @@ The next step was to tell the image widget to use this field to store the filena
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h3 id=&#34;xml-view:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;XML View&lt;/h3&gt;
+&lt;h3 id=&#34;xml-view&#34;&gt;XML View&lt;/h3&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;record&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;view_form_my_model&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;model=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;ir.ui.view&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;record&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;view_form_my_model&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;model=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;ir.ui.view&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
   &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;field&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;My Model Form&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/field&amp;gt;&lt;/span&gt;
   &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;field&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;model&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;my.model&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/field&amp;gt;&lt;/span&gt;
   &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;field&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;arch&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;type=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;xml&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
@@ -404,9 +404,9 @@ The next step was to tell the image widget to use this field to store the filena
   &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/field&amp;gt;&lt;/span&gt;
 &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/record&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
 
-&lt;h2 id=&#34;result:51dcd0e056b827b692cfb67aa92761b8&#34;&gt;Result&lt;/h2&gt;
+
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
 
 &lt;p&gt;The download works now like a charm and it is even possible to modify the
 filename directly.&lt;/p&gt;
@@ -421,7 +421,7 @@ filename directly.&lt;/p&gt;
 
 &lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+&lt;div class=&#34;container rb-divider&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
@@ -430,7 +430,7 @@ filename directly.&lt;/p&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
@@ -442,7 +442,7 @@ filename directly.&lt;/p&gt;
       <guid>http://ridingbytes.com/portfolio/ridingbytes-odoo/</guid>
       <description>
 
-&lt;h1 id=&#34;overview:fdd2b0958f735df08e2cc8e02d37ca14&#34;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ridingbytes.com&#34;&gt;RIDING BYTES&lt;/a&gt; manages a variety of business intelligence tasks with &lt;a href=&#34;https://www.odoo.com/page/odoo-9&#34;&gt;Odoo 9&lt;/a&gt;. Custom
 Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order
@@ -460,14 +460,14 @@ and allows controlling and planning at any time.&lt;/p&gt;
       <guid>http://ridingbytes.com/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
       <description>
 
-&lt;h1 id=&#34;riding-bytes-bika-labs-partnership:097114a2a17769020b00fc1c5cf37c2f&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
+&lt;h1 id=&#34;riding-bytes-bika-labs-partnership&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
 
 &lt;!-- &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;More than just a Company – A strong Network of Partners.&lt;br&gt;RIDING BYTES is now official Partner of Bika Lab Systems &lt;a href=&#34;https://t.co/07B6ap3DMO&#34;&gt;https://t.co/07B6ap3DMO&lt;/a&gt;&lt;/p&gt;&amp;mdash; RIDING BYTES (@ridingbytes) &lt;a href=&#34;https://twitter.com/ridingbytes/status/677201899674800129&#34;&gt;December 16, 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; --&gt;
 
 &lt;p&gt;Since December 15, 2015 RIDING BYTES and Bika Labs (South Africa) are official Partners.&lt;/p&gt;
 
-&lt;h2 id=&#34;about:097114a2a17769020b00fc1c5cf37c2f&#34;&gt;About&lt;/h2&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://bikalabs.com&#34;&gt;Bika Labs&lt;/a&gt; provides up-market Open Source
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Laboratory_information_management_system&#34;&gt;Laboratory Information Management Systems&lt;/a&gt;
@@ -491,7 +491,7 @@ mobile application development.&lt;/p&gt;
 &lt;!-- &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Talking about possibilities to interface Bika LIMS with external systems using Plone JSON API at &lt;a href=&#34;https://twitter.com/hashtag/B3Africa?src=hash&#34;&gt;#B3Africa&lt;/a&gt; &lt;a href=&#34;https://t.co/UPIumZWrZz&#34;&gt;pic.twitter.com/UPIumZWrZz&lt;/a&gt;&lt;/p&gt;&amp;mdash; RIDING BYTES (@ridingbytes) &lt;a href=&#34;https://twitter.com/ridingbytes/status/676372319506444288&#34;&gt;December 14, 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; --&gt;
 
-&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+&lt;div class=&#34;container rb-divider&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
@@ -500,7 +500,7 @@ mobile application development.&lt;/p&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
@@ -512,14 +512,14 @@ mobile application development.&lt;/p&gt;
       <guid>http://ridingbytes.com/portfolio/ridingbytes/</guid>
       <description>
 
-&lt;h1 id=&#34;overview:b3e3419bd41c8c3b6ff5162fccbbabaa&#34;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 
 &lt;p&gt;The RIDING BYTES website is based on a general-purpose website framework called
 &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Unlike systems like WordPress, Ghost and Drupal, &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; doesn’t depend
 on administrative privileges, databases, runtimes, interpreters or external
 libraries. It creates the website only once, when you create new content.&lt;/p&gt;
 
-&lt;h2 id=&#34;about:b3e3419bd41c8c3b6ff5162fccbbabaa&#34;&gt;About&lt;/h2&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 
 &lt;p&gt;Sites built with &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; are extremely fast and very secure. &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; sites can be
 hosted anywhere, including &lt;a href=&#34;https://www.heroku.com&#34;&gt;Heroku&lt;/a&gt;, &lt;a href=&#34;https://www.godaddy.com&#34;&gt;GoDaddy&lt;/a&gt;, &lt;a href=&#34;http://www.dreamhost.com/&#34;&gt;DreamHost&lt;/a&gt;, &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;,
@@ -537,7 +537,7 @@ PHP and without dependencies on any databases.&lt;/p&gt;
       <guid>http://ridingbytes.com/about/about/</guid>
       <description>
 
-&lt;h1 id=&#34;riding-bytes:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;RIDING BYTES&lt;/h1&gt;
+&lt;h1 id=&#34;riding-bytes&#34;&gt;RIDING BYTES&lt;/h1&gt;
 
 &lt;p&gt;RIDING BYTES was founded on July, 2nd 2015. Ramon Bartl, the owner
 of the company, holds a degree in applied computer sciences and has
@@ -551,21 +551,21 @@ based on communication.&lt;/p&gt;
 &lt;p&gt;The rearing horse in the logo stands for the power, beauty and the freedom of
 the software solutions the company provides.&lt;/p&gt;
 
-&lt;h1 id=&#34;mission:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Mission&lt;/h1&gt;
+&lt;h1 id=&#34;mission&#34;&gt;Mission&lt;/h1&gt;
 
 &lt;p&gt;The company was started for one single reason: To build better software for
 human beings. Therefore our mission is to build software solutions, using the
 most sophisticated and modern technologies available on the market. Always
 aligned with our strategy: To support free and open source software.&lt;/p&gt;
 
-&lt;h1 id=&#34;vision:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Vision&lt;/h1&gt;
+&lt;h1 id=&#34;vision&#34;&gt;Vision&lt;/h1&gt;
 
 &lt;p&gt;Our vision is a world where the internet is the platform for computer systems.
 Where data from different sources are available through a single user
 interface, like a web browser. Where information is displayed when needed, just
 in the right moment. Where the software adapts to the user and not vice versa.&lt;/p&gt;
 
-&lt;h1 id=&#34;strategy:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Strategy&lt;/h1&gt;
+&lt;h1 id=&#34;strategy&#34;&gt;Strategy&lt;/h1&gt;
 
 &lt;p&gt;Our strategy is to provide free and open source software whenever possible.
 Give and you will receive. This simple but true wisdom is the core belief of
@@ -583,7 +583,7 @@ full potential.&lt;/p&gt;
       <guid>http://ridingbytes.com/2015/09/23/plone-commander/</guid>
       <description>
 
-&lt;h1 id=&#34;plone-commander:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;Plone Commander&lt;/h1&gt;
+&lt;h1 id=&#34;plone-commander&#34;&gt;Plone Commander&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a
 cross platform application built with &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;
@@ -601,26 +601,26 @@ edit and explore Plone contents with ease.&lt;/p&gt;
 &lt;/figure&gt;
 --&gt;
 
-&lt;h2 id=&#34;what-is-it-about:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;What is it about?&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-it-about&#34;&gt;What is it about?&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander&#34;&gt;Plone Commander&lt;/a&gt; is basically a proof of
 concept, if the &lt;a href=&#34;https://pypi.python.org/pypi/plone.jsonapi.routes&#34;&gt;Plone API&lt;/a&gt; is capable
 of handling an external application like this.&lt;/p&gt;
 
-&lt;h2 id=&#34;where-to-get:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;Where to get?&lt;/h2&gt;
+&lt;h2 id=&#34;where-to-get&#34;&gt;Where to get?&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is
 available on the official RIDING BYTES &lt;a href=&#34;https://github.com/ridingbytes&#34;&gt;GitHub Account&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;see-it-in-action:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;See it in action&lt;/h2&gt;
+&lt;h2 id=&#34;see-it-in-action&#34;&gt;See it in action&lt;/h2&gt;
 
-&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/h9Bc37_eutE&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+
+&lt;div class=&#34;container rb-divider&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
@@ -629,7 +629,7 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
@@ -641,7 +641,7 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
       <guid>http://ridingbytes.com/legal/</guid>
       <description>
 
-&lt;h1 id=&#34;legal-information:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Legal Information&lt;/h1&gt;
+&lt;h1 id=&#34;legal-information&#34;&gt;Legal Information&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;RIDING BYTES UG (haftungsbeschränkt)&lt;/strong&gt;&lt;/p&gt;
 
@@ -659,7 +659,7 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
 
 &lt;p&gt;Responsible for the content: Ramon Bartl&lt;/p&gt;
 
-&lt;h2 id=&#34;contact:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Contact&lt;/h2&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
 
 &lt;p&gt;Mail: &lt;a href=&#34;mailto:hello@ridingbytes.com&#34;&gt;hello@ridingbytes.com&lt;/a&gt;&lt;/p&gt;
 
@@ -676,9 +676,9 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
 &lt;/div&gt;
 
 
-&lt;h1 id=&#34;disclaimer:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Disclaimer&lt;/h1&gt;
+&lt;h1 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h1&gt;
 
-&lt;h3 id=&#34;inhalt:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Inhalt&lt;/h3&gt;
+&lt;h3 id=&#34;inhalt&#34;&gt;Inhalt&lt;/h3&gt;
 
 &lt;p&gt;Die RIDING BYTES UG stellt die Inhalte dieser Internetseiten mit großer Sorgfalt
 zusammen. Jedoch übernehmen wir keine Gewähr für die Aktualität, Richtigkeit und
@@ -687,7 +687,7 @@ störungsfreien Zugang. RIDING BYTES behält sich vor, Teile der Seiten ohne
 gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die
 Veröffentlichung zeitweise einzustellen.&lt;/p&gt;
 
-&lt;h3 id=&#34;verweise-links-und-download:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Verweise/Links und Download&lt;/h3&gt;
+&lt;h3 id=&#34;verweise-links-und-download&#34;&gt;Verweise/Links und Download&lt;/h3&gt;
 
 &lt;p&gt;Bei direkten oder indirekten Verweisen auf die Internetseiten Dritter (&amp;ldquo;Links&amp;rdquo;),
 übernimmt RIDING BYTES keine Verantwortung für die Inhalte der verlinkten
@@ -698,7 +698,7 @@ gelten, insbesondere hinsichtlich des Datenschutzes.&lt;/p&gt;
 &lt;p&gt;Weiterhin schließt RIDING BYTES ihre Haftung bei Serviceleistungen, insbesondere
 beim Download von durch RIDING BYTES zur Verfügung gestellten Daten, aus.&lt;/p&gt;
 
-&lt;h3 id=&#34;autoren-urheber-und-kennzeichnungsrecht:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Autoren-, Urheber- und Kennzeichnungsrecht&lt;/h3&gt;
+&lt;h3 id=&#34;autoren-urheber-und-kennzeichnungsrecht&#34;&gt;Autoren-, Urheber- und Kennzeichnungsrecht&lt;/h3&gt;
 
 &lt;p&gt;Alle innerhalb des Internetpräsenz genannten und ggfs. durch Dritte geschützte
 Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des
@@ -706,7 +706,7 @@ jeweils gültigen Kennzeichnungsrechts und den Besitzrechten der jeweiligen
 eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist nicht der
 Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter geschützt sind.&lt;/p&gt;
 
-&lt;h3 id=&#34;datenschutz:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Datenschutz&lt;/h3&gt;
+&lt;h3 id=&#34;datenschutz&#34;&gt;Datenschutz&lt;/h3&gt;
 
 &lt;p&gt;Wenn innerhalb des Internetpräsenz die Möglichkeit zur Angabe persönlicher
 und/oder geschäftlicher Daten (e-Mail-Adresse, Namen, Anschrift etc.)
@@ -715,7 +715,7 @@ auf ausdrücklich freiwilliger Basis. Wird das Einverständnis zur Nennung bzw.
 Verwaltung solcher Daten zurückgezogen, dann ist RIDING BYTES verpflichtet,
 umgehend die vollständige Löschung dieser Daten vorzunehmen.&lt;/p&gt;
 
-&lt;h3 id=&#34;einsatz-von-piwik-statistik-tools:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Einsatz von PIWIK Statistik Tools&lt;/h3&gt;
+&lt;h3 id=&#34;einsatz-von-piwik-statistik-tools&#34;&gt;Einsatz von PIWIK Statistik Tools&lt;/h3&gt;
 
 &lt;p&gt;Wir nutzen die Open-Source-Software Piwik für die statistische Auswertung von
 Besucherzugriffen.&lt;/p&gt;
@@ -734,12 +734,12 @@ Besuch automatisch ignoriert.&lt;/p&gt;
 über Sie erhobenen Daten durch Piwik in der zuvor beschriebenen Art und Weise
 und zu dem benannten Zweck einverstanden.&lt;/p&gt;
 
-&lt;h3 id=&#34;fragen-und-kommentare:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Fragen und Kommentare&lt;/h3&gt;
+&lt;h3 id=&#34;fragen-und-kommentare&#34;&gt;Fragen und Kommentare&lt;/h3&gt;
 
 &lt;p&gt;Für Fragen, Anregungen oder Kommentare zum Thema Datenschutz wenden Sie sich
 bitte per E-Mail an datenschutz@ridingbytes.com.&lt;/p&gt;
 
-&lt;h3 id=&#34;copyright:7d11b95da6f13f352e32f5af2c24f251&#34;&gt;Copyright&lt;/h3&gt;
+&lt;h3 id=&#34;copyright&#34;&gt;Copyright&lt;/h3&gt;
 
 &lt;p&gt;Alle Texte, Bilder und andere auf der Internetpräsenz veröffentlichte Werke
 unterliegen - sofern nicht anders gekennzeichnet - dem Copyright der RIDING
@@ -747,7 +747,7 @@ BYTES UG. Jede Vervielfältigung, Verbreitung, Speicherung, Übermittlung, Sendu
 und Wieder- bzw. Weitergabe der Inhalte ist ohne schriftliche Genehmigung von
 RIDING BYTES ausdrücklich untersagt.&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+&lt;div class=&#34;container rb-divider&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
@@ -756,7 +756,7 @@ RIDING BYTES ausdrücklich untersagt.&lt;/p&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
@@ -784,7 +784,7 @@ RIDING BYTES ausdrücklich untersagt.&lt;/p&gt;
       <guid>http://ridingbytes.com/services/development/</guid>
       <description>
 
-&lt;h1 id=&#34;development:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Development&lt;/h1&gt;
+&lt;h1 id=&#34;development&#34;&gt;Development&lt;/h1&gt;
 
 &lt;p&gt;
 &lt;figure class=&#34;image-inline&#34;&gt;
@@ -858,7 +858,7 @@ systems.&lt;/p&gt;
 &lt;p&gt;The next sections provide a small overview of used systems, technologies
 and the provided services.&lt;/p&gt;
 
-&lt;h2 id=&#34;odoo:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Odoo&lt;/h2&gt;
+&lt;h2 id=&#34;odoo&#34;&gt;Odoo&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.odoo.com&#34;&gt;Odoo&lt;/a&gt; is another open source enterprise resource planning
 (ERP) and customer relations management (CRM) system, which is built with
@@ -871,7 +871,7 @@ Marketing, Manufacturing, Purchase Management.&lt;/p&gt;
 integrate it in your new or existing infrastructure and support you with the
 necessary consultancy and trainings.&lt;/p&gt;
 
-&lt;h2 id=&#34;plone:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Plone&lt;/h2&gt;
+&lt;h2 id=&#34;plone&#34;&gt;Plone&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; is one of the biggest and most popular content
 management solutions which uses &lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt; under the hood. It
@@ -884,7 +884,7 @@ all major operating systems.&lt;/p&gt;
 integrate it in your new or existing infrastructure and support you with the
 necessary consultancy and trainings.&lt;/p&gt;
 
-&lt;h2 id=&#34;flask:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Flask&lt;/h2&gt;
+&lt;h2 id=&#34;flask&#34;&gt;Flask&lt;/h2&gt;
 
 &lt;p&gt;You want to build your custom server solution from scratch? Than
 &lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt; is the right solution.
@@ -895,7 +895,7 @@ can basically handle any database backend and ships with powerful extensions.&lt
 &lt;p&gt;We offer complete support in the planning of the architecture and the development of
 any &lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt; based solution.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Hugo&lt;/h2&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
 
 &lt;p&gt;You want to have a static website? Something that does not depend on
 administrative privileges, databases, runtimes, interpreters or external
@@ -908,7 +908,7 @@ Dropbox or any web host.&lt;/p&gt;
 from &lt;a href=&#34;https://wrapbootstrap.com/themes&#34;&gt;{wrap}bootstrap&lt;/a&gt;, or we assemble one for
 you based on a mock up.&lt;/p&gt;
 
-&lt;h2 id=&#34;python:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Python&lt;/h2&gt;
+&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt; is a modern, powerful and fast programming
 language, that runs on all platforms. It is successfully used in thousands of
@@ -918,7 +918,7 @@ mission critical system.&lt;/p&gt;
 &lt;p&gt;We offer custom tailored programs built with &lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt;, starting
 from a small command line script up to full web systems.&lt;/p&gt;
 
-&lt;h2 id=&#34;extjs:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;ExtJS&lt;/h2&gt;
+&lt;h2 id=&#34;extjs&#34;&gt;ExtJS&lt;/h2&gt;
 
 &lt;p&gt;Desktop application? Mobile/Phone application? Both?
 &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt; provides a solution for all
@@ -930,7 +930,7 @@ handles thousands of data records with great performance.&lt;/p&gt;
 and hosting. Powered by &lt;a href=&#34;https://github.com/atom/electron&#34;&gt;Electron&lt;/a&gt;, it is even
 possible to run dedicated applications on MacOS, Linux and Windows.&lt;/p&gt;
 
-&lt;h2 id=&#34;coffeescript:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;CoffeeScript&lt;/h2&gt;
+&lt;h2 id=&#34;coffeescript&#34;&gt;CoffeeScript&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://coffeescript.org&#34;&gt;CoffeeScript&lt;/a&gt; is a little language that compiles
 into JavaScript. Underneath that awkward Java-esque patina, JavaScript has
@@ -947,7 +947,7 @@ parts of JavaScript in a simple way.&lt;/p&gt;
       <guid>http://ridingbytes.com/services/uiux/</guid>
       <description>
 
-&lt;h1 id=&#34;ui-ux:bf92aecb4a13be047ab9446fb93b6fd0&#34;&gt;UI/UX&lt;/h1&gt;
+&lt;h1 id=&#34;ui-ux&#34;&gt;UI/UX&lt;/h1&gt;
 
 &lt;p&gt;These two terms stand for &lt;em&gt;User Interface&lt;/em&gt; and &lt;em&gt;User Experience&lt;/em&gt;. While the
 first one is mainly concerned with the layout of application elements, the
@@ -956,7 +956,7 @@ latter one cares about how the interaction with the application feels to the use
 &lt;p&gt;Both terms are linked to each other and highly influence the user acceptance of
 the finished application/product.&lt;/p&gt;
 
-&lt;h2 id=&#34;case-study-plone-commander:bf92aecb4a13be047ab9446fb93b6fd0&#34;&gt;Case Study: Plone Commander&lt;/h2&gt;
+&lt;h2 id=&#34;case-study-plone-commander&#34;&gt;Case Study: Plone Commander&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ridingbytes.com/portfolio/plone-commander/#content&#34;&gt;Plone Commander&lt;/a&gt; offers an alternative UI
 for the CMS &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt;. The application follows a modern mobile
@@ -972,7 +972,7 @@ first approach using &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&
 
 
 
-&lt;h2 id=&#34;what-we-offer:bf92aecb4a13be047ab9446fb93b6fd0&#34;&gt;What we offer&lt;/h2&gt;
+&lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;
 
 &lt;p&gt;RIDING BYTES is specialized in web based user interfaces, which provide a great
 user experience by logical application flows and an intuitive layout. We offer
@@ -988,7 +988,7 @@ development of custom web-, mobile-, or desktop applications.&lt;/p&gt;
       <guid>http://ridingbytes.com/services/consulting/</guid>
       <description>
 
-&lt;h1 id=&#34;consulting:a25d6bd4dcb7d62219c6846057abf7cb&#34;&gt;Consulting&lt;/h1&gt;
+&lt;h1 id=&#34;consulting&#34;&gt;Consulting&lt;/h1&gt;
 
 &lt;p&gt;A consultant (from Latin: consultare &amp;ldquo;to discuss&amp;rdquo;) is a professional who
 provides professional or expert advice
@@ -997,7 +997,7 @@ provides professional or expert advice
 &lt;p&gt;It is one of the most important services to ensure the planned and proposed
 IT solution meets the needs of the customer.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-we-offer:a25d6bd4dcb7d62219c6846057abf7cb&#34;&gt;What we offer&lt;/h2&gt;
+&lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;
 
 &lt;p&gt;We offer all our professional expertise and knowledge in house or remote to
 analyze current workflows, optimize business processes and find the right IT
@@ -1014,7 +1014,7 @@ effective and efficient.&lt;/p&gt;
       <guid>http://ridingbytes.com/services/administration/</guid>
       <description>
 
-&lt;h1 id=&#34;administration:13211676e978b46d236d2a86bdb3cd25&#34;&gt;Administration&lt;/h1&gt;
+&lt;h1 id=&#34;administration&#34;&gt;Administration&lt;/h1&gt;
 
 &lt;p&gt;
 &lt;figure class=&#34;image-inline&#34;&gt;
@@ -1068,7 +1068,7 @@ Server based IT are always coupled with administrative tasks such as
 &lt;em&gt;Backups&lt;/em&gt;, &lt;em&gt;Custom Scripts&lt;/em&gt;, &lt;em&gt;Domain-, Hosting-, DNS- and Email Setup&lt;/em&gt;,
 &lt;em&gt;Operational Support&lt;/em&gt;, &lt;em&gt;&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;what-we-offer:13211676e978b46d236d2a86bdb3cd25&#34;&gt;What we offer&lt;/h2&gt;
+&lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;
 
 &lt;p&gt;We provide support for the installation, deployment and maintenance of our
 software solutions or offer the complete service in house or remote through a

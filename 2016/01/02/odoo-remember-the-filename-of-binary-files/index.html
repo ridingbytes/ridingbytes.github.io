@@ -217,16 +217,16 @@
           <div class="col-md-12 post-content">
             
 
-<h1 id="odoo-remember-the-filename-of-binary-files:51dcd0e056b827b692cfb67aa92761b8">Odoo: Remember the filename of binary files</h1>
+<h1 id="odoo-remember-the-filename-of-binary-files">Odoo: Remember the filename of binary files</h1>
 
-<h2 id="problem:51dcd0e056b827b692cfb67aa92761b8">Problem</h2>
+<h2 id="problem">Problem</h2>
 
 <p>I wanted to use a binary field to store image data to a custom model.
 Therefore I used a field of the type <code>Binary</code> in my model. Unfortunately only
 the base64 encoded file was stored in the database but not the filename. This
 resulted in an unknown binary file download with the name of the current model.</p>
 
-<h2 id="solution:51dcd0e056b827b692cfb67aa92761b8">Solution</h2>
+<h2 id="solution">Solution</h2>
 
 <p>Luckily I found a solution for this problem. First, I added another field to my
 model to store the filename. The name of this field can be arbitrary.
@@ -235,7 +235,7 @@ The next step was to tell the image widget to use this field to store the filena
 
 <p>Below is the full code listing to make it work:</p>
 
-<h3 id="python-code:51dcd0e056b827b692cfb67aa92761b8">Python Code</h3>
+<h3 id="python-code">Python Code</h3>
 
 <div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
     <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
@@ -245,9 +245,9 @@ The next step was to tell the image widget to use this field to store the filena
 </pre></div>
 
 
-<h3 id="xml-view:51dcd0e056b827b692cfb67aa92761b8">XML View</h3>
+<h3 id="xml-view">XML View</h3>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;record</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;view_form_my_model&quot;</span> <span style="color: #a6e22e">model=</span><span style="color: #e6db74">&quot;ir.ui.view&quot;</span><span style="color: #f92672">&gt;</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;record</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;view_form_my_model&quot;</span> <span style="color: #a6e22e">model=</span><span style="color: #e6db74">&quot;ir.ui.view&quot;</span><span style="color: #f92672">&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;name&quot;</span><span style="color: #f92672">&gt;</span>My Model Form<span style="color: #f92672">&lt;/field&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;model&quot;</span><span style="color: #f92672">&gt;</span>my.model<span style="color: #f92672">&lt;/field&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;arch&quot;</span> <span style="color: #a6e22e">type=</span><span style="color: #e6db74">&quot;xml&quot;</span><span style="color: #f92672">&gt;</span>
@@ -266,9 +266,9 @@ The next step was to tell the image widget to use this field to store the filena
   <span style="color: #f92672">&lt;/field&gt;</span>
 <span style="color: #f92672">&lt;/record&gt;</span>
 </pre></div>
-</p>
 
-<h2 id="result:51dcd0e056b827b692cfb67aa92761b8">Result</h2>
+
+<h2 id="result">Result</h2>
 
 <p>The download works now like a charm and it is even possible to modify the
 filename directly.</p>
@@ -283,7 +283,7 @@ filename directly.</p>
 
 </p>
 
-<p><div class="container rb-divider">
+<div class="container rb-divider">
   <div class="row">
     <div class="dividewhite2"></div>
     <div class="e-block-centered">
@@ -292,7 +292,7 @@ filename directly.</p>
     <div class="dividewhite2"></div>
   </div>
 </div>
-</p>
+
 
             
             

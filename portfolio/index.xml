@@ -18,7 +18,7 @@
       <guid>http://ridingbytes.com/portfolio/alpenleder/</guid>
       <description>
 
-&lt;h1 id=&#34;overview:066e12919b087aa07a84f4ccce0ce0d8&#34;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://alpenleder.com&#34;&gt;Alpenleder&lt;/a&gt; is an international bag manufacturing company and retailer.  They
 have special requirements to their IT system, like shop functionality, reseller
@@ -36,7 +36,7 @@ requirements by customizations from RIDING BYTES.&lt;/p&gt;
       <guid>http://ridingbytes.com/portfolio/ridingbytes-odoo/</guid>
       <description>
 
-&lt;h1 id=&#34;overview:fdd2b0958f735df08e2cc8e02d37ca14&#34;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.ridingbytes.com&#34;&gt;RIDING BYTES&lt;/a&gt; manages a variety of business intelligence tasks with &lt;a href=&#34;https://www.odoo.com/page/odoo-9&#34;&gt;Odoo 9&lt;/a&gt;. Custom
 Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order
@@ -54,14 +54,14 @@ and allows controlling and planning at any time.&lt;/p&gt;
       <guid>http://ridingbytes.com/portfolio/ridingbytes/</guid>
       <description>
 
-&lt;h1 id=&#34;overview:b3e3419bd41c8c3b6ff5162fccbbabaa&#34;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 
 &lt;p&gt;The RIDING BYTES website is based on a general-purpose website framework called
 &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Unlike systems like WordPress, Ghost and Drupal, &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; doesn’t depend
 on administrative privileges, databases, runtimes, interpreters or external
 libraries. It creates the website only once, when you create new content.&lt;/p&gt;
 
-&lt;h2 id=&#34;about:b3e3419bd41c8c3b6ff5162fccbbabaa&#34;&gt;About&lt;/h2&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 
 &lt;p&gt;Sites built with &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; are extremely fast and very secure. &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; sites can be
 hosted anywhere, including &lt;a href=&#34;https://www.heroku.com&#34;&gt;Heroku&lt;/a&gt;, &lt;a href=&#34;https://www.godaddy.com&#34;&gt;GoDaddy&lt;/a&gt;, &lt;a href=&#34;http://www.dreamhost.com/&#34;&gt;DreamHost&lt;/a&gt;, &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;,
@@ -79,32 +79,32 @@ PHP and without dependencies on any databases.&lt;/p&gt;
       <guid>http://ridingbytes.com/portfolio/plone-jsonapi/</guid>
       <description>
 
-&lt;h1 id=&#34;overview:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://api.travis-ci.org/collective/plone.jsonapi.routes.png?branch=master&#34; alt=&#34;Build Status&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is an add-on package for &lt;a href=&#34;https://github.com/collective/plone.jsonapi.core&#34;&gt;plone.jsonapi.core&lt;/a&gt; which provides resource URLs
 for Plone standard contents (and more).&lt;/p&gt;
 
-&lt;h1 id=&#34;motivation:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Motivation&lt;/h1&gt;
+&lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;
 
 &lt;p&gt;The routes package is built on top of the &lt;a href=&#34;https://github.com/collective/plone.jsonapi.core&#34;&gt;plone.jsonapi.core&lt;/a&gt; package to allow
 Plone developers to build modern (JavaScript) web UIs which communicate through
 a &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_state_transfer&#34;&gt;RESTful&lt;/a&gt; API with their Plone site.&lt;/p&gt;
 
-&lt;h1 id=&#34;compatibility:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Compatibility&lt;/h1&gt;
+&lt;h1 id=&#34;compatibility&#34;&gt;Compatibility&lt;/h1&gt;
 
 &lt;p&gt;The &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt; is compatible with &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; 4.&lt;/p&gt;
 
-&lt;h1 id=&#34;documentation:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Documentation&lt;/h1&gt;
+&lt;h1 id=&#34;documentation&#34;&gt;Documentation&lt;/h1&gt;
 
 &lt;p&gt;Read the latest documentation: &lt;a href=&#34;http://plonejsonapiroutes.readthedocs.org&#34;&gt;http://plonejsonapiroutes.readthedocs.org&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;where-to-get:7066a99628bbca58c6cdd96152a54e17&#34;&gt;Where to get?&lt;/h1&gt;
+&lt;h1 id=&#34;where-to-get&#34;&gt;Where to get?&lt;/h1&gt;
 
 &lt;p&gt;Get the latest version on the Python Package Index: &lt;a href=&#34;https://pypi.python.org/pypi/plone.jsonapi.routes&#34;&gt;https://pypi.python.org/pypi/plone.jsonapi.routes&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;see-it-in-action:7066a99628bbca58c6cdd96152a54e17&#34;&gt;See it in action&lt;/h1&gt;
+&lt;h1 id=&#34;see-it-in-action&#34;&gt;See it in action&lt;/h1&gt;
 
 &lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/MiwgkWLMUqk&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
@@ -122,12 +122,12 @@ a &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_state_transfer&#
       <guid>http://ridingbytes.com/portfolio/plone-commander/</guid>
       <description>
 
-&lt;h1 id=&#34;overview:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a cross platform web application based on &lt;a href=&#34;http://electron.atom.io&#34;&gt;Electron&lt;/a&gt; and
 &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;. It communicates with &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; through &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;see-it-in-action:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;See it in Action&lt;/h1&gt;
+&lt;h1 id=&#34;see-it-in-action&#34;&gt;See it in Action&lt;/h1&gt;
 
 &lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/h9Bc37_eutE&#34; allowfullscreen frameborder=&#34;0&#34;&gt;

@@ -18,7 +18,7 @@
       <guid>http://ridingbytes.com/services/development/</guid>
       <description>
 
-&lt;h1 id=&#34;development:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Development&lt;/h1&gt;
+&lt;h1 id=&#34;development&#34;&gt;Development&lt;/h1&gt;
 
 &lt;p&gt;
 &lt;figure class=&#34;image-inline&#34;&gt;
@@ -92,7 +92,7 @@ systems.&lt;/p&gt;
 &lt;p&gt;The next sections provide a small overview of used systems, technologies
 and the provided services.&lt;/p&gt;
 
-&lt;h2 id=&#34;odoo:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Odoo&lt;/h2&gt;
+&lt;h2 id=&#34;odoo&#34;&gt;Odoo&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.odoo.com&#34;&gt;Odoo&lt;/a&gt; is another open source enterprise resource planning
 (ERP) and customer relations management (CRM) system, which is built with
@@ -105,7 +105,7 @@ Marketing, Manufacturing, Purchase Management.&lt;/p&gt;
 integrate it in your new or existing infrastructure and support you with the
 necessary consultancy and trainings.&lt;/p&gt;
 
-&lt;h2 id=&#34;plone:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Plone&lt;/h2&gt;
+&lt;h2 id=&#34;plone&#34;&gt;Plone&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; is one of the biggest and most popular content
 management solutions which uses &lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt; under the hood. It
@@ -118,7 +118,7 @@ all major operating systems.&lt;/p&gt;
 integrate it in your new or existing infrastructure and support you with the
 necessary consultancy and trainings.&lt;/p&gt;
 
-&lt;h2 id=&#34;flask:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Flask&lt;/h2&gt;
+&lt;h2 id=&#34;flask&#34;&gt;Flask&lt;/h2&gt;
 
 &lt;p&gt;You want to build your custom server solution from scratch? Than
 &lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt; is the right solution.
@@ -129,7 +129,7 @@ can basically handle any database backend and ships with powerful extensions.&lt
 &lt;p&gt;We offer complete support in the planning of the architecture and the development of
 any &lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt; based solution.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Hugo&lt;/h2&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
 
 &lt;p&gt;You want to have a static website? Something that does not depend on
 administrative privileges, databases, runtimes, interpreters or external
@@ -142,7 +142,7 @@ Dropbox or any web host.&lt;/p&gt;
 from &lt;a href=&#34;https://wrapbootstrap.com/themes&#34;&gt;{wrap}bootstrap&lt;/a&gt;, or we assemble one for
 you based on a mock up.&lt;/p&gt;
 
-&lt;h2 id=&#34;python:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Python&lt;/h2&gt;
+&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt; is a modern, powerful and fast programming
 language, that runs on all platforms. It is successfully used in thousands of
@@ -152,7 +152,7 @@ mission critical system.&lt;/p&gt;
 &lt;p&gt;We offer custom tailored programs built with &lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt;, starting
 from a small command line script up to full web systems.&lt;/p&gt;
 
-&lt;h2 id=&#34;extjs:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;ExtJS&lt;/h2&gt;
+&lt;h2 id=&#34;extjs&#34;&gt;ExtJS&lt;/h2&gt;
 
 &lt;p&gt;Desktop application? Mobile/Phone application? Both?
 &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt; provides a solution for all
@@ -164,7 +164,7 @@ handles thousands of data records with great performance.&lt;/p&gt;
 and hosting. Powered by &lt;a href=&#34;https://github.com/atom/electron&#34;&gt;Electron&lt;/a&gt;, it is even
 possible to run dedicated applications on MacOS, Linux and Windows.&lt;/p&gt;
 
-&lt;h2 id=&#34;coffeescript:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;CoffeeScript&lt;/h2&gt;
+&lt;h2 id=&#34;coffeescript&#34;&gt;CoffeeScript&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://coffeescript.org&#34;&gt;CoffeeScript&lt;/a&gt; is a little language that compiles
 into JavaScript. Underneath that awkward Java-esque patina, JavaScript has
@@ -181,7 +181,7 @@ parts of JavaScript in a simple way.&lt;/p&gt;
       <guid>http://ridingbytes.com/services/uiux/</guid>
       <description>
 
-&lt;h1 id=&#34;ui-ux:bf92aecb4a13be047ab9446fb93b6fd0&#34;&gt;UI/UX&lt;/h1&gt;
+&lt;h1 id=&#34;ui-ux&#34;&gt;UI/UX&lt;/h1&gt;
 
 &lt;p&gt;These two terms stand for &lt;em&gt;User Interface&lt;/em&gt; and &lt;em&gt;User Experience&lt;/em&gt;. While the
 first one is mainly concerned with the layout of application elements, the
@@ -190,7 +190,7 @@ latter one cares about how the interaction with the application feels to the use
 &lt;p&gt;Both terms are linked to each other and highly influence the user acceptance of
 the finished application/product.&lt;/p&gt;
 
-&lt;h2 id=&#34;case-study-plone-commander:bf92aecb4a13be047ab9446fb93b6fd0&#34;&gt;Case Study: Plone Commander&lt;/h2&gt;
+&lt;h2 id=&#34;case-study-plone-commander&#34;&gt;Case Study: Plone Commander&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ridingbytes.com/portfolio/plone-commander/#content&#34;&gt;Plone Commander&lt;/a&gt; offers an alternative UI
 for the CMS &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt;. The application follows a modern mobile
@@ -206,7 +206,7 @@ first approach using &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&
 
 
 
-&lt;h2 id=&#34;what-we-offer:bf92aecb4a13be047ab9446fb93b6fd0&#34;&gt;What we offer&lt;/h2&gt;
+&lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;
 
 &lt;p&gt;RIDING BYTES is specialized in web based user interfaces, which provide a great
 user experience by logical application flows and an intuitive layout. We offer
@@ -222,7 +222,7 @@ development of custom web-, mobile-, or desktop applications.&lt;/p&gt;
       <guid>http://ridingbytes.com/services/consulting/</guid>
       <description>
 
-&lt;h1 id=&#34;consulting:a25d6bd4dcb7d62219c6846057abf7cb&#34;&gt;Consulting&lt;/h1&gt;
+&lt;h1 id=&#34;consulting&#34;&gt;Consulting&lt;/h1&gt;
 
 &lt;p&gt;A consultant (from Latin: consultare &amp;ldquo;to discuss&amp;rdquo;) is a professional who
 provides professional or expert advice
@@ -231,7 +231,7 @@ provides professional or expert advice
 &lt;p&gt;It is one of the most important services to ensure the planned and proposed
 IT solution meets the needs of the customer.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-we-offer:a25d6bd4dcb7d62219c6846057abf7cb&#34;&gt;What we offer&lt;/h2&gt;
+&lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;
 
 &lt;p&gt;We offer all our professional expertise and knowledge in house or remote to
 analyze current workflows, optimize business processes and find the right IT
@@ -248,7 +248,7 @@ effective and efficient.&lt;/p&gt;
       <guid>http://ridingbytes.com/services/administration/</guid>
       <description>
 
-&lt;h1 id=&#34;administration:13211676e978b46d236d2a86bdb3cd25&#34;&gt;Administration&lt;/h1&gt;
+&lt;h1 id=&#34;administration&#34;&gt;Administration&lt;/h1&gt;
 
 &lt;p&gt;
 &lt;figure class=&#34;image-inline&#34;&gt;
@@ -302,7 +302,7 @@ Server based IT are always coupled with administrative tasks such as
 &lt;em&gt;Backups&lt;/em&gt;, &lt;em&gt;Custom Scripts&lt;/em&gt;, &lt;em&gt;Domain-, Hosting-, DNS- and Email Setup&lt;/em&gt;,
 &lt;em&gt;Operational Support&lt;/em&gt;, &lt;em&gt;&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;what-we-offer:13211676e978b46d236d2a86bdb3cd25&#34;&gt;What we offer&lt;/h2&gt;
+&lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;
 
 &lt;p&gt;We provide support for the installation, deployment and maintenance of our
 software solutions or offer the complete service in house or remote through a

@@ -210,7 +210,7 @@
             <div class="col-md-12">
               
 
-<h1 id="odoo-access-technical-features:2889342df3d5b7b1c547f9edd3b143c0">Odoo: Access Technical Features</h1>
+<h1 id="odoo-access-technical-features">Odoo: Access Technical Features</h1>
 
 <p>In Odoo 9 you might miss the <code>Technical Features</code> checkbox in the <em>Access
 Rights</em> of your user. These settings are now visible if you activate the
@@ -220,7 +220,7 @@ Rights</em> of your user. These settings are now visible if you activate the
 too much time accessing the menu and clicking on the button. I had to change
 this!</p>
 
-<p>I created this small <a href="#bookmarklet:2889342df3d5b7b1c547f9edd3b143c0">Bookmarklet</a>,
+<p>I created this small <a href="#bookmarklet">Bookmarklet</a>,
 which toggles the developer mode by a single click&hellip;</p>
 
 
@@ -232,7 +232,7 @@ which toggles the developer mode by a single click&hellip;</p>
 </figure>
 
 
-<h2 id="bookmarklet:2889342df3d5b7b1c547f9edd3b143c0">Odoo Developer Bookmarklet</h2>
+<h2 id="bookmarklet">Odoo Developer Bookmarklet</h2>
 
 <p>Drag&amp;Drop this Button to your Bookmarks Bar to toggle Odoo Developer Mode:</p>
 
@@ -249,16 +249,16 @@ which toggles the developer mode by a single click&hellip;</p>
   Toggle Odoo Dev-Mode
 </a></p>
 
-<p>
+
 <figure class="image-left">
     
         <img src="/media/blog/odoo-dev-mode-toggle.png" />
     
     
 </figure>
-</p>
 
-<p><div class="container rb-divider">
+
+<div class="container rb-divider">
   <div class="row">
     <div class="dividewhite2"></div>
     <div class="e-block-centered">
@@ -267,7 +267,7 @@ which toggles the developer mode by a single click&hellip;</p>
     <div class="dividewhite2"></div>
   </div>
 </div>
-</p>
+
 
             </div>
           </div>
@@ -281,13 +281,13 @@ which toggles the developer mode by a single click&hellip;</p>
             <div class="col-md-12">
               
 
-<h1 id="odoo-scale-images-on-the-fly:be6a283372191872c3bb5719c603d50b">Odoo: Scale images on the fly</h1>
+<h1 id="odoo-scale-images-on-the-fly">Odoo: Scale images on the fly</h1>
 
 <p>Odoo uses Python Imaging Library (PIL) to support image resizing on the fly.
 This functionality ships with the <code>image.py</code> module, which is located in
 <code>openerp.tools.image</code>.</p>
 
-<h2 id="problem:be6a283372191872c3bb5719c603d50b">Problem</h2>
+<h2 id="problem">Problem</h2>
 
 <p>I implemented a custom model which defined a binary field called <code>image</code>:</p>
 
@@ -314,7 +314,7 @@ image tag:</p>
 HTML feels kind of awkward to me and it also uses the full image size, which
 was not suitable for me.</p>
 
-<h2 id="solution:be6a283372191872c3bb5719c603d50b">Solution</h2>
+<h2 id="solution">Solution</h2>
 
 <p>Odoo&rsquo;s <code>website</code> addon ships with a controller, which allows to access image
 fields of any model through an URL. This controller is located in
@@ -346,18 +346,18 @@ fields of any model through an URL. This controller is located in
 <p>With this route, I could change my inline rendered image to use this URL and do
 the resizing as well:</p>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">t-attf-src=</span><span style="color: #e6db74">&quot;/website/image/my.model/{{ my.model.id }}/image/128x128&quot;</span> <span style="color: #f92672">/&gt;</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">t-attf-src=</span><span style="color: #e6db74">&quot;/website/image/my.model/{{ my.model.id }}/image/128x128&quot;</span> <span style="color: #f92672">/&gt;</span>
 </pre></div>
-</p>
 
-<h2 id="going-further:be6a283372191872c3bb5719c603d50b">Going further</h2>
+
+<h2 id="going-further">Going further</h2>
 
 <p>As I could use this nice URL to access the image of my custom model, I thought
 about using an attribute on the model to provide the scaled image directly.
 Therefore I changed the code of my model and added the fields <code>image_medium</code>
 and <code>image_small</code>:</p>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
     <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
     <span style="color: #f8f8f2">image</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Binary(</span><span style="color: #e6db74">&#39;Image&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">True)</span>
@@ -378,9 +378,9 @@ and <code>image_small</code>:</p>
                                      <span style="color: #e6db74">&quot;resized as a 64x64px image, with aspect ratio preserved. &quot;</span> \
                                      <span style="color: #e6db74">&quot;Use this field in form views or some kanban views.&quot;</span><span style="color: #f8f8f2">)</span>
 </pre></div>
-</p>
 
-<p>
+
+
 <figure class="image-left">
     
         <img src="/media/blog/odoo-dynamic-image-resizing.png" class="img-responsive"  />
@@ -388,7 +388,7 @@ and <code>image_small</code>:</p>
     
 </figure>
 
-</p>
+
 
 <p>I also wanted to prevent that the images get stored in the database, to avoid
 unnecessary data growth. Therefore I used a computed field
@@ -396,7 +396,7 @@ unnecessary data growth. Therefore I used a computed field
 
 <p>My first shot of the <code>_get_image</code> method looked like this:</p>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
     <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
     <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
@@ -414,7 +414,7 @@ unnecessary data growth. Therefore I used a computed field
         <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image_small</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">data[</span><span style="color: #e6db74">&quot;image_small&quot;</span><span style="color: #f8f8f2">]</span>
         <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">True</span>
 </pre></div>
-</p>
+
 
 <p>I was unlucky again, since this code worked exactly once, and that was when the
 <code>image</code> field was initially set.</p>
@@ -424,14 +424,14 @@ with the name <code>bin_size</code> and the value <code>True</code> was set, whi
 image field to return only the image size instead of the full <code>base64</code> encoded
 image. The complete <code>context</code> I inspected within this method looked like this:</p>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f8f8f2">ipdb</span><span style="color: #f92672">&gt;</span> <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">env</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">context</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f8f8f2">ipdb</span><span style="color: #f92672">&gt;</span> <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">env</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">context</span>
 <span style="color: #f8f8f2">{</span><span style="color: #e6db74">&#39;lang&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #e6db74">&#39;en_US&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;bin_size&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #f8f8f2">True,</span> <span style="color: #e6db74">&#39;tz&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #e6db74">&#39;Europe/Berlin&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;uid&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">}</span>
 </pre></div>
-</p>
+
 
 <p>I found the corresponding field definition for the binary field in <code>openerp.osv.fields</code>:</p>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">binary</span><span style="color: #f8f8f2">(_column):</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">binary</span><span style="color: #f8f8f2">(_column):</span>
     <span style="color: #f8f8f2">_type</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;binary&#39;</span>
     <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
     <span style="color: #66d9ef">def</span> <span style="color: #a6e22e">get</span><span style="color: #f8f8f2">(self,</span> <span style="color: #f8f8f2">cr,</span> <span style="color: #f8f8f2">obj,</span> <span style="color: #f8f8f2">ids,</span> <span style="color: #f8f8f2">name,</span> <span style="color: #f8f8f2">user</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">None,</span> <span style="color: #f8f8f2">context</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">None,</span> <span style="color: #f8f8f2">values</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">None):</span>
@@ -446,7 +446,7 @@ image. The complete <code>context</code> I inspected within this method looked l
             <span style="color: #f8f8f2">res[i]</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">tools</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">human_size(long(val))</span>
         <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
 </pre></div>
-</p>
+
 
 <p>After some research I figured out that it is possible to overwrite this
 immutable <code>context</code> with the method <code>with_context</code> on the model itself.</p>
@@ -455,7 +455,7 @@ immutable <code>context</code> with the method <code>with_context</code> on the 
 
 <p>So the final version of my <code>_get_image</code> method looked like this:</p>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
     <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
     <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
@@ -478,20 +478,20 @@ immutable <code>context</code> with the method <code>with_context</code> on the 
         <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image_small</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">data[</span><span style="color: #e6db74">&quot;image_small&quot;</span><span style="color: #f8f8f2">]</span>
         <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">True</span>
 </pre></div>
-</p>
+
 
 <p>Now it was possible to access the computed fields directly with the URL of the
 <code>website</code> controller:</p>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">t-attf-src=</span><span style="color: #e6db74">&quot;/website/image/my.model/{{ my.model.id }}/image_small&quot;</span> <span style="color: #f92672">/&gt;</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">t-attf-src=</span><span style="color: #e6db74">&quot;/website/image/my.model/{{ my.model.id }}/image_small&quot;</span> <span style="color: #f92672">/&gt;</span>
 </pre></div>
-</p>
+
 
 <p>Or simply by the URL itself:</p>
 
 <p><a href="http://localhost:8069/website/image/my.model/1/image_medium">http://localhost:8069/website/image/my.model/1/image_medium</a></p>
 
-<h2 id="conclusion:be6a283372191872c3bb5719c603d50b">Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 
 <p>The size calculation of the images takes some time and this should be
 considered with regard to the servers performance. So I guess it makes
@@ -510,7 +510,7 @@ instructions in the internet on how to do this using the old Odoo V7 API.</p>
 
 <p>So I hope this is useful for someone:)</p>
 
-<p><div class="container rb-divider">
+<div class="container rb-divider">
   <div class="row">
     <div class="dividewhite2"></div>
     <div class="e-block-centered">
@@ -519,7 +519,7 @@ instructions in the internet on how to do this using the old Odoo V7 API.</p>
     <div class="dividewhite2"></div>
   </div>
 </div>
-</p>
+
 
             </div>
           </div>
@@ -533,16 +533,16 @@ instructions in the internet on how to do this using the old Odoo V7 API.</p>
             <div class="col-md-12">
               
 
-<h1 id="odoo-remember-the-filename-of-binary-files:51dcd0e056b827b692cfb67aa92761b8">Odoo: Remember the filename of binary files</h1>
+<h1 id="odoo-remember-the-filename-of-binary-files">Odoo: Remember the filename of binary files</h1>
 
-<h2 id="problem:51dcd0e056b827b692cfb67aa92761b8">Problem</h2>
+<h2 id="problem">Problem</h2>
 
 <p>I wanted to use a binary field to store image data to a custom model.
 Therefore I used a field of the type <code>Binary</code> in my model. Unfortunately only
 the base64 encoded file was stored in the database but not the filename. This
 resulted in an unknown binary file download with the name of the current model.</p>
 
-<h2 id="solution:51dcd0e056b827b692cfb67aa92761b8">Solution</h2>
+<h2 id="solution">Solution</h2>
 
 <p>Luckily I found a solution for this problem. First, I added another field to my
 model to store the filename. The name of this field can be arbitrary.
@@ -551,7 +551,7 @@ The next step was to tell the image widget to use this field to store the filena
 
 <p>Below is the full code listing to make it work:</p>
 
-<h3 id="python-code:51dcd0e056b827b692cfb67aa92761b8">Python Code</h3>
+<h3 id="python-code">Python Code</h3>
 
 <div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
     <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
@@ -561,9 +561,9 @@ The next step was to tell the image widget to use this field to store the filena
 </pre></div>
 
 
-<h3 id="xml-view:51dcd0e056b827b692cfb67aa92761b8">XML View</h3>
+<h3 id="xml-view">XML View</h3>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;record</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;view_form_my_model&quot;</span> <span style="color: #a6e22e">model=</span><span style="color: #e6db74">&quot;ir.ui.view&quot;</span><span style="color: #f92672">&gt;</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;record</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;view_form_my_model&quot;</span> <span style="color: #a6e22e">model=</span><span style="color: #e6db74">&quot;ir.ui.view&quot;</span><span style="color: #f92672">&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;name&quot;</span><span style="color: #f92672">&gt;</span>My Model Form<span style="color: #f92672">&lt;/field&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;model&quot;</span><span style="color: #f92672">&gt;</span>my.model<span style="color: #f92672">&lt;/field&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;arch&quot;</span> <span style="color: #a6e22e">type=</span><span style="color: #e6db74">&quot;xml&quot;</span><span style="color: #f92672">&gt;</span>
@@ -582,9 +582,9 @@ The next step was to tell the image widget to use this field to store the filena
   <span style="color: #f92672">&lt;/field&gt;</span>
 <span style="color: #f92672">&lt;/record&gt;</span>
 </pre></div>
-</p>
 
-<h2 id="result:51dcd0e056b827b692cfb67aa92761b8">Result</h2>
+
+<h2 id="result">Result</h2>
 
 <p>The download works now like a charm and it is even possible to modify the
 filename directly.</p>
@@ -599,7 +599,7 @@ filename directly.</p>
 
 </p>
 
-<p><div class="container rb-divider">
+<div class="container rb-divider">
   <div class="row">
     <div class="dividewhite2"></div>
     <div class="e-block-centered">
@@ -608,7 +608,7 @@ filename directly.</p>
     <div class="dividewhite2"></div>
   </div>
 </div>
-</p>
+
 
             </div>
           </div>
@@ -622,7 +622,7 @@ filename directly.</p>
             <div class="col-md-12">
               
 
-<h1 id="plone-commander:55b3f9dc2e501f8db8f4a408af8078fa">Plone Commander</h1>
+<h1 id="plone-commander">Plone Commander</h1>
 
 <p><a href="https://github.com/ridingbytes/plone.commander/releases">Plone Commander</a> is a
 cross platform application built with <a href="https://www.sencha.com/products/extjs">ExtJS</a>
@@ -640,26 +640,26 @@ edit and explore Plone contents with ease.</p>
 </figure>
 -->
 
-<h2 id="what-is-it-about:55b3f9dc2e501f8db8f4a408af8078fa">What is it about?</h2>
+<h2 id="what-is-it-about">What is it about?</h2>
 
 <p><a href="https://github.com/ridingbytes/plone.commander">Plone Commander</a> is basically a proof of
 concept, if the <a href="https://pypi.python.org/pypi/plone.jsonapi.routes">Plone API</a> is capable
 of handling an external application like this.</p>
 
-<h2 id="where-to-get:55b3f9dc2e501f8db8f4a408af8078fa">Where to get?</h2>
+<h2 id="where-to-get">Where to get?</h2>
 
 <p><a href="https://github.com/ridingbytes/plone.commander/releases">Plone Commander</a> is
 available on the official RIDING BYTES <a href="https://github.com/ridingbytes">GitHub Account</a>.</p>
 
-<h2 id="see-it-in-action:55b3f9dc2e501f8db8f4a408af8078fa">See it in action</h2>
+<h2 id="see-it-in-action">See it in action</h2>
 
-<p><div class="embed video-player">
+<div class="embed video-player">
 <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/h9Bc37_eutE" allowfullscreen frameborder="0">
 </iframe>
 </div>
-</p>
 
-<p><div class="container rb-divider">
+
+<div class="container rb-divider">
   <div class="row">
     <div class="dividewhite2"></div>
     <div class="e-block-centered">
@@ -668,7 +668,7 @@ available on the official RIDING BYTES <a href="https://github.com/ridingbytes">
     <div class="dividewhite2"></div>
   </div>
 </div>
-</p>
+
 
             </div>
           </div>

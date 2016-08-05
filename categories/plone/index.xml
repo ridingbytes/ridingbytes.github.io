@@ -18,7 +18,7 @@
       <guid>http://ridingbytes.com/2015/09/23/plone-commander/</guid>
       <description>
 
-&lt;h1 id=&#34;plone-commander:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;Plone Commander&lt;/h1&gt;
+&lt;h1 id=&#34;plone-commander&#34;&gt;Plone Commander&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a
 cross platform application built with &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;
@@ -36,26 +36,26 @@ edit and explore Plone contents with ease.&lt;/p&gt;
 &lt;/figure&gt;
 --&gt;
 
-&lt;h2 id=&#34;what-is-it-about:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;What is it about?&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-it-about&#34;&gt;What is it about?&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander&#34;&gt;Plone Commander&lt;/a&gt; is basically a proof of
 concept, if the &lt;a href=&#34;https://pypi.python.org/pypi/plone.jsonapi.routes&#34;&gt;Plone API&lt;/a&gt; is capable
 of handling an external application like this.&lt;/p&gt;
 
-&lt;h2 id=&#34;where-to-get:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;Where to get?&lt;/h2&gt;
+&lt;h2 id=&#34;where-to-get&#34;&gt;Where to get?&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is
 available on the official RIDING BYTES &lt;a href=&#34;https://github.com/ridingbytes&#34;&gt;GitHub Account&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;see-it-in-action:55b3f9dc2e501f8db8f4a408af8078fa&#34;&gt;See it in action&lt;/h2&gt;
+&lt;h2 id=&#34;see-it-in-action&#34;&gt;See it in action&lt;/h2&gt;
 
-&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/h9Bc37_eutE&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;container rb-divider&#34;&gt;
+
+&lt;div class=&#34;container rb-divider&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
@@ -64,7 +64,7 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
