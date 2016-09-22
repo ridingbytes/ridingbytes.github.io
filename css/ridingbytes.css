@@ -5122,6 +5122,13 @@ a.gm-toggle-link {
   text-align: left;
 }
 
+.image-float-left {
+  background-color: transparent;
+  float: left;
+  clear: both;
+  padding: 0 0.5em 0 0;
+}
+
 .image-right {
   background-color: transparent;
   text-align: right;
@@ -5130,6 +5137,13 @@ a.gm-toggle-link {
 .image-center {
   background-color: transparent;
   text-align: center;
+}
+
+.image-vendor-logo {
+  background-color: transparent !important;
+  text-align: left;
+  padding-bottom: 0.5em;
+  padding-top: 1.5em;
 }
 
 .rb-divider {
