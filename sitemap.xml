@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>http://ridingbytes.com/portfolio/bika-commander/</loc>
+    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/services/development/</loc>
     <lastmod>2016-09-22T00:00:00+02:00</lastmod>
   </url>
@@ -104,6 +109,12 @@
   </url>
   
   <url>
+    <loc>http://ridingbytes.com/tags/bika/</loc>
+    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/blog/</loc>
     <lastmod>2017-01-29T10:08:05+01:00</lastmod>
     <priority>0</priority>
@@ -140,13 +151,19 @@
   
   <url>
     <loc>http://ridingbytes.com/tags/extjs/</loc>
-    <lastmod>2015-09-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://ridingbytes.com/categories/extjs/</loc>
     <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ridingbytes.com/tags/lims/</loc>
+    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,7 +193,7 @@
   
   <url>
     <loc>http://ridingbytes.com/tags/open-source/</loc>
-    <lastmod>2015-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,7 +211,7 @@
   
   <url>
     <loc>http://ridingbytes.com/portfolio/</loc>
-    <lastmod>2016-02-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

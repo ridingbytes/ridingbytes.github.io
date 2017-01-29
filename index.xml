@@ -96,6 +96,29 @@ everywhere. Thanks:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Bika Commander</title>
+      <link>http://ridingbytes.com/portfolio/bika-commander/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ridingbytes.com/portfolio/bika-commander/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/bika.commander/releases&#34;&gt;Bika Commander&lt;/a&gt; is a cross platform web application based on &lt;a href=&#34;http://electron.atom.io&#34;&gt;Electron&lt;/a&gt; and
+&lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;. It communicates with &lt;a href=&#34;http://bikalims.org&#34;&gt;Bika LIMS&lt;/a&gt; through &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;see-it-in-action&#34;&gt;See it in Action&lt;/h1&gt;
+
+&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/7DfgynazuXs&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Development</title>
       <link>http://ridingbytes.com/services/development/</link>
       <pubDate>Thu, 22 Sep 2016 00:00:00 +0200</pubDate>
@@ -1036,32 +1059,6 @@ first approach using &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&
 &lt;p&gt;RIDING BYTES is specialized in web based user interfaces, which provide a great
 user experience by logical application flows and an intuitive layout. We offer
 development of custom web-, mobile-, or desktop applications.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Consulting</title>
-      <link>http://ridingbytes.com/services/consulting/</link>
-      <pubDate>Sun, 20 Sep 2015 00:00:00 +0200</pubDate>
-      
-      <guid>http://ridingbytes.com/services/consulting/</guid>
-      <description>
-
-&lt;h1 id=&#34;consulting&#34;&gt;Consulting&lt;/h1&gt;
-
-&lt;p&gt;A consultant (from Latin: consultare &amp;ldquo;to discuss&amp;rdquo;) is a professional who
-provides professional or expert advice
-(&lt;em&gt;Source: &lt;a href=&#34;https://en.wikipedia.org/wiki/Consultant&#34;&gt;Wikipedia&lt;/a&gt;&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;It is one of the most important services to ensure the planned and proposed
-IT solution meets the needs of the customer.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;
-
-&lt;p&gt;We offer all our professional expertise and knowledge in house or remote to
-analyze current workflows, optimize business processes and find the right IT
-solutions to support the management or the staff to get their work done more
-effective and efficient.&lt;/p&gt;
 </description>
     </item>
     
