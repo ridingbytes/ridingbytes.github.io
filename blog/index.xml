@@ -2,13 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on RIDING BYTES</title>
-    <link>http://ridingbytes.com/blog/</link>
+    <link>http://ridingbytes.com/blog/index.xml</link>
     <description>Recent content in Blogs on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 06 Mar 2016 23:44:26 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jan 2017 10:08:05 +0100</lastBuildDate>
     <atom:link href="http://ridingbytes.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MBA Master Thesis: Impact of Netiquette on Email Communication</title>
+      <link>http://ridingbytes.com/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
+      <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
+      
+      <guid>http://ridingbytes.com/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</guid>
+      <description>
+
+&lt;h1 id=&#34;impact-of-netiquette-on-email-communication&#34;&gt;Impact of Netiquette on Email Communication&lt;/h1&gt;
+
+&lt;p&gt;Emails are likely to get evaluated more negative than maybe intended of the sender.
+Therefore, we should consider carefully what and how we write Emails, because every
+human has a need for self-esteem, respect and courtesy when communicating with
+others.&lt;/p&gt;
+
+&lt;p&gt;I investigated in my Master Thesis the impact of Netiquette on Email
+communication and found out, that writing in a respectful and courteous way has
+significant positive effects on the recipient.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Today’s organizations depend heavily on the use of email. Information is
+exchanged to reduce uncertainty and resolve equivocality to accomplish internal
+tasks or coordinate activities. Often issues are ill-defined in the brevity of
+emails and thus, the problem is a lack of clarity, not data.&lt;/p&gt;
+
+&lt;p&gt;However, due to its text-based nature, email has also reduced availabilities to
+convey nonverbal cues, which might support understanding. This makes it
+especially difficult to convey emotion or ambiguity, such as irony or sarcasm
+over email. Nevertheless, senders’ intentionally and unintentionally communicate
+emotion over email and emotions are likely to be the reason for
+miscommunication.&lt;/p&gt;
+
+&lt;p&gt;The aim of this study was to investigate the impact of Netiquette on the
+recipients’ level of understanding, job satisfaction, amount of uncertainty and
+perception of senders’ likability. An electronic questionnaire was developed,
+where participants (N=105) had to evaluate four email samples, which were
+ostensibly written by a superior or subordinate. All emails contained a negative
+message (rejection, criticism), but were either delivered just by their content
+or included common Netiquette rules. Results have shown, that the email samples
+with Netiquette significantly improved the understanding and job satisfaction,
+reduced uncertainty and let the sender appear more favorable. Additionally, the
+organizational status of the sender resulted in a leveraging positive effect on
+job satisfaction and evidence for gender differences were found in the results.
+Implications for managers and organizations are discussed.&lt;/p&gt;
+
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
+
+&lt;p&gt;Please feel free to download the MBA Master Thesis and Netiquette Guide to build
+up your own Email Policy to improve the communication either for your private
+purpose or your organization:&lt;/p&gt;
+
+&lt;div class=&#34;rb-download dl-link&#34;&gt;
+    &lt;a href=&#34;http://ridingbytes.com/downloads/Master%20Thesis%20-%20Impact%20of%20Netiquette%20on%20Email%20Communication.pdf&#34; target=&#34;_blank&#34;&gt;
+        MBA Master Thesis
+    &lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;rb-download&#34;&gt;
+    &lt;a href=&#34;http://ridingbytes.com/downloads/Email%20Netiquette%20Guide%201.3-en.pdf&#34; target=&#34;_blank&#34;&gt;
+        Netiquette Guide (English language)
+    &lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;rb-download&#34;&gt;
+    &lt;a href=&#34;http://ridingbytes.com/downloads/Email%20Netiquette%20Guide%201.2-de.pdf&#34; target=&#34;_blank&#34;&gt;
+        Netiquette Guide (German language)
+    &lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;container rb-divider&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;e-block-centered&#34;&gt;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+    &lt;/div&gt;
+    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Odoo: Developer mode</title>
@@ -97,7 +182,7 @@ This functionality ships with the &lt;code&gt;image.py&lt;/code&gt; module, whic
 
 &lt;p&gt;I implemented a custom model which defined a binary field called &lt;code&gt;image&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
 
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;image&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;fields&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Binary(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;Image&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;required&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;True)&lt;/span&gt;
@@ -112,7 +197,7 @@ possible to access the &lt;code&gt;base64&lt;/code&gt; encoded image data.&lt;/p
 &lt;p&gt;Thus, I ended up using the inline data option within the &lt;code&gt;src&lt;/code&gt; attribute of the
 image tag:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;data:image/jpg;base64,{{ my.model.image }}&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;data:image/jpg;base64,{{ my.model.image }}&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -126,7 +211,7 @@ was not suitable for me.&lt;/p&gt;
 fields of any model through an URL. This controller is located in
 &lt;code&gt;odoo/addons/website/controllers/main.py&lt;/code&gt; and offers this route:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;@http.route&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;([&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;@http.route&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;([&lt;/span&gt;
     &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;/website/image&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt;
     &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;/website/image/&amp;lt;model&amp;gt;/&amp;lt;id&amp;gt;/&amp;lt;field&amp;gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt;
     &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;/website/image/&amp;lt;model&amp;gt;/&amp;lt;id&amp;gt;/&amp;lt;field&amp;gt;/&amp;lt;int:max_width&amp;gt;x&amp;lt;int:max_height&amp;gt;&amp;#39;&lt;/span&gt;
@@ -152,7 +237,7 @@ fields of any model through an URL. This controller is located in
 &lt;p&gt;With this route, I could change my inline rendered image to use this URL and do
 the resizing as well:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/website/image/my.model/{{ my.model.id }}/image/128x128&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/website/image/my.model/{{ my.model.id }}/image/128x128&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -163,7 +248,7 @@ about using an attribute on the model to provide the scaled image directly.
 Therefore I changed the code of my model and added the fields &lt;code&gt;image_medium&lt;/code&gt;
 and &lt;code&gt;image_small&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
 
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;image&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;fields&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Binary(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;Image&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;required&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;True)&lt;/span&gt;
@@ -202,7 +287,7 @@ unnecessary data growth. Therefore I used a computed field
 
 &lt;p&gt;My first shot of the &lt;code&gt;_get_image&lt;/code&gt; method looked like this:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
 
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
@@ -230,14 +315,14 @@ with the name &lt;code&gt;bin_size&lt;/code&gt; and the value &lt;code&gt;True&l
 image field to return only the image size instead of the full &lt;code&gt;base64&lt;/code&gt; encoded
 image. The complete &lt;code&gt;context&lt;/code&gt; I inspected within this method looked like this:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;ipdb&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;self&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;env&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;context&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;ipdb&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;self&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;env&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;context&lt;/span&gt;
 &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;lang&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;en_US&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;bin_size&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;True,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;tz&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;Europe/Berlin&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;uid&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;I found the corresponding field definition for the binary field in &lt;code&gt;openerp.osv.fields&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;binary&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(_column):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;binary&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(_column):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_type&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;binary&amp;#39;&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
     &lt;span style=&#34;color: #66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(self,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;cr,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;obj,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;ids,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;name,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;user&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;None,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;context&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;None,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;values&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;None):&lt;/span&gt;
@@ -261,7 +346,7 @@ immutable &lt;code&gt;context&lt;/code&gt; with the method &lt;code&gt;with_cont
 
 &lt;p&gt;So the final version of my &lt;code&gt;_get_image&lt;/code&gt; method looked like this:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
 
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;]&lt;/span&gt;
@@ -289,7 +374,7 @@ immutable &lt;code&gt;context&lt;/code&gt; with the method &lt;code&gt;with_cont
 &lt;p&gt;Now it was possible to access the computed fields directly with the URL of the
 &lt;code&gt;website&lt;/code&gt; controller:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/website/image/my.model/{{ my.model.id }}/image_small&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;t-attf-src&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/website/image/my.model/{{ my.model.id }}/image_small&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -335,9 +420,7 @@ instructions in the internet on how to do this using the old Odoo V7 API.&lt;/p&
       <pubDate>Sat, 02 Jan 2016 19:26:32 +0100</pubDate>
       
       <guid>http://ridingbytes.com/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
-      <description>
-
-&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
 
 &lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
 
@@ -345,6 +428,8 @@ instructions in the internet on how to do this using the old Odoo V7 API.&lt;/p&
 Therefore I used a field of the type &lt;code&gt;Binary&lt;/code&gt; in my model. Unfortunately only
 the base64 encoded file was stored in the database but not the filename. This
 resulted in an unknown binary file download with the name of the current model.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
 
@@ -357,7 +442,7 @@ The next step was to tell the image widget to use this field to store the filena
 
 &lt;h3 id=&#34;python-code&#34;&gt;Python Code&lt;/h3&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;MyModel&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(models&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Model):&lt;/span&gt;
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;_name&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;my.model&amp;#39;&lt;/span&gt;
 
     &lt;span style=&#34;color: #f8f8f2&#34;&gt;image&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;fields&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;Binary(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;Image&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;required&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;True)&lt;/span&gt;
@@ -367,7 +452,7 @@ The next step was to tell the image widget to use this field to store the filena
 
 &lt;h3 id=&#34;xml-view&#34;&gt;XML View&lt;/h3&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;record&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;view_form_my_model&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;model=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;ir.ui.view&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;record&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;view_form_my_model&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;model=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;ir.ui.view&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
   &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;field&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;My Model Form&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/field&amp;gt;&lt;/span&gt;
   &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;field&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;model&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;my.model&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/field&amp;gt;&lt;/span&gt;
   &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;field&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;arch&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;type=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;xml&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
@@ -411,9 +496,7 @@ filename directly.&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -422,14 +505,14 @@ filename directly.&lt;/p&gt;
       <pubDate>Thu, 17 Dec 2015 21:53:09 +0100</pubDate>
       
       <guid>http://ridingbytes.com/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
-      <description>
-
-&lt;h1 id=&#34;riding-bytes-bika-labs-partnership&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;riding-bytes-bika-labs-partnership&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
 
 &lt;!-- &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;More than just a Company – A strong Network of Partners.&lt;br&gt;RIDING BYTES is now official Partner of Bika Lab Systems &lt;a href=&#34;https://t.co/07B6ap3DMO&#34;&gt;https://t.co/07B6ap3DMO&lt;/a&gt;&lt;/p&gt;&amp;mdash; RIDING BYTES (@ridingbytes) &lt;a href=&#34;https://twitter.com/ridingbytes/status/677201899674800129&#34;&gt;December 16, 2015&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; --&gt;
 
 &lt;p&gt;Since December 15, 2015 RIDING BYTES and Bika Labs (South Africa) are official Partners.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 
@@ -463,9 +546,7 @@ mobile application development.&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -474,9 +555,7 @@ mobile application development.&lt;/p&gt;
       <pubDate>Wed, 23 Sep 2015 20:26:22 +0200</pubDate>
       
       <guid>http://ridingbytes.com/2015/09/23/plone-commander/</guid>
-      <description>
-
-&lt;h1 id=&#34;plone-commander&#34;&gt;Plone Commander&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;plone-commander&#34;&gt;Plone Commander&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a
 cross platform application built with &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;
@@ -493,6 +572,8 @@ edit and explore Plone contents with ease.&lt;/p&gt;
     
 &lt;/figure&gt;
 --&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;what-is-it-about&#34;&gt;What is it about?&lt;/h2&gt;
 
@@ -521,9 +602,7 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>

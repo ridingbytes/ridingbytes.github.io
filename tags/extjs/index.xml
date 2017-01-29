@@ -2,12 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Extjs on RIDING BYTES</title>
-    <link>http://ridingbytes.com/tags/extjs/</link>
+    <link>http://ridingbytes.com/tags/extjs/index.xml</link>
     <description>Recent content in Extjs on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 06 Sep 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ridingbytes.com/tags/extjs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

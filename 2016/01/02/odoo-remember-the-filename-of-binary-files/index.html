@@ -215,9 +215,7 @@
         <div class="row">
           
           <div class="col-md-12 post-content">
-            
-
-<h1 id="odoo-remember-the-filename-of-binary-files">Odoo: Remember the filename of binary files</h1>
+            <h1 id="odoo-remember-the-filename-of-binary-files">Odoo: Remember the filename of binary files</h1>
 
 <h2 id="problem">Problem</h2>
 
@@ -225,6 +223,8 @@
 Therefore I used a field of the type <code>Binary</code> in my model. Unfortunately only
 the base64 encoded file was stored in the database but not the filename. This
 resulted in an unknown binary file download with the name of the current model.</p>
+
+<p></p>
 
 <h2 id="solution">Solution</h2>
 
@@ -237,7 +237,7 @@ The next step was to tell the image widget to use this field to store the filena
 
 <h3 id="python-code">Python Code</h3>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
     <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
     <span style="color: #f8f8f2">image</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Binary(</span><span style="color: #e6db74">&#39;Image&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">True)</span>
@@ -247,7 +247,7 @@ The next step was to tell the image widget to use this field to store the filena
 
 <h3 id="xml-view">XML View</h3>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f92672">&lt;record</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;view_form_my_model&quot;</span> <span style="color: #a6e22e">model=</span><span style="color: #e6db74">&quot;ir.ui.view&quot;</span><span style="color: #f92672">&gt;</span>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f92672">&lt;record</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;view_form_my_model&quot;</span> <span style="color: #a6e22e">model=</span><span style="color: #e6db74">&quot;ir.ui.view&quot;</span><span style="color: #f92672">&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;name&quot;</span><span style="color: #f92672">&gt;</span>My Model Form<span style="color: #f92672">&lt;/field&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;model&quot;</span><span style="color: #f92672">&gt;</span>my.model<span style="color: #f92672">&lt;/field&gt;</span>
   <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;arch&quot;</span> <span style="color: #a6e22e">type=</span><span style="color: #e6db74">&quot;xml&quot;</span><span style="color: #f92672">&gt;</span>
@@ -292,8 +292,6 @@ filename directly.</p>
     <div class="dividewhite2"></div>
   </div>
 </div>
-
-
             
             
 <div class="widget">
@@ -525,7 +523,7 @@ filename directly.</p>
   <div class="container">
     <div class="copyright">
       <div class="copy-attrs">
-        &copy; 2015
+        &copy; 2015-2017
         <a href="/" target="_blank">RIDING BYTES</a>. All rights reserved
       </div>
 
@@ -538,22 +536,24 @@ filename directly.</p>
       
       
 <script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setDomains", ["*.www.ridingbytes.com","*.ridingbytes.com"]]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
+ var _paq = _paq || [];
+ 
+ _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+ _paq.push(["setCookieDomain", "*.www.ridingbytes.com"]);
+ _paq.push(['trackPageView']);
+ _paq.push(['enableLinkTracking']);
+ (function() {
     
     if (window.location.hostname == "localhost")
         return;
-    var u="//piwik.ridingbytes.com/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+     var u="//piwik.ridingbytes.com/";
+     _paq.push(['setTrackerUrl', u+'piwik.php']);
+     _paq.push(['setSiteId', '1']);
+     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+ })();
 </script>
-<noscript><p><img src="//piwik.ridingbytes.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="//piwik.ridingbytes.com/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
 
 
       

@@ -2,12 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plone on RIDING BYTES</title>
-    <link>http://ridingbytes.com/tags/plone/</link>
+    <link>http://ridingbytes.com/tags/plone/index.xml</link>
     <description>Recent content in Plone on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 14 Sep 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ridingbytes.com/tags/plone/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
