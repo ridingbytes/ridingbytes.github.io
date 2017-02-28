@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on RIDING BYTES</title>
+    <link>http://localhost:8001/contact/index.xml</link>
+    <description>Recent content in Contacts on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Sep 2015 10:55:01 +0200</lastBuildDate>
+    <atom:link href="http://localhost:8001/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RIDING BYTES</title>
+      <link>http://localhost:8001/contact/contact/</link>
+      <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
+      
+      <guid>http://localhost:8001/contact/contact/</guid>
+      <description>&lt;p&gt;RIDING BYTES UG (haftungsbeschränkt)&lt;/p&gt;
+
+&lt;p&gt;Einöde 49A, 87474 Buchenberg, Germany&lt;/p&gt;
+
+&lt;p&gt;Mail: &lt;a href=&#34;mailto:hello@ridingbytes.com&#34;&gt;hello@ridingbytes.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Web: &lt;a href=&#34;http://ridingbytes.com&#34;&gt;http://ridingbytes.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plone on RIDING BYTES</title>
+    <link>http://localhost:8001/tags/plone/index.xml</link>
+    <description>Recent content in Plone on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:8001/tags/plone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Plone JSON API</title>
+      <link>http://localhost:8001/portfolio/plone-jsonapi/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8001/portfolio/plone-jsonapi/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://api.travis-ci.org/collective/plone.jsonapi.routes.png?branch=master&#34; alt=&#34;Build Status&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an add-on package for &lt;a href=&#34;https://github.com/collective/plone.jsonapi.core&#34;&gt;plone.jsonapi.core&lt;/a&gt; which provides resource URLs
+for Plone standard contents (and more).&lt;/p&gt;
+
+&lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;
+
+&lt;p&gt;The routes package is built on top of the &lt;a href=&#34;https://github.com/collective/plone.jsonapi.core&#34;&gt;plone.jsonapi.core&lt;/a&gt; package to allow
+Plone developers to build modern (JavaScript) web UIs which communicate through
+a &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_state_transfer&#34;&gt;RESTful&lt;/a&gt; API with their Plone site.&lt;/p&gt;
+
+&lt;h1 id=&#34;compatibility&#34;&gt;Compatibility&lt;/h1&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt; is compatible with &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; 4.&lt;/p&gt;
+
+&lt;h1 id=&#34;documentation&#34;&gt;Documentation&lt;/h1&gt;
+
+&lt;p&gt;Read the latest documentation: &lt;a href=&#34;http://plonejsonapiroutes.readthedocs.org&#34;&gt;http://plonejsonapiroutes.readthedocs.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;where-to-get&#34;&gt;Where to get?&lt;/h1&gt;
+
+&lt;p&gt;Get the latest version on the Python Package Index: &lt;a href=&#34;https://pypi.python.org/pypi/plone.jsonapi.routes&#34;&gt;https://pypi.python.org/pypi/plone.jsonapi.routes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;see-it-in-action&#34;&gt;See it in action&lt;/h1&gt;
+
+&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/MiwgkWLMUqk&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Plone Commander</title>
+      <link>http://localhost:8001/portfolio/plone-commander/</link>
+      <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8001/portfolio/plone-commander/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a cross platform web application based on &lt;a href=&#34;http://electron.atom.io&#34;&gt;Electron&lt;/a&gt; and
+&lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;. It communicates with &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt; through &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;see-it-in-action&#34;&gt;See it in Action&lt;/h1&gt;
+
+&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/h9Bc37_eutE&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

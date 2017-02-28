@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Odoo on RIDING BYTES</title>
+    <link>http://localhost:8001/tags/odoo/index.xml</link>
+    <description>Recent content in Odoo on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:8001/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alpenleder ERP</title>
+      <link>http://localhost:8001/portfolio/alpenleder/</link>
+      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8001/portfolio/alpenleder/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://alpenleder.com&#34;&gt;Alpenleder&lt;/a&gt; is an international bag manufacturing company and retailer.  They
+have special requirements to their IT system, like shop functionality, reseller
+and customer login, multi-language support, product variants, inventory and
+HR capabilities.  &lt;a href=&#34;https://www.odoo.com/page/odoo-9&#34;&gt;Odoo 9&lt;/a&gt; serves all their needs and is ready for future
+requirements by customizations from RIDING BYTES.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES ERP</title>
+      <link>http://localhost:8001/portfolio/ridingbytes-odoo/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8001/portfolio/ridingbytes-odoo/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ridingbytes.com&#34;&gt;RIDING BYTES&lt;/a&gt; manages a variety of business intelligence tasks with &lt;a href=&#34;https://www.odoo.com/page/odoo-9&#34;&gt;Odoo 9&lt;/a&gt;. Custom
+Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order
+process for national and international customers.
+Project and Timesheet Bookings gives customers transparence to their projects
+and allows controlling and planning at any time.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
