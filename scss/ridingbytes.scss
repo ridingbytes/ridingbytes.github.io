@@ -8,8 +8,8 @@
 3. Sections (Like Blog, Services, Portfolio, Contact, ...)
 4. Pages/Listings
 5. Media Query
-5. Homepage
-5. Global
+6. Homepage
+7. Global
 
 -------------------------------------------------------------------*/
 
@@ -84,7 +84,7 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
   }
 }
 .section-contact {
-  @include rb-section("../img/sections/contact_large.jpg");
+  @include rb-section("../img/sections/phone_large.jpg");
 }
 .section-404 {
   @include rb-section("../img/sections/404_large.jpg");
@@ -280,7 +280,7 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
     }
   }
   .section-contact {
-    @include rb-section("../img/sections/contact_medium.jpg");
+    @include rb-section("../img/sections/phone_medium.jpg");
   }
   .section-about {
     @include rb-section("../img/sections/about_medium.jpg");
@@ -363,6 +363,19 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
 /*------------------------------------------------------------------
 [7. Global]
 */
+
+/* Top Bar */
+#sub-top-dark, #sub-top-light {
+    height: 40px;
+    font-size: 12px;
+    i {margin-right: 4px; font-size: 14px;}
+    .top-items {
+        padding-top: 10px;
+        div {  display: inline;  margin-right: 12px;  }
+    }
+    .top-items-left {  float: left;  }
+    .top-items-right {  float: right; }
+}
 
 #content {
   /*font-size: 110%;*/

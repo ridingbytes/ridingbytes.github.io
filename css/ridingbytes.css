@@ -4221,8 +4221,8 @@ a.gm-toggle-link {
 3. Sections (Like Blog, Services, Portfolio, Contact, ...)
 4. Pages/Listings
 5. Media Query
-5. Homepage
-5. Global
+6. Homepage
+7. Global
 
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
@@ -4367,7 +4367,7 @@ a.gm-toggle-link {
   top: 120px;
   left: 0;
   background-color: #e8e8e8;
-  background: url("../img/sections/contact_large.jpg") no-repeat top center;
+  background: url("../img/sections/phone_large.jpg") no-repeat top center;
   background-size: cover;
   will-change: transform;
   z-index: -1;
@@ -4898,7 +4898,7 @@ a.gm-toggle-link {
     top: 120px;
     left: 0;
     background-color: #e8e8e8;
-    background: url("../img/sections/contact_medium.jpg") no-repeat top center;
+    background: url("../img/sections/phone_medium.jpg") no-repeat top center;
     background-size: cover;
     will-change: transform;
     z-index: -1;
@@ -5102,6 +5102,29 @@ a.gm-toggle-link {
 /*------------------------------------------------------------------
 [7. Global]
 */
+/* Top Bar */
+#sub-top-dark, #sub-top-light {
+  height: 40px;
+  font-size: 12px;
+}
+#sub-top-dark i, #sub-top-light i {
+  margin-right: 4px;
+  font-size: 14px;
+}
+#sub-top-dark .top-items, #sub-top-light .top-items {
+  padding-top: 10px;
+}
+#sub-top-dark .top-items div, #sub-top-light .top-items div {
+  display: inline;
+  margin-right: 12px;
+}
+#sub-top-dark .top-items-left, #sub-top-light .top-items-left {
+  float: left;
+}
+#sub-top-dark .top-items-right, #sub-top-light .top-items-right {
+  float: right;
+}
+
 #content {
   /*font-size: 110%;*/
 }
