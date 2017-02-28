@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on RIDING BYTES</title>
-    <link>http://localhost:8001/tags/open-source/index.xml</link>
+    <link>http://ridingbytes.com/de/tags/open-source/index.xml</link>
     <description>Recent content in Open Source on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:8001/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-de</language>
+    <atom:link href="http://ridingbytes.com/de/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bika Commander</title>
-      <link>http://localhost:8001/portfolio/bika-commander/</link>
+      <link>http://ridingbytes.com/de/portfolio/bika-commander/</link>
       <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/bika-commander/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/bika-commander/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Plone JSON API</title>
-      <link>http://localhost:8001/portfolio/plone-jsonapi/</link>
+      <link>http://ridingbytes.com/de/portfolio/plone-jsonapi/</link>
       <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/plone-jsonapi/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/plone-jsonapi/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -76,10 +76,10 @@ a &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_state_transfer&#
     
     <item>
       <title>Plone Commander</title>
-      <link>http://localhost:8001/portfolio/plone-commander/</link>
+      <link>http://ridingbytes.com/de/portfolio/plone-commander/</link>
       <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/plone-commander/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/plone-commander/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;

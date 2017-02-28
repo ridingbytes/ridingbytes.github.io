@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RIDING BYTES</title>
-    <link>http://localhost:8001/index.xml</link>
+    <link>http://ridingbytes.com/de/index.xml</link>
     <description>Recent content on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>de-de</language>
     <lastBuildDate>Sun, 29 Jan 2017 10:08:05 +0100</lastBuildDate>
-    <atom:link href="http://localhost:8001/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ridingbytes.com/de/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MBA Master Thesis: Impact of Netiquette on Email Communication</title>
-      <link>http://localhost:8001/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
+      <link>http://ridingbytes.com/de/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
       <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
       
-      <guid>http://localhost:8001/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</guid>
+      <guid>http://ridingbytes.com/de/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</guid>
       <description>
 
 &lt;h1 id=&#34;impact-of-netiquette-on-email-communication&#34;&gt;Impact of Netiquette on Email Communication&lt;/h1&gt;
@@ -62,21 +62,21 @@ up your own or your organizations&amp;rsquo; Email Policy, because communication
 everywhere. Thanks:&lt;/p&gt;
 
 &lt;div class=&#34;rb-download dl-link&#34;&gt;
-    &lt;a href=&#34;http://localhost:8001/downloads/Master%20Thesis%20-%20Impact%20of%20Netiquette%20on%20Email%20Communication.pdf&#34; target=&#34;_blank&#34;&gt;
+    &lt;a href=&#34;http://ridingbytes.com/de/downloads/Master%20Thesis%20-%20Impact%20of%20Netiquette%20on%20Email%20Communication.pdf&#34; target=&#34;_blank&#34;&gt;
         MBA Master Thesis - Impact of Netiquette on Email Communication
     &lt;/a&gt;
 &lt;/div&gt;
 
 
 &lt;div class=&#34;rb-download&#34;&gt;
-    &lt;a href=&#34;http://localhost:8001/downloads/Email%20Netiquette%20Guide%201.3-en.pdf&#34; target=&#34;_blank&#34;&gt;
+    &lt;a href=&#34;http://ridingbytes.com/de/downloads/Email%20Netiquette%20Guide%201.3-en.pdf&#34; target=&#34;_blank&#34;&gt;
         Netiquette Guide (English language)
     &lt;/a&gt;
 &lt;/div&gt;
 
 
 &lt;div class=&#34;rb-download&#34;&gt;
-    &lt;a href=&#34;http://localhost:8001/downloads/Email%20Netiquette%20Guide%201.2-de.pdf&#34; target=&#34;_blank&#34;&gt;
+    &lt;a href=&#34;http://ridingbytes.com/de/downloads/Email%20Netiquette%20Guide%201.2-de.pdf&#34; target=&#34;_blank&#34;&gt;
         Netiquette Guide (German language)
     &lt;/a&gt;
 &lt;/div&gt;
@@ -86,7 +86,7 @@ everywhere. Thanks:&lt;/p&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://localhost:8001/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -97,10 +97,10 @@ everywhere. Thanks:&lt;/p&gt;
     
     <item>
       <title>Bika Commander</title>
-      <link>http://localhost:8001/portfolio/bika-commander/</link>
+      <link>http://ridingbytes.com/de/portfolio/bika-commander/</link>
       <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/bika-commander/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/bika-commander/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -120,10 +120,10 @@ everywhere. Thanks:&lt;/p&gt;
     
     <item>
       <title>Development</title>
-      <link>http://localhost:8001/services/development/</link>
+      <link>http://ridingbytes.com/de/services/development/</link>
       <pubDate>Thu, 22 Sep 2016 00:00:00 +0200</pubDate>
       
-      <guid>http://localhost:8001/services/development/</guid>
+      <guid>http://ridingbytes.com/de/services/development/</guid>
       <description>
 
 &lt;h1 id=&#34;development&#34;&gt;Development&lt;/h1&gt;
@@ -139,7 +139,7 @@ and the provided services.&lt;/p&gt;
 
 &lt;figure class=&#34;image-vendor-logo&#34;&gt;
     &lt;a href=&#34;https://bikalabs.com&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/systems/logos/bika.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/systems/logos/bika.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -158,7 +158,7 @@ available free of charge.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure class=&#34;image-vendor-logo&#34;&gt;
     &lt;a href=&#34;https://plone.org&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/systems/logos/plone.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/systems/logos/plone.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -174,7 +174,7 @@ all major operating systems.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure class=&#34;image-vendor-logo&#34;&gt;
     &lt;a href=&#34;https://www.odoo.com&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/systems/logos/odoo.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/systems/logos/odoo.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -190,7 +190,7 @@ Marketing, Manufacturing, Purchase Management.&lt;/p&gt;
 
 &lt;figure class=&#34;image-vendor-logo&#34;&gt;
     &lt;a href=&#34;http://flask.pocoo.org&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/systems/logos/flask.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/systems/logos/flask.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -204,7 +204,7 @@ can basically handle any database backend and ships with powerful extensions.&lt
 &lt;p&gt;
 &lt;figure class=&#34;image-vendor-logo&#34;&gt;
     &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/systems/logos/hugo.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/systems/logos/hugo.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -219,7 +219,7 @@ Dropbox or any web host.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure class=&#34;image-vendor-logo&#34;&gt;
     &lt;a href=&#34;https://www.python.org&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/systems/logos/python.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/systems/logos/python.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -233,7 +233,7 @@ mission critical system.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure class=&#34;image-vendor-logo&#34;&gt;
     &lt;a href=&#34;https://www.sencha.com/products/extjs&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/systems/logos/extjs.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/systems/logos/extjs.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -248,7 +248,7 @@ handles thousands of data records with great performance.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure class=&#34;image-vendor-logo&#34;&gt;
     &lt;a href=&#34;http://coffeescript.org&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/systems/logos/coffeescript.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/systems/logos/coffeescript.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;
@@ -263,10 +263,10 @@ parts of JavaScript in a simple way.&lt;/p&gt;
     
     <item>
       <title>Odoo: Developer mode</title>
-      <link>http://localhost:8001/2016/03/06/odoo-developer-mode/</link>
+      <link>http://ridingbytes.com/de/2016/03/06/odoo-developer-mode/</link>
       <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
       
-      <guid>http://localhost:8001/2016/03/06/odoo-developer-mode/</guid>
+      <guid>http://ridingbytes.com/de/2016/03/06/odoo-developer-mode/</guid>
       <description>
 
 &lt;h1 id=&#34;odoo-access-technical-features&#34;&gt;Odoo: Access Technical Features&lt;/h1&gt;
@@ -285,7 +285,7 @@ which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
 
 &lt;figure class=&#34;image-center&#34;&gt;
     
-        &lt;img src=&#34;http://localhost:8001/media/blog/odoo-about.png&#34; /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/blog/odoo-about.png&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -311,7 +311,7 @@ which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
 
 &lt;figure class=&#34;image-left&#34;&gt;
     
-        &lt;img src=&#34;http://localhost:8001/media/blog/odoo-dev-mode-toggle.png&#34; /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/blog/odoo-dev-mode-toggle.png&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -321,7 +321,7 @@ which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://localhost:8001/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -332,10 +332,10 @@ which toggles the developer mode by a single click&amp;hellip;&lt;/p&gt;
     
     <item>
       <title>Alpenleder ERP</title>
-      <link>http://localhost:8001/portfolio/alpenleder/</link>
+      <link>http://ridingbytes.com/de/portfolio/alpenleder/</link>
       <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/alpenleder/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/alpenleder/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -350,10 +350,10 @@ requirements by customizations from RIDING BYTES.&lt;/p&gt;
     
     <item>
       <title>Odoo: Dynamic image resizing</title>
-      <link>http://localhost:8001/2016/01/04/odoo-dynamic-image-resizing/</link>
+      <link>http://ridingbytes.com/de/2016/01/04/odoo-dynamic-image-resizing/</link>
       <pubDate>Mon, 04 Jan 2016 11:44:06 +0100</pubDate>
       
-      <guid>http://localhost:8001/2016/01/04/odoo-dynamic-image-resizing/</guid>
+      <guid>http://ridingbytes.com/de/2016/01/04/odoo-dynamic-image-resizing/</guid>
       <description>
 
 &lt;h1 id=&#34;odoo-scale-images-on-the-fly&#34;&gt;Odoo: Scale images on the fly&lt;/h1&gt;
@@ -458,7 +458,7 @@ and &lt;code&gt;image_small&lt;/code&gt;:&lt;/p&gt;
 
 &lt;figure class=&#34;image-left&#34;&gt;
     
-        &lt;img src=&#34;http://localhost:8001/media/blog/odoo-dynamic-image-resizing.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/blog/odoo-dynamic-image-resizing.png&#34; class=&#34;img-responsive&#34;  /&gt;
     
     
 &lt;/figure&gt;
@@ -589,7 +589,7 @@ instructions in the internet on how to do this using the old Odoo V7 API.&lt;/p&
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://localhost:8001/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -600,10 +600,10 @@ instructions in the internet on how to do this using the old Odoo V7 API.&lt;/p&
     
     <item>
       <title>Odoo: Remember the filename of binary files</title>
-      <link>http://localhost:8001/2016/01/02/odoo-remember-the-filename-of-binary-files/</link>
+      <link>http://ridingbytes.com/de/2016/01/02/odoo-remember-the-filename-of-binary-files/</link>
       <pubDate>Sat, 02 Jan 2016 19:26:32 +0100</pubDate>
       
-      <guid>http://localhost:8001/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
+      <guid>http://ridingbytes.com/de/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
       <description>&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
 
 &lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
@@ -665,7 +665,7 @@ filename directly.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure class=&#34;image-left&#34;&gt;
     
-        &lt;img src=&#34;http://localhost:8001/media/blog/odoo-filename-handling.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/blog/odoo-filename-handling.png&#34; class=&#34;img-responsive&#34;  /&gt;
     
     
 &lt;/figure&gt;
@@ -676,7 +676,7 @@ filename directly.&lt;/p&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://localhost:8001/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -685,10 +685,10 @@ filename directly.&lt;/p&gt;
     
     <item>
       <title>RIDING BYTES ERP</title>
-      <link>http://localhost:8001/portfolio/ridingbytes-odoo/</link>
+      <link>http://ridingbytes.com/de/portfolio/ridingbytes-odoo/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/ridingbytes-odoo/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/ridingbytes-odoo/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -703,10 +703,10 @@ and allows controlling and planning at any time.&lt;/p&gt;
     
     <item>
       <title>RIDING BYTES-Bika Labs-Partnership</title>
-      <link>http://localhost:8001/2015/12/17/riding-bytes-bika-labs-partnership/</link>
+      <link>http://ridingbytes.com/de/2015/12/17/riding-bytes-bika-labs-partnership/</link>
       <pubDate>Thu, 17 Dec 2015 21:53:09 +0100</pubDate>
       
-      <guid>http://localhost:8001/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
+      <guid>http://ridingbytes.com/de/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
       <description>&lt;h1 id=&#34;riding-bytes-bika-labs-partnership&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
 
 &lt;!-- &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;More than just a Company – A strong Network of Partners.&lt;br&gt;RIDING BYTES is now official Partner of Bika Lab Systems &lt;a href=&#34;https://t.co/07B6ap3DMO&#34;&gt;https://t.co/07B6ap3DMO&lt;/a&gt;&lt;/p&gt;&amp;mdash; RIDING BYTES (@ridingbytes) &lt;a href=&#34;https://twitter.com/ridingbytes/status/677201899674800129&#34;&gt;December 16, 2015&lt;/a&gt;&lt;/blockquote&gt;
@@ -730,7 +730,7 @@ mobile application development.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure class=&#34;image-left&#34;&gt;
     
-        &lt;img src=&#34;http://localhost:8001/media/blog/bika-partnership.png&#34; class=&#34;img-responsive&#34;  /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/blog/bika-partnership.png&#34; class=&#34;img-responsive&#34;  /&gt;
     
     
 &lt;/figure&gt;
@@ -744,7 +744,7 @@ mobile application development.&lt;/p&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://localhost:8001/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -753,10 +753,10 @@ mobile application development.&lt;/p&gt;
     
     <item>
       <title>RIDING BYTES Website</title>
-      <link>http://localhost:8001/portfolio/ridingbytes/</link>
+      <link>http://ridingbytes.com/de/portfolio/ridingbytes/</link>
       <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/ridingbytes/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/ridingbytes/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -778,10 +778,10 @@ PHP and without dependencies on any databases.&lt;/p&gt;
     
     <item>
       <title>about</title>
-      <link>http://localhost:8001/about/about/</link>
+      <link>http://ridingbytes.com/de/about/about/</link>
       <pubDate>Thu, 24 Sep 2015 14:18:03 +0200</pubDate>
       
-      <guid>http://localhost:8001/about/about/</guid>
+      <guid>http://ridingbytes.com/de/about/about/</guid>
       <description>
 
 &lt;h1 id=&#34;riding-bytes&#34;&gt;RIDING BYTES&lt;/h1&gt;
@@ -824,10 +824,10 @@ full potential.&lt;/p&gt;
     
     <item>
       <title>Plone Commander</title>
-      <link>http://localhost:8001/2015/09/23/plone-commander/</link>
+      <link>http://ridingbytes.com/de/2015/09/23/plone-commander/</link>
       <pubDate>Wed, 23 Sep 2015 20:26:22 +0200</pubDate>
       
-      <guid>http://localhost:8001/2015/09/23/plone-commander/</guid>
+      <guid>http://ridingbytes.com/de/2015/09/23/plone-commander/</guid>
       <description>&lt;h1 id=&#34;plone-commander&#34;&gt;Plone Commander&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a
@@ -840,7 +840,7 @@ edit and explore Plone contents with ease.&lt;/p&gt;
 &lt;!--
 &lt;figure class=&#34;e-block-skin image-left&#34;&gt;
     
-        &lt;img src=&#34;http://localhost:8001/media/blog%20%20/plone-commander.jpg&#34; width=&#34;85%&#34; /&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/blog%20%20/plone-commander.jpg&#34; width=&#34;85%&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -871,7 +871,7 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://localhost:8001/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -880,10 +880,10 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
     
     <item>
       <title>Legal Notice</title>
-      <link>http://localhost:8001/legal/</link>
+      <link>http://ridingbytes.com/de/legal/</link>
       <pubDate>Tue, 22 Sep 2015 15:09:25 +0200</pubDate>
       
-      <guid>http://localhost:8001/legal/</guid>
+      <guid>http://ridingbytes.com/de/legal/</guid>
       <description>
 
 &lt;h1 id=&#34;legal-information&#34;&gt;Legal Information&lt;/h1&gt;
@@ -914,7 +914,7 @@ available on the official RIDING BYTES &lt;a href=&#34;https://github.com/riding
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://localhost:8001/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -996,7 +996,7 @@ RIDING BYTES ausdrücklich untersagt.&lt;/p&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
     &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://localhost:8001/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
+      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
     &lt;/div&gt;
     &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -1007,10 +1007,10 @@ RIDING BYTES ausdrücklich untersagt.&lt;/p&gt;
     
     <item>
       <title>RIDING BYTES</title>
-      <link>http://localhost:8001/contact/contact/</link>
+      <link>http://ridingbytes.com/de/contact/contact/</link>
       <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
       
-      <guid>http://localhost:8001/contact/contact/</guid>
+      <guid>http://ridingbytes.com/de/contact/contact/</guid>
       <description>&lt;p&gt;RIDING BYTES UG (haftungsbeschränkt)&lt;/p&gt;
 
 &lt;p&gt;Einöde 49A, 87474 Buchenberg, Germany&lt;/p&gt;
@@ -1023,10 +1023,10 @@ RIDING BYTES ausdrücklich untersagt.&lt;/p&gt;
     
     <item>
       <title>UIUX</title>
-      <link>http://localhost:8001/services/uiux/</link>
+      <link>http://ridingbytes.com/de/services/uiux/</link>
       <pubDate>Mon, 21 Sep 2015 00:00:00 +0200</pubDate>
       
-      <guid>http://localhost:8001/services/uiux/</guid>
+      <guid>http://ridingbytes.com/de/services/uiux/</guid>
       <description>
 
 &lt;h1 id=&#34;ui-ux&#34;&gt;UI/UX&lt;/h1&gt;
@@ -1040,14 +1040,14 @@ the finished application/product.&lt;/p&gt;
 
 &lt;h2 id=&#34;case-study-plone-commander&#34;&gt;Case Study: Plone Commander&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:8001/portfolio/plone-commander/#content&#34;&gt;Plone Commander&lt;/a&gt; offers an alternative UI
+&lt;p&gt;&lt;a href=&#34;http://ridingbytes.com/de/portfolio/plone-commander/#content&#34;&gt;Plone Commander&lt;/a&gt; offers an alternative UI
 for the CMS &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt;. The application follows a modern mobile
 first approach using &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;.&lt;/p&gt;
 
 
 &lt;figure class=&#34;image-left&#34;&gt;
-    &lt;a href=&#34;http://localhost:8001/portfolio/plone-commander/#content&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://localhost:8001/media/portfolio/plone-commander.png&#34; class=&#34;img-responsive&#34;  /&gt;
+    &lt;a href=&#34;http://ridingbytes.com/de/portfolio/plone-commander/#content&#34; target=&#34;_blank&#34;&gt;
+        &lt;img src=&#34;http://ridingbytes.com/de/media/portfolio/plone-commander.png&#34; class=&#34;img-responsive&#34;  /&gt;
     &lt;/a&gt;
     
 &lt;/figure&gt;

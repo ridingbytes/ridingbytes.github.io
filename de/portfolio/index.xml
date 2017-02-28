@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolios on RIDING BYTES</title>
-    <link>http://localhost:8001/portfolio/index.xml</link>
+    <link>http://ridingbytes.com/de/portfolio/index.xml</link>
     <description>Recent content in Portfolios on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>de-de</language>
     <lastBuildDate>Sun, 29 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:8001/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ridingbytes.com/de/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bika Commander</title>
-      <link>http://localhost:8001/portfolio/bika-commander/</link>
+      <link>http://ridingbytes.com/de/portfolio/bika-commander/</link>
       <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/bika-commander/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/bika-commander/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -34,10 +34,10 @@
     
     <item>
       <title>Alpenleder ERP</title>
-      <link>http://localhost:8001/portfolio/alpenleder/</link>
+      <link>http://ridingbytes.com/de/portfolio/alpenleder/</link>
       <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/alpenleder/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/alpenleder/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -52,10 +52,10 @@ requirements by customizations from RIDING BYTES.&lt;/p&gt;
     
     <item>
       <title>RIDING BYTES ERP</title>
-      <link>http://localhost:8001/portfolio/ridingbytes-odoo/</link>
+      <link>http://ridingbytes.com/de/portfolio/ridingbytes-odoo/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/ridingbytes-odoo/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/ridingbytes-odoo/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -70,10 +70,10 @@ and allows controlling and planning at any time.&lt;/p&gt;
     
     <item>
       <title>RIDING BYTES Website</title>
-      <link>http://localhost:8001/portfolio/ridingbytes/</link>
+      <link>http://ridingbytes.com/de/portfolio/ridingbytes/</link>
       <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/ridingbytes/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/ridingbytes/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -95,10 +95,10 @@ PHP and without dependencies on any databases.&lt;/p&gt;
     
     <item>
       <title>Plone JSON API</title>
-      <link>http://localhost:8001/portfolio/plone-jsonapi/</link>
+      <link>http://ridingbytes.com/de/portfolio/plone-jsonapi/</link>
       <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/plone-jsonapi/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/plone-jsonapi/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -138,10 +138,10 @@ a &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_state_transfer&#
     
     <item>
       <title>Plone Commander</title>
-      <link>http://localhost:8001/portfolio/plone-commander/</link>
+      <link>http://ridingbytes.com/de/portfolio/plone-commander/</link>
       <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/plone-commander/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/plone-commander/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;

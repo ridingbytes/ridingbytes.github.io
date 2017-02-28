@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Odoo on RIDING BYTES</title>
-    <link>http://localhost:8001/tags/odoo/index.xml</link>
+    <link>http://ridingbytes.com/de/tags/odoo/index.xml</link>
     <description>Recent content in Odoo on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:8001/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-de</language>
+    <atom:link href="http://ridingbytes.com/de/tags/odoo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Alpenleder ERP</title>
-      <link>http://localhost:8001/portfolio/alpenleder/</link>
+      <link>http://ridingbytes.com/de/portfolio/alpenleder/</link>
       <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/alpenleder/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/alpenleder/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
@@ -28,10 +28,10 @@ requirements by customizations from RIDING BYTES.&lt;/p&gt;
     
     <item>
       <title>RIDING BYTES ERP</title>
-      <link>http://localhost:8001/portfolio/ridingbytes-odoo/</link>
+      <link>http://ridingbytes.com/de/portfolio/ridingbytes-odoo/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8001/portfolio/ridingbytes-odoo/</guid>
+      <guid>http://ridingbytes.com/de/portfolio/ridingbytes-odoo/</guid>
       <description>
 
 &lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;

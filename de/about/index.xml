@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on RIDING BYTES</title>
-    <link>http://localhost:8001/about/index.xml</link>
+    <link>http://ridingbytes.com/de/about/index.xml</link>
     <description>Recent content in Abouts on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>de-de</language>
     <lastBuildDate>Thu, 24 Sep 2015 14:18:03 +0200</lastBuildDate>
-    <atom:link href="http://localhost:8001/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ridingbytes.com/de/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>about</title>
-      <link>http://localhost:8001/about/about/</link>
+      <link>http://ridingbytes.com/de/about/about/</link>
       <pubDate>Thu, 24 Sep 2015 14:18:03 +0200</pubDate>
       
-      <guid>http://localhost:8001/about/about/</guid>
+      <guid>http://ridingbytes.com/de/about/about/</guid>
       <description>
 
 &lt;h1 id=&#34;riding-bytes&#34;&gt;RIDING BYTES&lt;/h1&gt;
