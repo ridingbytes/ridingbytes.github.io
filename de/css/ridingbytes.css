@@ -5099,6 +5099,10 @@ a.gm-toggle-link {
   font-family: Novecentosanswide-Light, sans-serif;
 }
 
+.system-details {
+  text-align: left;
+}
+
 /*------------------------------------------------------------------
 [7. Global]
 */
