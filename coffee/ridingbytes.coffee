@@ -7,7 +7,7 @@ jQuery(document).ready ->
     helpers:
       overlay:
         css:
-          top: "100px"
+          top: "75px"
 
   # Smooth scrolling
   jQuery('a.page-scroll').bind 'click', (event) ->

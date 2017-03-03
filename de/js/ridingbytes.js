@@ -7,7 +7,7 @@
       helpers: {
         overlay: {
           css: {
-            top: "100px"
+            top: "75px"
           }
         }
       }
