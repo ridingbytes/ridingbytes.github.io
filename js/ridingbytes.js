@@ -1,5 +1,17 @@
 (function() {
   jQuery(document).ready(function() {
+    $(".fancybox").fancybox({
+      closeBtn: true,
+      openEffect: "elastic",
+      closeEffect: "elastic",
+      helpers: {
+        overlay: {
+          css: {
+            top: "100px"
+          }
+        }
+      }
+    });
     jQuery('a.page-scroll').bind('click', function(event) {
       var $anchor, $el, anchor, href;
       $anchor = $(this);

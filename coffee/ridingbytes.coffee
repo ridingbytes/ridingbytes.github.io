@@ -1,5 +1,14 @@
 jQuery(document).ready ->
 
+  $(".fancybox").fancybox
+    closeBtn: yes
+    openEffect: "elastic"
+    closeEffect: "elastic"
+    helpers:
+      overlay:
+        css:
+          top: "100px"
+
   # Smooth scrolling
   jQuery('a.page-scroll').bind 'click', (event) ->
     $anchor = $(this)
