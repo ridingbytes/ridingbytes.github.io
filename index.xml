@@ -6,8 +6,26 @@
     <description>Recent content on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Jan 2017 10:08:05 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 09:00:00 +0200</lastBuildDate>
     <atom:link href="http://ridingbytes.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Thank You</title>
+      <link>http://ridingbytes.com/thanks/</link>
+      <pubDate>Thu, 02 Mar 2017 09:00:00 +0200</pubDate>
+      
+      <guid>http://ridingbytes.com/thanks/</guid>
+      <description>
+
+&lt;h1 id=&#34;thank-you&#34;&gt;Thank You&lt;/h1&gt;
+
+&lt;p&gt;Thank you for your message. Your message is important  to us and we will respond as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;Best Regards&lt;/p&gt;
+
+&lt;p&gt;RIDING BYTES&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MBA Master Thesis: Impact of Netiquette on Email Communication</title>
@@ -1016,47 +1034,6 @@ RIDING BYTES ausdrücklich untersagt.&lt;/p&gt;
 &lt;p&gt;Mail: &lt;a href=&#34;mailto:hello@ridingbytes.com&#34;&gt;hello@ridingbytes.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Web: &lt;a href=&#34;http://ridingbytes.com&#34;&gt;http://ridingbytes.com&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>UIUX</title>
-      <link>http://ridingbytes.com/services/uiux/</link>
-      <pubDate>Mon, 21 Sep 2015 00:00:00 +0200</pubDate>
-      
-      <guid>http://ridingbytes.com/services/uiux/</guid>
-      <description>
-
-&lt;h1 id=&#34;ui-ux&#34;&gt;UI/UX&lt;/h1&gt;
-
-&lt;p&gt;These two terms stand for &lt;em&gt;User Interface&lt;/em&gt; and &lt;em&gt;User Experience&lt;/em&gt;. While the
-first one is mainly concerned with the layout of application elements, the
-latter one cares about how the interaction with the application feels to the user.&lt;/p&gt;
-
-&lt;p&gt;Both terms are linked to each other and highly influence the user acceptance of
-the finished application/product.&lt;/p&gt;
-
-&lt;h2 id=&#34;case-study-plone-commander&#34;&gt;Case Study: Plone Commander&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ridingbytes.com/portfolio/plone-commander/#content&#34;&gt;Plone Commander&lt;/a&gt; offers an alternative UI
-for the CMS &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt;. The application follows a modern mobile
-first approach using &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;figure class=&#34;image-left&#34;&gt;
-    &lt;a href=&#34;http://ridingbytes.com/portfolio/plone-commander/#content&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://ridingbytes.com/media/portfolio/plone-commander.png&#34; class=&#34;img-responsive&#34;  /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;
-
-&lt;p&gt;RIDING BYTES is specialized in web based user interfaces, which provide a great
-user experience by logical application flows and an intuitive layout. We offer
-development of custom web-, mobile-, or desktop applications.&lt;/p&gt;
 </description>
     </item>
     
