@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>http://ridingbytes.com/portfolio/bika-spotlight-search/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</loc>
     <lastmod>2017-01-29T10:08:05+01:00</lastmod>
   </url>
@@ -114,8 +119,14 @@
   </url>
   
   <url>
+    <loc>http://ridingbytes.com/tags/backbonejs/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/tags/bika/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -168,7 +179,7 @@
   
   <url>
     <loc>http://ridingbytes.com/tags/lims/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -198,7 +209,7 @@
   
   <url>
     <loc>http://ridingbytes.com/tags/open-source/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -216,7 +227,7 @@
   
   <url>
     <loc>http://ridingbytes.com/portfolio/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

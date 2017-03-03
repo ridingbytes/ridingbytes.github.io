@@ -169,20 +169,26 @@ latter one cares about how the interaction with the application feels to the use
 &lt;p&gt;Both terms are linked to each other and highly influence the user acceptance of
 the finished application/product.&lt;/p&gt;
 
+&lt;h2 id=&#34;case-study-bika-spotlight-search&#34;&gt;Case Study: Bika Spotlight Search&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AIA5atToc-c&#34;&gt;Bika Spotlight Search&lt;/a&gt; offers an
+MAC OS X like Search UI for &lt;a href=&#34;https://bikalims.org&#34;&gt;Bika LIMS&lt;/a&gt;. The overlay uses
+theS modern JavaScript Framework &lt;a href=&#34;http://backbonejs.org/&#34;&gt;BackboneJS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;embed video-player&#34;&gt;
+  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/AIA5atToc-c&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
 &lt;h2 id=&#34;case-study-plone-commander&#34;&gt;Case Study: Plone Commander&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://ridingbytes.com/portfolio/plone-commander/#content&#34;&gt;Plone Commander&lt;/a&gt; offers an alternative UI
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=h9Bc37_eutE&#34;&gt;Plone Commander&lt;/a&gt; offers an alternative UI
 for the CMS &lt;a href=&#34;http://plone.org&#34;&gt;Plone&lt;/a&gt;. The application follows a modern mobile
 first approach using &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;.&lt;/p&gt;
 
-
-&lt;figure class=&#34;image-left&#34;&gt;
-    &lt;a href=&#34;http://ridingbytes.com/portfolio/plone-commander/#content&#34; target=&#34;_blank&#34;&gt;
-        &lt;img src=&#34;http://ridingbytes.com/media/portfolio/plone-commander.png&#34; class=&#34;img-responsive&#34;  /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
+&lt;div class=&#34;embed video-player&#34;&gt;
+  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/h9Bc37_eutE&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 
 &lt;h2 id=&#34;what-we-offer&#34;&gt;What we offer&lt;/h2&gt;

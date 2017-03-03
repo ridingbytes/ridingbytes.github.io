@@ -28,6 +28,29 @@
     </item>
     
     <item>
+      <title>Bika Spotlight Search</title>
+      <link>http://ridingbytes.com/de/portfolio/bika-spotlight-search/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ridingbytes.com/de/portfolio/bika-spotlight-search/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AIA5atToc-c&#34;&gt;Bika Spotlight Search&lt;/a&gt; is a modern JavaScript application written with
+&lt;a href=&#34;http://coffeescript.org&#34;&gt;CoffeeScript&lt;/a&gt; and based on the &lt;a href=&#34;http://backbonejs.org/&#34;&gt;BackboneJS&lt;/a&gt; framework. It communicates with
+&lt;a href=&#34;http://bikalims.org&#34;&gt;Bika LIMS&lt;/a&gt; through &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;see-it-in-action&#34;&gt;See it in Action&lt;/h1&gt;
+
+&lt;div class=&#34;embed video-player&#34;&gt;
+  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/7DfgynazuXs&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>MBA Master Thesis: Impact of Netiquette on Email Communication</title>
       <link>http://ridingbytes.com/de/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
       <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
@@ -1018,22 +1041,6 @@ RIDING BYTES ausdrücklich untersagt.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>RIDING BYTES</title>
-      <link>http://ridingbytes.com/de/contact/contact/</link>
-      <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
-      
-      <guid>http://ridingbytes.com/de/contact/contact/</guid>
-      <description>&lt;p&gt;RIDING BYTES UG (haftungsbeschränkt)&lt;/p&gt;
-
-&lt;p&gt;Einöde 49A, 87474 Buchenberg, Germany&lt;/p&gt;
-
-&lt;p&gt;Mail: &lt;a href=&#34;mailto:hello@ridingbytes.com&#34;&gt;hello@ridingbytes.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Web: &lt;a href=&#34;http://ridingbytes.com&#34;&gt;http://ridingbytes.com&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

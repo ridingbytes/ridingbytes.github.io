@@ -6,8 +6,31 @@
     <description>Recent content in Portfolios on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ridingbytes.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bika Spotlight Search</title>
+      <link>http://ridingbytes.com/portfolio/bika-spotlight-search/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ridingbytes.com/portfolio/bika-spotlight-search/</guid>
+      <description>
+
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AIA5atToc-c&#34;&gt;Bika Spotlight Search&lt;/a&gt; is a modern JavaScript application written with
+&lt;a href=&#34;http://coffeescript.org&#34;&gt;CoffeeScript&lt;/a&gt; and based on the &lt;a href=&#34;http://backbonejs.org/&#34;&gt;BackboneJS&lt;/a&gt; framework. It communicates with
+&lt;a href=&#34;http://bikalims.org&#34;&gt;Bika LIMS&lt;/a&gt; through &lt;a href=&#34;https://github.com/collective/plone.jsonapi.routes&#34;&gt;plone.jsonapi.routes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;see-it-in-action&#34;&gt;See it in Action&lt;/h1&gt;
+
+&lt;div class=&#34;embed video-player&#34;&gt;
+  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/7DfgynazuXs&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Bika Commander</title>

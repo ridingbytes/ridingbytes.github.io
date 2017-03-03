@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>http://ridingbytes.com/de/portfolio/bika-spotlight-search/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/de/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</loc>
     <lastmod>2017-01-29T10:08:05+01:00</lastmod>
   </url>
@@ -114,8 +119,14 @@
   </url>
   
   <url>
+    <loc>http://ridingbytes.com/de/tags/backbonejs/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/de/tags/bika/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -155,20 +166,20 @@
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/de/categories/extjs/</loc>
-    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://ridingbytes.com/de/tags/extjs/</loc>
     <lastmod>2017-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://ridingbytes.com/de/categories/extjs/</loc>
+    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/de/tags/lims/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -185,26 +196,20 @@
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/de/categories/odoo/</loc>
-    <lastmod>2016-03-06T23:44:26+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://ridingbytes.com/de/tags/odoo/</loc>
     <lastmod>2016-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/de/tags/open-source/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <loc>http://ridingbytes.com/de/categories/odoo/</loc>
+    <lastmod>2016-03-06T23:44:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/de/categories/plone/</loc>
-    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <loc>http://ridingbytes.com/de/tags/open-source/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -215,8 +220,14 @@
   </url>
   
   <url>
+    <loc>http://ridingbytes.com/de/categories/plone/</loc>
+    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/de/portfolio/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
