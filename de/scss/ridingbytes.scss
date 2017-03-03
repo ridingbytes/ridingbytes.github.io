@@ -39,6 +39,9 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
   h6 {font-family: $font-accident-one-light; font-size: 14px;}
 }
 
+/* font-awesome icons */
+i, i.fa { color: $rb-cyan; }
+
 /*------------------------------------------------------------------
 [3. Sections]
 */
@@ -366,8 +369,6 @@ $rb-orange: #ff8033; /* Sekundärfarbe: Orange */
 /*------------------------------------------------------------------
 [7. Global]
 */
-
-i, i.fa { color: $rb-cyan; }
 
 /* Top Bar */
 #sub-top-dark, #sub-top-light {
