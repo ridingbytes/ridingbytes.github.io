@@ -4219,7 +4219,7 @@ a.gm-toggle-link {
 1. Color Sheme / Colors, textures
 2. Basic Styles
 3. Sections (Like Blog, Services, Portfolio, Contact, ...)
-4. Pages/Listings
+4. Templates
 5. Media Query
 6. Homepage
 7. Global
@@ -4404,11 +4404,18 @@ i, i.fa {
 }
 .section-404::before {
   top: 0;
+  height: 700px;
+  background-position: center center;
 }
 
 /*------------------------------------------------------------------
-[4. Pages/Listings]
+[4. Templates]
 */
+/* 404 view */
+.template-fourohfour {
+  background-color: #2b2b2b;
+}
+
 /* default single view */
 .template-default-page-single {
   /* Default Page Style with a tiny RB Logo in the header */
