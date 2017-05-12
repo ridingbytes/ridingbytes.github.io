@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Howto on RIDING BYTES</title>
-    <link>http://ridingbytes.com/de/categories/howto/index.xml</link>
+    <link>http://ridingbytes.com/de/categories/howto/</link>
     <description>Recent content in Howto on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="http://ridingbytes.com/de/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2017 11:24:31 +0100</lastBuildDate>
+    
+	<atom:link href="http://ridingbytes.com/de/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to configure OpenLDAP to be usable for OwnCloud</title>
@@ -14,166 +17,8 @@
       <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
       
       <guid>http://ridingbytes.com/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</guid>
-      <description>
-
-&lt;h1 id=&#34;owncloud-and-openldap&#34;&gt;OwnCloud and OpenLDAP&lt;/h1&gt;
-
-&lt;p&gt;We recently integrated &lt;a href=&#34;https://owncloud.org/nine&#34; title=&#34;OwnCloud nine&#34;&gt;OwnCloud 9&lt;/a&gt; in our IT infrastructure and wanted to
-hook it up with our &lt;a href=&#34;http://www.openldap.org&#34; title=&#34;OpenLDAP&#34;&gt;OpenLDAP&lt;/a&gt; server, which is running on a &lt;a href=&#34;http://releases.ubuntu.com/16.04/&#34; title=&#34;Ubuntu 16.04&#34;&gt;Ubuntu 16.04 LTS&lt;/a&gt;
-&lt;em&gt;Xenial Xerus&lt;/em&gt; Server.&lt;/p&gt;
-
-&lt;p&gt;After installing the required &lt;a href=&#34;https://doc.owncloud.org/server/9.0/admin_manual/configuration_user/user_auth_ldap.html&#34; title=&#34;OwnCloud LDAP Manual&#34;&gt;LDAP user and group&lt;/a&gt; App in OwnCloud,
-we could hook our LDAP server into OwnCloud. However, the Group selection to
-narrow down the users who are allowed to log into OwnCloud was disabled, since
-the &lt;code&gt;memberOf&lt;/code&gt; &lt;a href=&#34;http://www.openldap.org/doc/admin24/overlays.html&#34; title=&#34;OpenLDAP overlays&#34;&gt;LDAP Overlay&lt;/a&gt; was not yet supported by our companys LDAP.&lt;/p&gt;
-
-&lt;p&gt;The goal was to put all users into a group called &lt;code&gt;onwCloud&lt;/code&gt; which should be
-able to log into OwnCloud as seen in this screenshot:&lt;/p&gt;
-
-
-&lt;figure class=&#34;image-left&#34;&gt;
-    
-        &lt;img src=&#34;http://ridingbytes.com/de/media/blog/owncloud-ldap-configuration.png&#34; class=&#34;img-responsive&#34;  /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-
-&lt;h1 id=&#34;adding-the-memberof-overlay&#34;&gt;Adding the memberOf Overlay&lt;/h1&gt;
-
-&lt;p&gt;We are using &lt;code&gt;OpenLDAP 2.4.4&lt;/code&gt; with a &lt;a href=&#34;http://www.openldap.org/doc/admin24/backends.html&#34; title=&#34;OpenLDAP Backends&#34;&gt;LMDB Backend&lt;/a&gt;, so the following &lt;code&gt;ldif&lt;/code&gt;
-configurations make use of the new configuration and this backend.&lt;/p&gt;
-
-&lt;p&gt;First we created the files &lt;code&gt;/etc/ldap/memberof.ldif&lt;/code&gt; and &lt;code&gt;/etc/ldap/refint.ldif&lt;/code&gt;
-on our LDAP Server with the following contents.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;memberof.ldif&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;  &lt;span style=&#34;color: #a6e22e&#34;&gt;dn&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;cn=module,cn=config&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;cn&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;module&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcModuleList&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectclass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;top&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcModuleLoad&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;memberof.la&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcModulePath&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;/usr/lib/ldap&lt;/span&gt;
-
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;dn&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcOverlay={0}memberof,olcDatabase={1}mdb,cn=config&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcConfig&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcMemberOf&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcOverlayConfig&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;top&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcOverlay&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;memberof&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcMemberOfDangling&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;ignore&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcMemberOfRefInt&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;TRUE&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcMemberOfGroupOC&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;groupOfNames&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcMemberOfMemberAD&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;member&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcMemberOfMemberOfAD&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;memberOf&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;code&gt;refint.ldif&lt;/code&gt;:
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;  &lt;span style=&#34;color: #a6e22e&#34;&gt;dn&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;cn=module,cn=config&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;cn&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;module&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectclass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcModuleList&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectclass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;top&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcmoduleload&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;refint.la&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcmodulepath&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;/usr/lib/ldap&lt;/span&gt;
-
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;dn&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcOverlay={1}refint,olcDatabase={1}mdb,cn=config&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcConfig&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcOverlayConfig&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;olcRefintConfig&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;objectClass&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;top&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcOverlay&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;{1}refint&lt;/span&gt;
-  &lt;span style=&#34;color: #a6e22e&#34;&gt;olcRefintAttribute&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;memberof member manager owner&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;div class=&#34;container rb-divider&#34;&gt;
-  &lt;div class=&#34;row&#34;&gt;
-    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
-    &lt;/div&gt;
-    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Then we added the configurations to our OpenLDAP with the &lt;a href=&#34;http://www.openldap.org/software//man.cgi?query=ldapmodify&amp;amp;sektion=1&amp;amp;apropos=0&amp;amp;manpath=OpenLDAP+2.4-Release&#34; title=&#34;ldapmodify, ldapadd&#34;&gt;ldapadd&lt;/a&gt; command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ldapadd -Q -Y EXTERNAL -H ldapi:/// -f memberof.ldif
-ldapadd -Q -Y EXTERNAL -H ldapi:/// -f refint.ldif
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In the next step we added a &lt;code&gt;groupOfNames&lt;/code&gt; object &lt;code&gt;cn=ownCloud&lt;/code&gt; to our LDAP:&lt;/p&gt;
-
-
-&lt;figure class=&#34;image-left&#34;&gt;
-    
-        &lt;img src=&#34;http://ridingbytes.com/de/media/blog/openldap-groupOfNames.png&#34; class=&#34;img-responsive&#34;  /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-
-&lt;p&gt;And added a &lt;em&gt;Test User&lt;/em&gt; &lt;code&gt;uid=testuser&lt;/code&gt; as a &lt;code&gt;member&lt;/code&gt; to this group:&lt;/p&gt;
-
-
-&lt;figure class=&#34;image-left&#34;&gt;
-    
-        &lt;img src=&#34;http://ridingbytes.com/de/media/blog/openldap-member.png&#34; class=&#34;img-responsive&#34;  /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-
-&lt;div class=&#34;container rb-divider&#34;&gt;
-  &lt;div class=&#34;row&#34;&gt;
-    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
-    &lt;/div&gt;
-    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Finally we tested the group ownership:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;root@ridingbytes:~# ldapsearch -LL -Y EXTERNAL -H ldapi:/// &amp;quot;(uid=testuser)&amp;quot; -b dc=ridingbytes,dc=com memberOf
-SASL/EXTERNAL authentication started
-SASL username: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-SASL SSF: 0
-version: 1
-
-dn: cn=Test User,ou=users,dc=ridingbytes,dc=com
-memberOf: cn=ownCloud,ou=groups,dc=ridingbytes,dc=com
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;OpenLDAP plays now nicely with OwnCloud and the Group Selection is fully
-functioning. Only members of the &lt;code&gt;ownCloud&lt;/code&gt; group are allowed to log into
-OwnCloud.&lt;/p&gt;
-
-&lt;p&gt;Another great example how Open Source Software provides enterprise functionality
-without any license costs or vendor lock-ins. Thanks to the developers and the
-Open Source Community for this brilliant pieces of Software.&lt;/p&gt;
-
-&lt;div class=&#34;container rb-divider&#34;&gt;
-  &lt;div class=&#34;row&#34;&gt;
-    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;e-block-centered&#34;&gt;
-      &amp;mdash; &lt;img src=&#34;http://ridingbytes.com/de/img/rb_logo_32x32.png&#34; /&gt; &amp;mdash;
-    &lt;/div&gt;
-    &lt;div class=&#34;dividewhite2&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+      <description>OwnCloud and OpenLDAP We recently integrated OwnCloud 9 in our IT infrastructure and wanted to hook it up with our OpenLDAP server, which is running on a Ubuntu 16.04 LTS Xenial Xerus Server.
+After installing the required LDAP user and group App in OwnCloud, we could hook our LDAP server into OwnCloud. However, the Group selection to narrow down the users who are allowed to log into OwnCloud was disabled, since the memberOf LDAP Overlay was not yet supported by our companys LDAP.</description>
     </item>
     
   </channel>
