@@ -114,7 +114,7 @@ I created this small Bookmarklet, which toggles the developer mode by a single c
       <guid>http://ridingbytes.com/de/2016/01/04/odoo-dynamic-image-resizing/</guid>
       <description>Odoo: Scale images on the fly Odoo uses Python Imaging Library (PIL) to support image resizing on the fly. This functionality ships with the image.py module, which is located in openerp.tools.image.
 Problem I implemented a custom model which defined a binary field called image:
-class MyModel(models.Model): _name = &#39;my.model&#39; image = fields.Binary(&#39;Image&#39;, required=True) image_filename = fields.Char(&#34;Image Filename&#34;) I wanted to use this model within in a website view, but struggled with finding a suitable image source URL for the image field.</description>
+class MyModel(models.Model): _name = &amp;#39;my.model&amp;#39; image = fields.Binary(&amp;#39;Image&amp;#39;, required=True) image_filename = fields.Char(&amp;quot;Image Filename&amp;quot;)  I wanted to use this model within in a website view, but struggled with finding a suitable image source URL for the image field.</description>
     </item>
     
     <item>
