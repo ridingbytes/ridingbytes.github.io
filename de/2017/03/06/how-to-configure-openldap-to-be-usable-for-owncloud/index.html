@@ -246,43 +246,43 @@ on our LDAP Server with the following contents.</p>
 
 <p><code>memberof.ldif</code>:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span>  <span style="color: #a6e22e">dn</span><span style="color: #f92672">:</span> <span style="color: #e6db74">cn=module,cn=config</span>
-  <span style="color: #a6e22e">cn</span><span style="color: #f92672">:</span> <span style="color: #e6db74">module</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcModuleList</span>
-  <span style="color: #a6e22e">objectclass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">top</span>
-  <span style="color: #a6e22e">olcModuleLoad</span><span style="color: #f92672">:</span> <span style="color: #e6db74">memberof.la</span>
-  <span style="color: #a6e22e">olcModulePath</span><span style="color: #f92672">:</span> <span style="color: #e6db74">/usr/lib/ldap</span>
 
-  <span style="color: #a6e22e">dn</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcOverlay={0}memberof,olcDatabase={1}mdb,cn=config</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcConfig</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcMemberOf</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcOverlayConfig</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">top</span>
-  <span style="color: #a6e22e">olcOverlay</span><span style="color: #f92672">:</span> <span style="color: #e6db74">memberof</span>
-  <span style="color: #a6e22e">olcMemberOfDangling</span><span style="color: #f92672">:</span> <span style="color: #e6db74">ignore</span>
-  <span style="color: #a6e22e">olcMemberOfRefInt</span><span style="color: #f92672">:</span> <span style="color: #e6db74">TRUE</span>
-  <span style="color: #a6e22e">olcMemberOfGroupOC</span><span style="color: #f92672">:</span> <span style="color: #e6db74">groupOfNames</span>
-  <span style="color: #a6e22e">olcMemberOfMemberAD</span><span style="color: #f92672">:</span> <span style="color: #e6db74">member</span>
-  <span style="color: #a6e22e">olcMemberOfMemberOfAD</span><span style="color: #f92672">:</span> <span style="color: #e6db74">memberOf</span>
-</pre></div>
+  dn: cn=module,cn=config
+  cn: module
+  objectClass: olcModuleList
+  objectclass: top
+  olcModuleLoad: memberof.la
+  olcModulePath: /usr/lib/ldap
+
+  dn: olcOverlay={0}memberof,olcDatabase={1}mdb,cn=config
+  objectClass: olcConfig
+  objectClass: olcMemberOf
+  objectClass: olcOverlayConfig
+  objectClass: top
+  olcOverlay: memberof
+  olcMemberOfDangling: ignore
+  olcMemberOfRefInt: TRUE
+  olcMemberOfGroupOC: groupOfNames
+  olcMemberOfMemberAD: member
+  olcMemberOfMemberOfAD: memberOf
 
 
 <p><code>refint.ldif</code>:
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span>  <span style="color: #a6e22e">dn</span><span style="color: #f92672">:</span> <span style="color: #e6db74">cn=module,cn=config</span>
-  <span style="color: #a6e22e">cn</span><span style="color: #f92672">:</span> <span style="color: #e6db74">module</span>
-  <span style="color: #a6e22e">objectclass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcModuleList</span>
-  <span style="color: #a6e22e">objectclass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">top</span>
-  <span style="color: #a6e22e">olcmoduleload</span><span style="color: #f92672">:</span> <span style="color: #e6db74">refint.la</span>
-  <span style="color: #a6e22e">olcmodulepath</span><span style="color: #f92672">:</span> <span style="color: #e6db74">/usr/lib/ldap</span>
 
-  <span style="color: #a6e22e">dn</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcOverlay={1}refint,olcDatabase={1}mdb,cn=config</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcConfig</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcOverlayConfig</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">olcRefintConfig</span>
-  <span style="color: #a6e22e">objectClass</span><span style="color: #f92672">:</span> <span style="color: #e6db74">top</span>
-  <span style="color: #a6e22e">olcOverlay</span><span style="color: #f92672">:</span> <span style="color: #e6db74">{1}refint</span>
-  <span style="color: #a6e22e">olcRefintAttribute</span><span style="color: #f92672">:</span> <span style="color: #e6db74">memberof member manager owner</span>
-</pre></div>
+  dn: cn=module,cn=config
+  cn: module
+  objectclass: olcModuleList
+  objectclass: top
+  olcmoduleload: refint.la
+  olcmodulepath: /usr/lib/ldap
+
+  dn: olcOverlay={1}refint,olcDatabase={1}mdb,cn=config
+  objectClass: olcConfig
+  objectClass: olcOverlayConfig
+  objectClass: olcRefintConfig
+  objectClass: top
+  olcOverlay: {1}refint
+  olcRefintAttribute: memberof member manager owner
 </p>
 
 <div class="container rb-divider">
@@ -606,7 +606,7 @@ Open Source Community for this brilliant pieces of Software.</p>
   <div class="container">
     <div class="copyright">
       <div class="copy-attrs">
-        &copy; 2015 - 2017
+        &copy; 2015 - 
         <a href="/" target="_blank">RIDING BYTES</a>. Alle Rechte vorbehalten
       </div>
 

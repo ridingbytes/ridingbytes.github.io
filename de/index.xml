@@ -6,10 +6,23 @@
     <description>Recent content on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Mon, 06 Mar 2017 11:24:31 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jun 2017 17:00:00 +0200</lastBuildDate>
     
 	<atom:link href="http://ridingbytes.com/de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coding Know-how kehrt in die Metropolregion Nürnberg ein</title>
+      <link>http://ridingbytes.com/de/2017/06/20/coding-know-how-kehrt-in-die-metropolregion-nu%CC%88rnberg-ein/</link>
+      <pubDate>Tue, 20 Jun 2017 17:00:00 +0200</pubDate>
+      
+      <guid>http://ridingbytes.com/de/2017/06/20/coding-know-how-kehrt-in-die-metropolregion-nu%CC%88rnberg-ein/</guid>
+      <description>Neu in der Stadt Offenheit in den Köpfen und Nachhaltigkeit in der Umsetzung kennzeichnen unsere Projekte.
+Im Mai 2017 verlegt die Riding Bytes seinen Firmensitz nach Fürth.
+Moderne Komplettlösungen im Laborbereich werden nun von der Kleeblattstadt aus, für nationale und internationale Kunden ausgebaut.
+Ein individuelles Funktionsspektrum, basierend auf Open Source Lösungen spricht die Sprache der Zukunft.
+Das Bika Open Source LIMS Projekt ist als Marktführer im Laborbereich, das Fundament, das den komplexen Besonderheiten des jeweiligen Labors angepasst werden kann.</description>
+    </item>
     
     <item>
       <title>How to configure OpenLDAP to be usable for OwnCloud</title>
@@ -101,7 +114,7 @@ I created this small Bookmarklet, which toggles the developer mode by a single c
       <guid>http://ridingbytes.com/de/2016/01/04/odoo-dynamic-image-resizing/</guid>
       <description>Odoo: Scale images on the fly Odoo uses Python Imaging Library (PIL) to support image resizing on the fly. This functionality ships with the image.py module, which is located in openerp.tools.image.
 Problem I implemented a custom model which defined a binary field called image:
-class MyModel(models.Model): _name = &amp;#39;my.model&amp;#39; image = fields.Binary(&amp;#39;Image&amp;#39;, required=True) image_filename = fields.Char(&amp;quot;Image Filename&amp;quot;)  I wanted to use this model within in a website view, but struggled with finding a suitable image source URL for the image field.</description>
+class MyModel(models.Model): _name = &#39;my.model&#39; image = fields.Binary(&#39;Image&#39;, required=True) image_filename = fields.Char(&#34;Image Filename&#34;) I wanted to use this model within in a website view, but struggled with finding a suitable image source URL for the image field.</description>
     </item>
     
     <item>
