@@ -35,10 +35,10 @@ class MyModel(models.Model): _name = &amp;#39;my.model&amp;#39; image = fields.B
     
     <item>
       <title>Odoo: Remember the filename of binary files</title>
-      <link>http://ridingbytes.com/2016/01/02/odoo-filename-handling/</link>
+      <link>http://ridingbytes.com/2016/01/02/odoo-remember-the-filename-of-binary-files/</link>
       <pubDate>Sat, 02 Jan 2016 19:26:32 +0100</pubDate>
       
-      <guid>http://ridingbytes.com/2016/01/02/odoo-filename-handling/</guid>
+      <guid>http://ridingbytes.com/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
       <description>&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
 
 &lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;

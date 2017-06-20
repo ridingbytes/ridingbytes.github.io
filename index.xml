@@ -13,10 +13,10 @@
     
     <item>
       <title>Coding Know-how kehrt in die Metropolregion Nürnberg ein</title>
-      <link>http://ridingbytes.com/2017/06/20/ridingbytes-umgezogen/</link>
+      <link>http://ridingbytes.com/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</link>
       <pubDate>Tue, 20 Jun 2017 17:00:00 +0200</pubDate>
       
-      <guid>http://ridingbytes.com/2017/06/20/ridingbytes-umgezogen/</guid>
+      <guid>http://ridingbytes.com/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</guid>
       <description>Neu in der Stadt Offenheit in den Köpfen und Nachhaltigkeit in der Umsetzung kennzeichnen unsere Projekte. Im Mai 2017 verlegt die Riding Bytes seinen Firmensitz nach Fürth.
 Moderne Komplettlösungen im Laborbereich werden nun von der Kleeblattstadt aus, für nationale und internationale Kunden ausgebaut. Ein individuelles Funktionsspektrum, basierend auf Open Source Lösungen spricht die Sprache der Zukunft.
 Das Bika Open Source LIMS Projekt ist als Marktführer im Laborbereich, das Fundament, das den komplexen Besonderheiten des jeweiligen Labors angepasst werden kann.</description>
@@ -24,10 +24,10 @@ Das Bika Open Source LIMS Projekt ist als Marktführer im Laborbereich, das Fun
     
     <item>
       <title>How to configure OpenLDAP to be usable for OwnCloud</title>
-      <link>http://ridingbytes.com/2017/03/06/configure-openldap-for-owncloud/</link>
+      <link>http://ridingbytes.com/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</link>
       <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
       
-      <guid>http://ridingbytes.com/2017/03/06/configure-openldap-for-owncloud/</guid>
+      <guid>http://ridingbytes.com/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</guid>
       <description>OwnCloud and OpenLDAP We recently integrated OwnCloud 9 in our IT infrastructure and wanted to hook it up with our OpenLDAP server, which is running on a Ubuntu 16.04 LTS Xenial Xerus Server.
 After installing the required LDAP user and group App in OwnCloud, we could hook our LDAP server into OwnCloud. However, the Group selection to narrow down the users who are allowed to log into OwnCloud was disabled, since the memberOf LDAP Overlay was not yet supported by our companys LDAP.</description>
     </item>
@@ -55,10 +55,10 @@ See it in Action   </description>
     
     <item>
       <title>MBA Master Thesis: Impact of Netiquette on Email Communication</title>
-      <link>http://ridingbytes.com/2017/01/29/master-thesis/</link>
+      <link>http://ridingbytes.com/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
       <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
       
-      <guid>http://ridingbytes.com/2017/01/29/master-thesis/</guid>
+      <guid>http://ridingbytes.com/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</guid>
       <description>Impact of Netiquette on Email Communication Emails are likely to get evaluated more negative than maybe intended of the sender. Therefore, we should consider carefully what and how we write Emails, because every human has a need for self-esteem, respect and courtesy when communicating with others.
 I investigated in my Master Thesis the impact of Netiquette on Email communication and found out, that writing in a respectful and courteous way has significant positive effects on the recipient.</description>
     </item>
@@ -117,10 +117,10 @@ class MyModel(models.Model): _name = &amp;#39;my.model&amp;#39; image = fields.B
     
     <item>
       <title>Odoo: Remember the filename of binary files</title>
-      <link>http://ridingbytes.com/2016/01/02/odoo-filename-handling/</link>
+      <link>http://ridingbytes.com/2016/01/02/odoo-remember-the-filename-of-binary-files/</link>
       <pubDate>Sat, 02 Jan 2016 19:26:32 +0100</pubDate>
       
-      <guid>http://ridingbytes.com/2016/01/02/odoo-filename-handling/</guid>
+      <guid>http://ridingbytes.com/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
       <description>&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
 
 &lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
@@ -144,10 +144,10 @@ resulted in an unknown binary file download with the name of the current model.&
     
     <item>
       <title>RIDING BYTES-Bika Labs-Partnership</title>
-      <link>http://ridingbytes.com/2015/12/17/bika-partnership/</link>
+      <link>http://ridingbytes.com/2015/12/17/riding-bytes-bika-labs-partnership/</link>
       <pubDate>Thu, 17 Dec 2015 21:53:09 +0100</pubDate>
       
-      <guid>http://ridingbytes.com/2015/12/17/bika-partnership/</guid>
+      <guid>http://ridingbytes.com/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
       <description>&lt;h1 id=&#34;riding-bytes-bika-labs-partnership&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
 
 &lt;!-- &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;More than just a Company – A strong Network of Partners.&lt;br&gt;RIDING BYTES is now official Partner of Bika Lab Systems &lt;a href=&#34;https://t.co/07B6ap3DMO&#34;&gt;https://t.co/07B6ap3DMO&lt;/a&gt;&lt;/p&gt;&amp;mdash; RIDING BYTES (@ridingbytes) &lt;a href=&#34;https://twitter.com/ridingbytes/status/677201899674800129&#34;&gt;December 16, 2015&lt;/a&gt;&lt;/blockquote&gt;
