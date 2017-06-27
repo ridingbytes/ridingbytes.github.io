@@ -282,12 +282,12 @@ This functionality ships with the <code>image.py</code> module, which is located
 
 <p>I implemented a custom model which defined a binary field called <code>image</code>:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
-    <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
-    <span style="color: #f8f8f2">image</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Binary(</span><span style="color: #e6db74">&#39;Image&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">True)</span>
-    <span style="color: #f8f8f2">image_filename</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Char(</span><span style="color: #e6db74">&quot;Image Filename&quot;</span><span style="color: #f8f8f2">)</span>
-</pre></div>
+class MyModel(models.Model):
+    _name = 'my.model'
+
+    image = fields.Binary('Image', required=True)
+    image_filename = fields.Char("Image Filename")
 
 
 <p>I wanted to use this model within in a website view, but struggled with finding
@@ -297,8 +297,8 @@ possible to access the <code>base64</code> encoded image data.</p>
 <p>Thus, I ended up using the inline data option within the <code>src</code> attribute of the
 image tag:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">img</span> <span style="color: #a6e22e">t-attf-src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;data:image/jpg;base64,{{ my.model.image }}&quot;</span> <span style="color: #f8f8f2">/&gt;</span>
-</pre></div>
+
+<img t-attf-src="data:image/jpg;base64,{{ my.model.image }}" />
 
 
 <p>This actually worked quite well, but using the raw <code>base64</code> data within the
@@ -311,34 +311,34 @@ was not suitable for me.</p>
 fields of any model through an URL. This controller is located in
 <code>odoo/addons/website/controllers/main.py</code> and offers this route:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #a6e22e">@http.route</span><span style="color: #f8f8f2">([</span>
-    <span style="color: #e6db74">&#39;/website/image&#39;</span><span style="color: #f8f8f2">,</span>
-    <span style="color: #e6db74">&#39;/website/image/&lt;model&gt;/&lt;id&gt;/&lt;field&gt;&#39;</span><span style="color: #f8f8f2">,</span>
-    <span style="color: #e6db74">&#39;/website/image/&lt;model&gt;/&lt;id&gt;/&lt;field&gt;/&lt;int:max_width&gt;x&lt;int:max_height&gt;&#39;</span>
-    <span style="color: #f8f8f2">],</span> <span style="color: #f8f8f2">auth</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;public&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">website</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">True,</span> <span style="color: #f8f8f2">multilang</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">False)</span>
-<span style="color: #66d9ef">def</span> <span style="color: #a6e22e">website_image</span><span style="color: #f8f8f2">(self,</span> <span style="color: #f8f8f2">model,</span> <span style="color: #f8f8f2">id,</span> <span style="color: #f8f8f2">field,</span> <span style="color: #f8f8f2">max_width</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">None,</span> <span style="color: #f8f8f2">max_height</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">None):</span>
-    <span style="color: #e6db74">&quot;&quot;&quot; Fetches the requested field and ensures it does not go above</span>
-<span style="color: #e6db74">    (max_width, max_height), resizing it if necessary.</span>
 
-<span style="color: #e6db74">    If the record is not found or does not have the requested field,</span>
-<span style="color: #e6db74">    returns a placeholder image via :meth:`~.placeholder`.</span>
+@http.route([
+    '/website/image',
+    '/website/image/<model>/<id>/<field>',
+    '/website/image/<model>/<id>/<field>/<int:max_width>x<int:max_height>'
+    ], auth="public", website=True, multilang=False)
+def website_image(self, model, id, field, max_width=None, max_height=None):
+    """ Fetches the requested field and ensures it does not go above
+    (max_width, max_height), resizing it if necessary.
 
-<span style="color: #e6db74">    Sets and checks conditional response parameters:</span>
-<span style="color: #e6db74">    * :mailheader:`ETag` is always set (and checked)</span>
-<span style="color: #e6db74">    * :mailheader:`Last-Modified is set iif the record has a concurrency</span>
-<span style="color: #e6db74">      field (``__last_update``)</span>
+    If the record is not found or does not have the requested field,
+    returns a placeholder image via :meth:`~.placeholder`.
 
-<span style="color: #e6db74">    The requested field is assumed to be base64-encoded image data in</span>
-<span style="color: #e6db74">    all cases.</span>
-<span style="color: #e6db74">    &quot;&quot;&quot;</span>
-</pre></div>
+    Sets and checks conditional response parameters:
+    * :mailheader:`ETag` is always set (and checked)
+    * :mailheader:`Last-Modified is set iif the record has a concurrency
+      field (``__last_update``)
+
+    The requested field is assumed to be base64-encoded image data in
+    all cases.
+    """
 
 
 <p>With this route, I could change my inline rendered image to use this URL and do
 the resizing as well:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">img</span> <span style="color: #a6e22e">t-attf-src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;/website/image/my.model/{{ my.model.id }}/image/128x128&quot;</span> <span style="color: #f8f8f2">/&gt;</span>
-</pre></div>
+
+<img t-attf-src="/website/image/my.model/{{ my.model.id }}/image/128x128" />
 
 
 <h2 id="going-further">Going further</h2>
@@ -348,27 +348,28 @@ about using an attribute on the model to provide the scaled image directly.
 Therefore I changed the code of my model and added the fields <code>image_medium</code>
 and <code>image_small</code>:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
-    <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
-    <span style="color: #f8f8f2">image</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Binary(</span><span style="color: #e6db74">&#39;Image&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">True)</span>
-    <span style="color: #f8f8f2">image_filename</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Char(</span><span style="color: #e6db74">&quot;Image Filename&quot;</span><span style="color: #f8f8f2">)</span>
+class MyModel(models.Model):
+    _name = 'my.model'
 
-    <span style="color: #75715e"># Scaled Images</span>
-    <span style="color: #f8f8f2">image_medium</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Binary(string</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Medium-sized image&quot;</span><span style="color: #f8f8f2">,</span>
-                                 <span style="color: #f8f8f2">store</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">False,</span>
-                                 <span style="color: #f8f8f2">compute</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;_get_image&quot;</span><span style="color: #f8f8f2">,</span>
-                                 <span style="color: #f8f8f2">help</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Medium-sized image of this model. It is automatically &quot;</span> \
-                                      <span style="color: #e6db74">&quot;resized as a 128x128px image, with aspect ratio preserved. &quot;</span> \
-                                      <span style="color: #e6db74">&quot;Use this field in form views or some kanban views.&quot;</span><span style="color: #f8f8f2">)</span>
+    image = fields.Binary('Image', required=True)
+    image_filename = fields.Char("Image Filename")
 
-    <span style="color: #f8f8f2">image_small</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Binary(string</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Small-sized image&quot;</span><span style="color: #f8f8f2">,</span>
-                                <span style="color: #f8f8f2">store</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">False,</span>
-                                <span style="color: #f8f8f2">compute</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;_get_image&quot;</span><span style="color: #f8f8f2">,</span>
-                                <span style="color: #f8f8f2">help</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Small sized image of this model. It is automatically &quot;</span> \
-                                     <span style="color: #e6db74">&quot;resized as a 64x64px image, with aspect ratio preserved. &quot;</span> \
-                                     <span style="color: #e6db74">&quot;Use this field in form views or some kanban views.&quot;</span><span style="color: #f8f8f2">)</span>
-</pre></div>
+    # Scaled Images
+    image_medium = fields.Binary(string="Medium-sized image",
+                                 store=False,
+                                 compute="_get_image",
+                                 help="Medium-sized image of this model. It is automatically " \
+                                      "resized as a 128x128px image, with aspect ratio preserved. " \
+                                      "Use this field in form views or some kanban views.")
+
+    image_small = fields.Binary(string="Small-sized image",
+                                store=False,
+                                compute="_get_image",
+                                help="Small sized image of this model. It is automatically " \
+                                     "resized as a 64x64px image, with aspect ratio preserved. " \
+                                     "Use this field in form views or some kanban views.")
+
 
 
 
@@ -387,24 +388,25 @@ unnecessary data growth. Therefore I used a computed field
 
 <p>My first shot of the <code>_get_image</code> method looked like this:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
-    <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
-    <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
+class MyModel(models.Model):
+    _name = 'my.model'
 
-    <span style="color: #a6e22e">@api.one</span>
-    <span style="color: #a6e22e">@api.depends</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;image&quot;</span><span style="color: #f8f8f2">)</span>
-    <span style="color: #66d9ef">def</span> <span style="color: #a6e22e">_get_image</span><span style="color: #f8f8f2">(self):</span>
-        <span style="color: #e6db74">&quot;&quot;&quot; calculate the images sizes and set the images to the corresponding</span>
-<span style="color: #e6db74">            fields</span>
-<span style="color: #e6db74">        &quot;&quot;&quot;</span>
-        <span style="color: #f8f8f2">image</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image</span>
+    [...]
 
-        <span style="color: #f8f8f2">data</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">tools</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image_get_resized_images(image)</span>
-        <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image_medium</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">data[</span><span style="color: #e6db74">&quot;image_medium&quot;</span><span style="color: #f8f8f2">]</span>
-        <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image_small</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">data[</span><span style="color: #e6db74">&quot;image_small&quot;</span><span style="color: #f8f8f2">]</span>
-        <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">True</span>
-</pre></div>
+    @api.one
+    @api.depends("image")
+    def _get_image(self):
+        """ calculate the images sizes and set the images to the corresponding
+            fields
+        """
+        image = self.image
+
+        data = tools.image_get_resized_images(image)
+        self.image_medium = data["image_medium"]
+        self.image_small = data["image_small"]
+        return True
+
 
 
 <p>I was unlucky again, since this code worked exactly once, and that was when the
@@ -415,28 +417,28 @@ with the name <code>bin_size</code> and the value <code>True</code> was set, whi
 image field to return only the image size instead of the full <code>base64</code> encoded
 image. The complete <code>context</code> I inspected within this method looked like this:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f8f8f2">ipdb</span><span style="color: #f92672">&gt;</span> <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">env</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">context</span>
-<span style="color: #f8f8f2">{</span><span style="color: #e6db74">&#39;lang&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #e6db74">&#39;en_US&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;bin_size&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #f8f8f2">True,</span> <span style="color: #e6db74">&#39;tz&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #e6db74">&#39;Europe/Berlin&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;uid&#39;</span><span style="color: #f8f8f2">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">}</span>
-</pre></div>
+
+ipdb> self.env.context
+{'lang': 'en_US', 'bin_size': True, 'tz': 'Europe/Berlin', 'uid': 1}
 
 
 <p>I found the corresponding field definition for the binary field in <code>openerp.osv.fields</code>:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">binary</span><span style="color: #f8f8f2">(_column):</span>
-    <span style="color: #f8f8f2">_type</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;binary&#39;</span>
-    <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
-    <span style="color: #66d9ef">def</span> <span style="color: #a6e22e">get</span><span style="color: #f8f8f2">(self,</span> <span style="color: #f8f8f2">cr,</span> <span style="color: #f8f8f2">obj,</span> <span style="color: #f8f8f2">ids,</span> <span style="color: #f8f8f2">name,</span> <span style="color: #f8f8f2">user</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">None,</span> <span style="color: #f8f8f2">context</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">None,</span> <span style="color: #f8f8f2">values</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">None):</span>
-        <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
 
-        <span style="color: #75715e"># If client is requesting only the size of the field, we return it instead</span>
-        <span style="color: #75715e"># of the content. Presumably a separate request will be done to read the actual</span>
-        <span style="color: #75715e"># content if it&#39;s needed at some point.</span>
-        <span style="color: #75715e"># TODO: after 6.0 we should consider returning a dict with size and content instead of</span>
-        <span style="color: #75715e">#       having an implicit convention for the value</span>
-        <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">val</span> <span style="color: #f92672">and</span> <span style="color: #f8f8f2">context</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">get(</span><span style="color: #e6db74">&#39;bin_size_%s&#39;</span> <span style="color: #f92672">%</span> <span style="color: #f8f8f2">name,</span> <span style="color: #f8f8f2">context</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">get(</span><span style="color: #e6db74">&#39;bin_size&#39;</span><span style="color: #f8f8f2">)):</span>
-            <span style="color: #f8f8f2">res[i]</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">tools</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">human_size(long(val))</span>
-        <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
-</pre></div>
+class binary(_column):
+    _type = 'binary'
+    [...]
+    def get(self, cr, obj, ids, name, user=None, context=None, values=None):
+        [...]
+
+        # If client is requesting only the size of the field, we return it instead
+        # of the content. Presumably a separate request will be done to read the actual
+        # content if it's needed at some point.
+        # TODO: after 6.0 we should consider returning a dict with size and content instead of
+        #       having an implicit convention for the value
+        if val and context.get('bin_size_%s' % name, context.get('bin_size')):
+            res[i] = tools.human_size(long(val))
+        [...]
 
 
 <p>After some research I figured out that it is possible to overwrite this
@@ -446,36 +448,37 @@ immutable <code>context</code> with the method <code>with_context</code> on the 
 
 <p>So the final version of my <code>_get_image</code> method looked like this:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
-    <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
-    <span style="color: #f8f8f2">[</span><span style="color: #f92672">...</span><span style="color: #f8f8f2">]</span>
+class MyModel(models.Model):
+    _name = 'my.model'
 
-    <span style="color: #a6e22e">@api.one</span>
-    <span style="color: #a6e22e">@api.depends</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;image&quot;</span><span style="color: #f8f8f2">)</span>
-    <span style="color: #66d9ef">def</span> <span style="color: #a6e22e">_get_image</span><span style="color: #f8f8f2">(self):</span>
-        <span style="color: #e6db74">&quot;&quot;&quot; calculate the images sizes and set the images to the corresponding</span>
-<span style="color: #e6db74">            fields</span>
-<span style="color: #e6db74">        &quot;&quot;&quot;</span>
-        <span style="color: #f8f8f2">image</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image</span>
+    [...]
 
-        <span style="color: #75715e"># check if the context contains the magic `bin_size` key</span>
-        <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">env</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">context</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">get(</span><span style="color: #e6db74">&quot;bin_size&quot;</span><span style="color: #f8f8f2">):</span>
-            <span style="color: #75715e"># refetch the image with a clean context</span>
-            <span style="color: #f8f8f2">image</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">env[self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">_name]</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">with_context({})</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">browse(self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">id)</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image</span>
+    @api.one
+    @api.depends("image")
+    def _get_image(self):
+        """ calculate the images sizes and set the images to the corresponding
+            fields
+        """
+        image = self.image
 
-        <span style="color: #f8f8f2">data</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">tools</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image_get_resized_images(image)</span>
-        <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image_medium</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">data[</span><span style="color: #e6db74">&quot;image_medium&quot;</span><span style="color: #f8f8f2">]</span>
-        <span style="color: #f8f8f2">self</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">image_small</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">data[</span><span style="color: #e6db74">&quot;image_small&quot;</span><span style="color: #f8f8f2">]</span>
-        <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">True</span>
-</pre></div>
+        # check if the context contains the magic `bin_size` key
+        if self.env.context.get("bin_size"):
+            # refetch the image with a clean context
+            image = self.env[self._name].with_context({}).browse(self.id).image
+
+        data = tools.image_get_resized_images(image)
+        self.image_medium = data["image_medium"]
+        self.image_small = data["image_small"]
+        return True
+
 
 
 <p>Now it was possible to access the computed fields directly with the URL of the
 <code>website</code> controller:</p>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">img</span> <span style="color: #a6e22e">t-attf-src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;/website/image/my.model/{{ my.model.id }}/image_small&quot;</span> <span style="color: #f8f8f2">/&gt;</span>
-</pre></div>
+
+<img t-attf-src="/website/image/my.model/{{ my.model.id }}/image_small" />
 
 
 <p>Or simply by the URL itself:</p>
@@ -544,35 +547,35 @@ The next step was to tell the image widget to use this field to store the filena
 
 <h3 id="python-code">Python Code</h3>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">MyModel</span><span style="color: #f8f8f2">(models</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Model):</span>
-    <span style="color: #f8f8f2">_name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;my.model&#39;</span>
 
-    <span style="color: #f8f8f2">image</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Binary(</span><span style="color: #e6db74">&#39;Image&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">True)</span>
-    <span style="color: #f8f8f2">image_filename</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">fields</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">Char(</span><span style="color: #e6db74">&quot;Image Filename&quot;</span><span style="color: #f8f8f2">)</span>
-</pre></div>
+class MyModel(models.Model):
+    _name = 'my.model'
+
+    image = fields.Binary('Image', required=True)
+    image_filename = fields.Char("Image Filename")
 
 
 <h3 id="xml-view">XML View</h3>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f92672">&lt;record</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;view_form_my_model&quot;</span> <span style="color: #a6e22e">model=</span><span style="color: #e6db74">&quot;ir.ui.view&quot;</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;name&quot;</span><span style="color: #f92672">&gt;</span>My Model Form<span style="color: #f92672">&lt;/field&gt;</span>
-  <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;model&quot;</span><span style="color: #f92672">&gt;</span>my.model<span style="color: #f92672">&lt;/field&gt;</span>
-  <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;arch&quot;</span> <span style="color: #a6e22e">type=</span><span style="color: #e6db74">&quot;xml&quot;</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;form&gt;</span>
-      <span style="color: #f92672">&lt;sheet&gt;</span>
-        <span style="color: #f92672">&lt;group</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;group_top&quot;</span><span style="color: #f92672">&gt;</span>
-          <span style="color: #f92672">&lt;group</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;group_left&quot;</span><span style="color: #f92672">&gt;</span>
-            <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;image_filename&quot;</span> <span style="color: #a6e22e">invisible=</span><span style="color: #e6db74">&quot;0&quot;</span><span style="color: #f92672">/&gt;</span>
-            <span style="color: #f92672">&lt;field</span> <span style="color: #a6e22e">widget=</span><span style="color: #e6db74">&quot;binary&quot;</span> <span style="color: #a6e22e">height=</span><span style="color: #e6db74">&quot;64&quot;</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;image&quot;</span> <span style="color: #a6e22e">filename=</span><span style="color: #e6db74">&quot;image_filename&quot;</span> <span style="color: #f92672">/&gt;</span>
-          <span style="color: #f92672">&lt;/group&gt;</span>
-          <span style="color: #f92672">&lt;group</span> <span style="color: #a6e22e">name=</span><span style="color: #e6db74">&quot;group_right&quot;</span><span style="color: #f92672">&gt;</span>
-          <span style="color: #f92672">&lt;/group&gt;</span>
-        <span style="color: #f92672">&lt;/group&gt;</span>
-      <span style="color: #f92672">&lt;/sheet&gt;</span>
-    <span style="color: #f92672">&lt;/form&gt;</span>
-  <span style="color: #f92672">&lt;/field&gt;</span>
-<span style="color: #f92672">&lt;/record&gt;</span>
-</pre></div>
+
+<record id="view_form_my_model" model="ir.ui.view">
+  <field name="name">My Model Form</field>
+  <field name="model">my.model</field>
+  <field name="arch" type="xml">
+    <form>
+      <sheet>
+        <group name="group_top">
+          <group name="group_left">
+            <field name="image_filename" invisible="0"/>
+            <field widget="binary" height="64" name="image" filename="image_filename" />
+          </group>
+          <group name="group_right">
+          </group>
+        </group>
+      </sheet>
+    </form>
+  </field>
+</record>
 
 
 <h2 id="result">Result</h2>
@@ -580,7 +583,7 @@ The next step was to tell the image widget to use this field to store the filena
 <p>The download works now like a charm and it is even possible to modify the
 filename directly.</p>
 
-<p>
+
 <figure class="image-left">
     
         <img src="/media/blog/odoo-filename-handling.png" class="img-responsive"  />
@@ -588,7 +591,7 @@ filename directly.</p>
     
 </figure>
 
-</p>
+
 
 <div class="container rb-divider">
   <div class="row">

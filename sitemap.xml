@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ridingbytes.com/2017/06/27/riding-bytes-mba/</loc>
+    <lastmod>2017-06-27T17:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ridingbytes.com/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</loc>
     <lastmod>2017-06-20T17:00:00+02:00</lastmod>
   </url>
@@ -143,7 +148,7 @@
   
   <url>
     <loc>http://ridingbytes.com/blog/</loc>
-    <lastmod>2017-06-20T17:00:00+02:00</lastmod>
+    <lastmod>2017-06-27T17:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -177,14 +182,14 @@
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/tags/extjs/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <loc>http://ridingbytes.com/categories/extjs/</loc>
+    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/categories/extjs/</loc>
-    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <loc>http://ridingbytes.com/tags/extjs/</loc>
+    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -202,7 +207,7 @@
   
   <url>
     <loc>http://ridingbytes.com/categories/mba/</loc>
-    <lastmod>2017-01-29T10:08:05+01:00</lastmod>
+    <lastmod>2017-06-27T17:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -213,14 +218,14 @@
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/tags/odoo/</loc>
-    <lastmod>2016-02-27T00:00:00+00:00</lastmod>
+    <loc>http://ridingbytes.com/categories/odoo/</loc>
+    <lastmod>2016-03-06T23:44:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/categories/odoo/</loc>
-    <lastmod>2016-03-06T23:44:26+01:00</lastmod>
+    <loc>http://ridingbytes.com/tags/odoo/</loc>
+    <lastmod>2016-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -231,14 +236,14 @@
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/tags/plone/</loc>
-    <lastmod>2015-09-14T00:00:00+00:00</lastmod>
+    <loc>http://ridingbytes.com/categories/plone/</loc>
+    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ridingbytes.com/categories/plone/</loc>
-    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <loc>http://ridingbytes.com/tags/plone/</loc>
+    <lastmod>2015-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -250,7 +255,7 @@
   
   <url>
     <loc>http://ridingbytes.com/</loc>
-    <lastmod>2017-06-20T17:00:00+02:00</lastmod>
+    <lastmod>2017-06-27T17:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

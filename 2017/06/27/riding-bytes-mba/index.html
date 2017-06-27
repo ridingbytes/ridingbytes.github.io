@@ -178,14 +178,14 @@
       <div class="container">
   <div id="page-title">
     <div class="page-title-details">
-      <h1 class="font-accident-one fontcolor-invert">Odoo: Dynamic image resizing</h1>
+      <h1 class="font-accident-one fontcolor-invert">Master of Business Administration (MBA)</h1>
       <h4 class="font-accident-one-light fontcolor-invert"></h4>
       <ul>
         
         <li><a href="/">Home</a>&nbsp;&nbsp;&nbsp;/</li>
         <li><a href="/blog">Blog</a>&nbsp;&nbsp;&nbsp;/</li>
         
-        <li>Odoo: Dynamic image resizing</li>
+        <li>Master of Business Administration (MBA)</li>
       </ul>
     </div>
   </div>
@@ -212,237 +212,15 @@
           <div class="col-md-12 post-content">
             
 
-<h1 id="odoo-scale-images-on-the-fly">Odoo: Scale images on the fly</h1>
+<h1 id="herzlichen-glückwunsch-zum-erfolgreichen-abschluss">Herzlichen Glückwunsch zum erfolgreichen Abschluss</h1>
 
-<p>Odoo uses Python Imaging Library (PIL) to support image resizing on the fly.
-This functionality ships with the <code>image.py</code> module, which is located in
-<code>openerp.tools.image</code>.</p>
+<p>Das einzigartige Programm zur Entwicklung von Führungspersönlichkeiten der Hochschule Kempten, fand dieses Jahr Ihren Höhepunkt, mit der Übergabe der Urkunden an die MBA Absolventen, im Rahmen einer feierlichen Zeremonie, im Stadttheater Kempten.</p>
 
-<h2 id="problem">Problem</h2>
+<p>Die Festveranstaltung, die ab 18:00 Uhr im Theatersaal stattfand, stand den Absolventinnen und Absolventen, ihren Begleitpersonen sowie auch den Professorinnen und Professoren der Kemptener Denkfabrik offen.</p>
 
-<p>I implemented a custom model which defined a binary field called <code>image</code>:</p>
+<p><strong>Die Mitarbeiter, Freunde und Partner der Riding Bytes, gratulieren der Geschäftsleitung, Herrn Ramon Bartl, herzlichst zum erfolgreichen Abschluss des MBA.</strong></p>
 
-
-class MyModel(models.Model):
-    _name = 'my.model'
-
-    image = fields.Binary('Image', required=True)
-    image_filename = fields.Char("Image Filename")
-
-
-<p>I wanted to use this model within in a website view, but struggled with finding
-a suitable image source URL for the image field. Unfortunately it was only
-possible to access the <code>base64</code> encoded image data.</p>
-
-<p>Thus, I ended up using the inline data option within the <code>src</code> attribute of the
-image tag:</p>
-
-
-<img t-attf-src="data:image/jpg;base64,{{ my.model.image }}" />
-
-
-<p>This actually worked quite well, but using the raw <code>base64</code> data within the
-HTML feels kind of awkward to me and it also uses the full image size, which
-was not suitable for me.</p>
-
-<h2 id="solution">Solution</h2>
-
-<p>Odoo&rsquo;s <code>website</code> addon ships with a controller, which allows to access image
-fields of any model through an URL. This controller is located in
-<code>odoo/addons/website/controllers/main.py</code> and offers this route:</p>
-
-
-@http.route([
-    '/website/image',
-    '/website/image/<model>/<id>/<field>',
-    '/website/image/<model>/<id>/<field>/<int:max_width>x<int:max_height>'
-    ], auth="public", website=True, multilang=False)
-def website_image(self, model, id, field, max_width=None, max_height=None):
-    """ Fetches the requested field and ensures it does not go above
-    (max_width, max_height), resizing it if necessary.
-
-    If the record is not found or does not have the requested field,
-    returns a placeholder image via :meth:`~.placeholder`.
-
-    Sets and checks conditional response parameters:
-    * :mailheader:`ETag` is always set (and checked)
-    * :mailheader:`Last-Modified is set iif the record has a concurrency
-      field (``__last_update``)
-
-    The requested field is assumed to be base64-encoded image data in
-    all cases.
-    """
-
-
-<p>With this route, I could change my inline rendered image to use this URL and do
-the resizing as well:</p>
-
-
-<img t-attf-src="/website/image/my.model/{{ my.model.id }}/image/128x128" />
-
-
-<h2 id="going-further">Going further</h2>
-
-<p>As I could use this nice URL to access the image of my custom model, I thought
-about using an attribute on the model to provide the scaled image directly.
-Therefore I changed the code of my model and added the fields <code>image_medium</code>
-and <code>image_small</code>:</p>
-
-
-class MyModel(models.Model):
-    _name = 'my.model'
-
-    image = fields.Binary('Image', required=True)
-    image_filename = fields.Char("Image Filename")
-
-    # Scaled Images
-    image_medium = fields.Binary(string="Medium-sized image",
-                                 store=False,
-                                 compute="_get_image",
-                                 help="Medium-sized image of this model. It is automatically " \
-                                      "resized as a 128x128px image, with aspect ratio preserved. " \
-                                      "Use this field in form views or some kanban views.")
-
-    image_small = fields.Binary(string="Small-sized image",
-                                store=False,
-                                compute="_get_image",
-                                help="Small sized image of this model. It is automatically " \
-                                     "resized as a 64x64px image, with aspect ratio preserved. " \
-                                     "Use this field in form views or some kanban views.")
-
-
-
-
-<figure class="image-left">
-    
-        <img src="/media/blog/odoo-dynamic-image-resizing.png" class="img-responsive"  />
-    
-    
-</figure>
-
-
-
-<p>I also wanted to prevent that the images get stored in the database, to avoid
-unnecessary data growth. Therefore I used a computed field
-(<code>compute=&quot;_get_image&quot;</code>) and passed in the <code>store=False</code> option.</p>
-
-<p>My first shot of the <code>_get_image</code> method looked like this:</p>
-
-
-class MyModel(models.Model):
-    _name = 'my.model'
-
-    [...]
-
-    @api.one
-    @api.depends("image")
-    def _get_image(self):
-        """ calculate the images sizes and set the images to the corresponding
-            fields
-        """
-        image = self.image
-
-        data = tools.image_get_resized_images(image)
-        self.image_medium = data["image_medium"]
-        self.image_small = data["image_small"]
-        return True
-
-
-
-<p>I was unlucky again, since this code worked exactly once, and that was when the
-<code>image</code> field was initially set.</p>
-
-<p>The problem was, that after the <code>image</code> field was set, a <code>context</code> variable
-with the name <code>bin_size</code> and the value <code>True</code> was set, which instructed the
-image field to return only the image size instead of the full <code>base64</code> encoded
-image. The complete <code>context</code> I inspected within this method looked like this:</p>
-
-
-ipdb> self.env.context
-{'lang': 'en_US', 'bin_size': True, 'tz': 'Europe/Berlin', 'uid': 1}
-
-
-<p>I found the corresponding field definition for the binary field in <code>openerp.osv.fields</code>:</p>
-
-
-class binary(_column):
-    _type = 'binary'
-    [...]
-    def get(self, cr, obj, ids, name, user=None, context=None, values=None):
-        [...]
-
-        # If client is requesting only the size of the field, we return it instead
-        # of the content. Presumably a separate request will be done to read the actual
-        # content if it's needed at some point.
-        # TODO: after 6.0 we should consider returning a dict with size and content instead of
-        #       having an implicit convention for the value
-        if val and context.get('bin_size_%s' % name, context.get('bin_size')):
-            res[i] = tools.human_size(long(val))
-        [...]
-
-
-<p>After some research I figured out that it is possible to overwrite this
-immutable <code>context</code> with the method <code>with_context</code> on the model itself.</p>
-
-<p><a href="http://odoo-new-api-guide-line.readthedocs.org/en/latest/environment.html#modifing-environment">http://odoo-new-api-guide-line.readthedocs.org/en/latest/environment.html#modifing-environment</a></p>
-
-<p>So the final version of my <code>_get_image</code> method looked like this:</p>
-
-
-class MyModel(models.Model):
-    _name = 'my.model'
-
-    [...]
-
-    @api.one
-    @api.depends("image")
-    def _get_image(self):
-        """ calculate the images sizes and set the images to the corresponding
-            fields
-        """
-        image = self.image
-
-        # check if the context contains the magic `bin_size` key
-        if self.env.context.get("bin_size"):
-            # refetch the image with a clean context
-            image = self.env[self._name].with_context({}).browse(self.id).image
-
-        data = tools.image_get_resized_images(image)
-        self.image_medium = data["image_medium"]
-        self.image_small = data["image_small"]
-        return True
-
-
-
-<p>Now it was possible to access the computed fields directly with the URL of the
-<code>website</code> controller:</p>
-
-
-<img t-attf-src="/website/image/my.model/{{ my.model.id }}/image_small" />
-
-
-<p>Or simply by the URL itself:</p>
-
-<p><a href="http://localhost:8069/website/image/my.model/1/image_medium">http://localhost:8069/website/image/my.model/1/image_medium</a></p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>The size calculation of the images takes some time and this should be
-considered with regard to the servers performance. So I guess it makes
-more sense to actually store the image scales in the database to avoid
-this workaround described above.</p>
-
-<p>I also think that the workaround bypasses security, since it removes the <code>uid</code>
-from the context as well. But I didn&rsquo;t investigate it any further.</p>
-
-<p>The whole excursion was more or less driven by curiosity, since I only found
-instructions in the internet on how to do this using the old Odoo V7 API.</p>
-
-<p>The closest tutorial I found was this here:</p>
-
-<p><a href="http://www.odoo.yenthevg.com/saving-and-resizing-images-in-odoo-8">http://www.odoo.yenthevg.com/saving-and-resizing-images-in-odoo-8</a></p>
-
-<p>So I hope this is useful for someone:)</p>
+<p>Wir sind stolz darauf, ein Teil der Riding Bytes zu sein.</p>
 
 <div class="container rb-divider">
   <div class="row">
