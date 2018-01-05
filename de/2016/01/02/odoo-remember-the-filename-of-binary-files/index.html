@@ -13,7 +13,7 @@
 
 <meta name="author" content="Ramon Bartl">
 <meta name="description" content="RIDING BYTES UG (haftungsbeschränkt)">
-<meta name="keywords" content="Bika,LIMS,Plone,Python,Consulting">
+<meta name="keywords" content="Bika,Senaite,LIMS,LIS,Plone,Python,Consulting">
 <meta name="google-site-verification" content="KWcX-TpnKFHyDQEIyT9i8oCI6kr2bHOml-vay9XLPe4" />
 
 
@@ -232,43 +232,39 @@ The next step was to tell the image widget to use this field to store the filena
 
 <h3 id="python-code">Python Code</h3>
 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyModel</span>(models<span style="color:#f92672">.</span>Model):
+    _name <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;my.model&#39;</span>
 
-class MyModel(models.Model):
-    _name = 'my.model'
-
-    image = fields.Binary('Image', required=True)
-    image_filename = fields.Char("Image Filename")
-
+    image <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;Image&#39;</span>, required<span style="color:#f92672">=</span>True)
+    image_filename <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Char(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;Image Filename&#34;</span>)</code></pre></div>
 
 <h3 id="xml-view">XML View</h3>
 
-
-<record id="view_form_my_model" model="ir.ui.view">
-  <field name="name">My Model Form</field>
-  <field name="model">my.model</field>
-  <field name="arch" type="xml">
-    <form>
-      <sheet>
-        <group name="group_top">
-          <group name="group_left">
-            <field name="image_filename" invisible="0"/>
-            <field widget="binary" height="64" name="image" filename="image_filename" />
-          </group>
-          <group name="group_right">
-          </group>
-        </group>
-      </sheet>
-    </form>
-  </field>
-</record>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;record</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;view_form_my_model&#34;</span> <span style="color:#a6e22e">model=</span><span style="color:#e6db74">&#34;ir.ui.view&#34;</span><span style="color:#f92672">&gt;</span>
+  <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;name&#34;</span><span style="color:#f92672">&gt;</span>My Model Form<span style="color:#f92672">&lt;/field&gt;</span>
+  <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;model&#34;</span><span style="color:#f92672">&gt;</span>my.model<span style="color:#f92672">&lt;/field&gt;</span>
+  <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;arch&#34;</span> <span style="color:#a6e22e">type=</span><span style="color:#e6db74">&#34;xml&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;form&gt;</span>
+      <span style="color:#f92672">&lt;sheet&gt;</span>
+        <span style="color:#f92672">&lt;group</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;group_top&#34;</span><span style="color:#f92672">&gt;</span>
+          <span style="color:#f92672">&lt;group</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;group_left&#34;</span><span style="color:#f92672">&gt;</span>
+            <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;image_filename&#34;</span> <span style="color:#a6e22e">invisible=</span><span style="color:#e6db74">&#34;0&#34;</span><span style="color:#f92672">/&gt;</span>
+            <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">widget=</span><span style="color:#e6db74">&#34;binary&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;64&#34;</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;image&#34;</span> <span style="color:#a6e22e">filename=</span><span style="color:#e6db74">&#34;image_filename&#34;</span> <span style="color:#f92672">/&gt;</span>
+          <span style="color:#f92672">&lt;/group&gt;</span>
+          <span style="color:#f92672">&lt;group</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;group_right&#34;</span><span style="color:#f92672">&gt;</span>
+          <span style="color:#f92672">&lt;/group&gt;</span>
+        <span style="color:#f92672">&lt;/group&gt;</span>
+      <span style="color:#f92672">&lt;/sheet&gt;</span>
+    <span style="color:#f92672">&lt;/form&gt;</span>
+  <span style="color:#f92672">&lt;/field&gt;</span>
+<span style="color:#f92672">&lt;/record&gt;</span></code></pre></div>
 
 <h2 id="result">Result</h2>
 
 <p>The download works now like a charm and it is even possible to modify the
 filename directly.</p>
 
-
+<p>
 <figure class="image-left">
     
         <img src="/media/blog/odoo-filename-handling.png" class="img-responsive"  />
@@ -276,7 +272,7 @@ filename directly.</p>
     
 </figure>
 
-
+</p>
 
 <div class="container rb-divider">
   <div class="row">
