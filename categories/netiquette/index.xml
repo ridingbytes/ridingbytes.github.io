@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Netiquette on RIDING BYTES</title>
-    <link>http://localhost:7999/categories/netiquette/</link>
+    <link>http://ridingbytes.com/categories/netiquette/</link>
     <description>Recent content in Netiquette on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Jan 2017 10:08:05 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:7999/categories/netiquette/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ridingbytes.com/categories/netiquette/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MBA Master Thesis: Impact of Netiquette on Email Communication</title>
-      <link>http://localhost:7999/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
+      <link>http://ridingbytes.com/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
       <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
       
-      <guid>http://localhost:7999/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</guid>
+      <guid>http://ridingbytes.com/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</guid>
       <description>Impact of Netiquette on Email Communication Emails are likely to get evaluated more negative than maybe intended of the sender. Therefore, we should consider carefully what and how we write Emails, because every human has a need for self-esteem, respect and courtesy when communicating with others.
 I investigated in my Master Thesis the impact of Netiquette on Email communication and found out, that writing in a respectful and courteous way has significant positive effects on the recipient.</description>
     </item>

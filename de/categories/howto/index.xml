@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Howto on RIDING BYTES</title>
-    <link>http://localhost:7999/categories/howto/</link>
+    <link>http://ridingbytes.com/de/categories/howto/</link>
     <description>Recent content in Howto on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Mon, 06 Mar 2017 11:24:31 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:7999/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ridingbytes.com/de/categories/howto/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to configure OpenLDAP to be usable for OwnCloud</title>
-      <link>http://localhost:7999/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</link>
+      <link>http://ridingbytes.com/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</link>
       <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
       
-      <guid>http://localhost:7999/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</guid>
+      <guid>http://ridingbytes.com/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</guid>
       <description>OwnCloud and OpenLDAP We recently integrated OwnCloud 9 in our IT infrastructure and wanted to hook it up with our OpenLDAP server, which is running on a Ubuntu 16.04 LTS Xenial Xerus Server.
 After installing the required LDAP user and group App in OwnCloud, we could hook our LDAP server into OwnCloud. However, the Group selection to narrow down the users who are allowed to log into OwnCloud was disabled, since the memberOf LDAP Overlay was not yet supported by our companys LDAP.</description>
     </item>
