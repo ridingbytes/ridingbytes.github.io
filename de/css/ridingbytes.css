@@ -5185,6 +5185,14 @@ i, i.fa {
   padding-top: 1.5em;
 }
 
+.image-vendor-logo img {
+  max-height: 75px;
+}
+
+img.system-logo {
+  max-height: 75px;
+}
+
 .rb-divider {
   color: #91825c;
 }
