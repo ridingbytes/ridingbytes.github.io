@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contacts on RIDING BYTES</title>
-    <link>http://ridingbytes.com/contact/</link>
+    <link>/contact/</link>
     <description>Recent content in Contacts on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
     <lastBuildDate>Tue, 22 Sep 2015 10:55:01 +0200</lastBuildDate>
     
-	<atom:link href="http://ridingbytes.com/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RIDING BYTES</title>
-      <link>http://ridingbytes.com/contact/contact/</link>
+      <link>/contact/contact/</link>
       <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
       
-      <guid>http://ridingbytes.com/contact/contact/</guid>
+      <guid>/contact/contact/</guid>
       <description>RIDING BYTES UG (haftungsbeschränkt), Würzburger Straße 81, 90766 Fürth, Germany hello@ridingbytes.com • http://ridingbytes.com</description>
     </item>
     

@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RIDING BYTES</title>
-    <link>http://ridingbytes.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
     <lastBuildDate>Mon, 14 Sep 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://ridingbytes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Api</title>
-      <link>http://ridingbytes.com/tags/api/</link>
+      <link>/tags/api/</link>
       <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/api/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Backbonejs</title>
-      <link>http://ridingbytes.com/tags/backbonejs/</link>
+      <link>/tags/backbonejs/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/backbonejs/</guid>
+      <guid>/tags/backbonejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bika</title>
-      <link>http://ridingbytes.com/tags/bika/</link>
+      <link>/tags/bika/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/bika/</guid>
+      <guid>/tags/bika/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Extjs</title>
-      <link>http://ridingbytes.com/tags/extjs/</link>
+      <link>/tags/extjs/</link>
       <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/extjs/</guid>
+      <guid>/tags/extjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lims</title>
-      <link>http://ridingbytes.com/tags/lims/</link>
+      <link>/tags/lims/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/lims/</guid>
+      <guid>/tags/lims/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Odoo</title>
-      <link>http://ridingbytes.com/tags/odoo/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <link>/tags/odoo/</link>
+      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/odoo/</guid>
+      <guid>/tags/odoo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>http://ridingbytes.com/tags/open-source/</link>
+      <link>/tags/open-source/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/open-source/</guid>
+      <guid>/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plone</title>
-      <link>http://ridingbytes.com/tags/plone/</link>
+      <link>/tags/plone/</link>
       <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/plone/</guid>
+      <guid>/tags/plone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>http://ridingbytes.com/tags/web/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <link>/tags/web/</link>
+      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://ridingbytes.com/tags/web/</guid>
+      <guid>/tags/web/</guid>
       <description></description>
     </item>
     
