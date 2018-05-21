@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plone on RIDING BYTES</title>
-    <link>/categories/plone/</link>
+    <link>/de/categories/plone/</link>
     <description>Recent content in Plone on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
     <lastBuildDate>Mon, 16 Oct 2017 10:00:00 +0200</lastBuildDate>
     
-	<atom:link href="/categories/plone/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/de/categories/plone/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PLONE Conference 2017 – Digital Experience Conference</title>
-      <link>/de/2017/10/16/riding-bytes-plone/</link>
+      <link>/de/de/2017/10/16/riding-bytes-plone/</link>
       <pubDate>Mon, 16 Oct 2017 10:00:00 +0200</pubDate>
       
-      <guid>/de/2017/10/16/riding-bytes-plone/</guid>
+      <guid>/de/de/2017/10/16/riding-bytes-plone/</guid>
       <description>Von den neusten schöpferischen Gedankengängen - über die Umsetzung - bis zum Fortschritt Auch dieses Jahr wieder ist die RIDING BYTES auf der PLONE Konferenz, die 2017 in Barcelona Ihre Pforten öffnet, vertreten.
 Mit einem Vortrag über die JSON API Schnittstelle, erhalten Sie unter anderem Einsicht über die neuartige Weiterentwicklung um moderne JavaScript Applikationen an das Plone CMS anzubinden.
 Using a Plone JSON API to interface modern Web Applications https://2017.</description>
@@ -25,10 +25,10 @@ Using a Plone JSON API to interface modern Web Applications https://2017.</descr
     
     <item>
       <title>Plone Commander</title>
-      <link>/de/2015/09/23/plone-commander/</link>
+      <link>/de/de/2015/09/23/plone-commander/</link>
       <pubDate>Wed, 23 Sep 2015 20:26:22 +0200</pubDate>
       
-      <guid>/de/2015/09/23/plone-commander/</guid>
+      <guid>/de/de/2015/09/23/plone-commander/</guid>
       <description>&lt;h1 id=&#34;plone-commander&#34;&gt;Plone Commander&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a
@@ -41,7 +41,7 @@ edit and explore Plone contents with ease.&lt;/p&gt;
 &lt;!--
 &lt;figure class=&#34;e-block-skin image-left&#34;&gt;
     
-        &lt;img src=&#34;/img/blog/plone-commander.jpg&#34; width=&#34;85%&#34; /&gt;
+        &lt;img src=&#34;/de/img/blog/plone-commander.jpg&#34; width=&#34;85%&#34; /&gt;
     
     
 &lt;/figure&gt;

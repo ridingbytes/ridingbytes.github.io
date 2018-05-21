@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on RIDING BYTES</title>
-    <link>/categories/</link>
+    <link>/de/categories/</link>
     <description>Recent content in Categories on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/de/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Company</title>
-      <link>/categories/company/</link>
+      <link>/de/categories/company/</link>
       <pubDate>Tue, 20 Jun 2017 17:00:00 +0200</pubDate>
       
-      <guid>/categories/company/</guid>
+      <guid>/de/categories/company/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>/categories/development/</link>
+      <link>/de/categories/development/</link>
       <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
       
-      <guid>/categories/development/</guid>
+      <guid>/de/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Email</title>
-      <link>/categories/email/</link>
+      <link>/de/categories/email/</link>
       <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
       
-      <guid>/categories/email/</guid>
+      <guid>/de/categories/email/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Extjs</title>
-      <link>/categories/extjs/</link>
+      <link>/de/categories/extjs/</link>
       <pubDate>Wed, 23 Sep 2015 20:26:22 +0200</pubDate>
       
-      <guid>/categories/extjs/</guid>
+      <guid>/de/categories/extjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Howto</title>
-      <link>/categories/howto/</link>
+      <link>/de/categories/howto/</link>
       <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
       
-      <guid>/categories/howto/</guid>
+      <guid>/de/categories/howto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lims</title>
-      <link>/categories/lims/</link>
+      <link>/de/categories/lims/</link>
       <pubDate>Sat, 06 Jan 2018 21:15:00 +0200</pubDate>
       
-      <guid>/categories/lims/</guid>
+      <guid>/de/categories/lims/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mba</title>
-      <link>/categories/mba/</link>
+      <link>/de/categories/mba/</link>
       <pubDate>Tue, 27 Jun 2017 17:00:00 +0200</pubDate>
       
-      <guid>/categories/mba/</guid>
+      <guid>/de/categories/mba/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netiquette</title>
-      <link>/categories/netiquette/</link>
+      <link>/de/categories/netiquette/</link>
       <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
       
-      <guid>/categories/netiquette/</guid>
+      <guid>/de/categories/netiquette/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Odoo</title>
-      <link>/categories/odoo/</link>
+      <link>/de/categories/odoo/</link>
       <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
       
-      <guid>/categories/odoo/</guid>
+      <guid>/de/categories/odoo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plone</title>
-      <link>/categories/plone/</link>
+      <link>/de/categories/plone/</link>
       <pubDate>Mon, 16 Oct 2017 10:00:00 +0200</pubDate>
       
-      <guid>/categories/plone/</guid>
+      <guid>/de/categories/plone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Server</title>
-      <link>/categories/server/</link>
+      <link>/de/categories/server/</link>
       <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
       
-      <guid>/categories/server/</guid>
+      <guid>/de/categories/server/</guid>
       <description></description>
     </item>
     
