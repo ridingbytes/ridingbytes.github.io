@@ -14,10 +14,10 @@
     
     <item>
       <title>How to configure OpenLDAP to be usable for OwnCloud</title>
-      <link>/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</link>
+      <link>/de/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</link>
       <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
       
-      <guid>/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</guid>
+      <guid>/de/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</guid>
       <description>OwnCloud and OpenLDAP We recently integrated OwnCloud 9 in our IT infrastructure and wanted to hook it up with our OpenLDAP server, which is running on a Ubuntu 16.04 LTS Xenial Xerus Server.
 After installing the required LDAP user and group App in OwnCloud, we could hook our LDAP server into OwnCloud. However, the Group selection to narrow down the users who are allowed to log into OwnCloud was disabled, since the memberOf LDAP Overlay was not yet supported by our companys LDAP.</description>
     </item>

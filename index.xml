@@ -69,14 +69,24 @@ After installing the required LDAP user and group App in OwnCloud, we could hook
     </item>
     
     <item>
+      <title>Danke</title>
+      <link>/thanks.de/</link>
+      <pubDate>Thu, 02 Mar 2017 09:00:00 +0200</pubDate>
+      
+      <guid>/thanks.de/</guid>
+      <description>Danke Vielen Dank für Ihre Nachricht.
+Ihre Nachricht ist uns wichtig und wir werden so schnell wie möglich antworten.
+Beste Grüße RIDING BYTES</description>
+    </item>
+    
+    <item>
       <title>Thank You</title>
       <link>/thanks/</link>
       <pubDate>Thu, 02 Mar 2017 09:00:00 +0200</pubDate>
       
       <guid>/thanks/</guid>
       <description>Thank You Thank you for your message. Your message is important to us and we will respond as soon as possible.
-Best Regards
-RIDING BYTES</description>
+Best Regards RIDING BYTES</description>
     </item>
     
     <item>
