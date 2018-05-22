@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Feb 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alpenleder ERP</title>
+      <link>/portfolio/alpenleder/</link>
+      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/alpenleder/</guid>
+      <description>Overview Alpenleder is an international bag manufacturing company and retailer. They have special requirements to their IT system, like shop functionality, reseller and customer login, multi-language support, product variants, inventory and HR capabilities. Odoo 9 serves all their needs and is ready for future requirements by customizations from RIDING BYTES.</description>
+    </item>
     
     <item>
       <title>RIDING BYTES ERP</title>
