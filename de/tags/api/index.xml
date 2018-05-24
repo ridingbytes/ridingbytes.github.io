@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on RIDING BYTES</title>
+    <link>/de/tags/api/</link>
+    <description>Recent content in Api on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 14 Sep 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/de/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plone JSON API</title>
+      <link>/de/portfolio/plone-jsonapi/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/de/portfolio/plone-jsonapi/</guid>
+      <description>Overview This is an add-on package for plone.jsonapi.core which provides resource URLs for Plone standard contents (and more).
+Motivation The routes package is built on top of the plone.jsonapi.core package to allow Plone developers to build modern (JavaScript) web UIs which communicate through a RESTful API with their Plone site.
+Compatibility The plone.jsonapi.routes is compatible with Plone 4.
+Documentation Read the latest documentation: http://plonejsonapiroutes.readthedocs.org
+Where to get? Get the latest version on the Python Package Index: https://pypi.</description>
+    </item>
+    
+  </channel>
+</rss>
