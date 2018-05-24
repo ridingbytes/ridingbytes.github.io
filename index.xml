@@ -262,5 +262,14 @@ Where to get? Get the latest version on the Python Package Index: https://pypi.<
 See it in Action   </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/footer/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/footer/about/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

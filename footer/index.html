@@ -91,8 +91,6 @@
 	    
         
           
-            <a href="/de/categories/howto/" class="btn btn-xs">Deutsch</a>
-          
         
 	    
     </div>
@@ -174,7 +172,7 @@
       <div class="container">
   <div id="page-title">
     <div class="page-title-details">
-      <h1 class="font-accident-one fontcolor-invert">Howto</h1>
+      <h1 class="font-accident-one fontcolor-invert">Footers</h1>
       <h4 class="font-accident-one-light fontcolor-invert"></h4>
       
     </div>
@@ -196,165 +194,10 @@
       
       <div class="container">
         <div class="row">
-          <div id="how to configure openldap to be usable for owncloud">
+          <div id="">
             
             <div class="col-md-12">
               
-
-<h1 id="owncloud-and-openldap">OwnCloud and OpenLDAP</h1>
-
-<p>We recently integrated <a href="https://owncloud.org/nine" title="OwnCloud nine">OwnCloud 9</a> in our IT infrastructure and wanted to
-hook it up with our <a href="http://www.openldap.org" title="OpenLDAP">OpenLDAP</a> server, which is running on a <a href="http://releases.ubuntu.com/16.04/" title="Ubuntu 16.04">Ubuntu 16.04 LTS</a>
-<em>Xenial Xerus</em> Server.</p>
-
-<p>After installing the required <a href="https://doc.owncloud.org/server/9.0/admin_manual/configuration_user/user_auth_ldap.html" title="OwnCloud LDAP Manual">LDAP user and group</a> App in OwnCloud,
-we could hook our LDAP server into OwnCloud. However, the Group selection to
-narrow down the users who are allowed to log into OwnCloud was disabled, since
-the <code>memberOf</code> <a href="http://www.openldap.org/doc/admin24/overlays.html" title="OpenLDAP overlays">LDAP Overlay</a> was not yet supported by our companys LDAP.</p>
-
-<p>The goal was to put all users into a group called <code>onwCloud</code> which should be
-able to log into OwnCloud as seen in this screenshot:</p>
-
-
-<figure class="image-left">
-    
-        <img src="/img/blog/owncloud-ldap-configuration.png" class="img-responsive"  />
-    
-    
-</figure>
-
-
-
-<h1 id="adding-the-memberof-overlay">Adding the memberOf Overlay</h1>
-
-<p>We are using <code>OpenLDAP 2.4.4</code> with a <a href="http://www.openldap.org/doc/admin24/backends.html" title="OpenLDAP Backends">LMDB Backend</a>, so the following <code>ldif</code>
-configurations make use of the new configuration and this backend.</p>
-
-<p>First we created the files <code>/etc/ldap/memberof.ldif</code> and <code>/etc/ldap/refint.ldif</code>
-on our LDAP Server with the following contents.</p>
-
-<p><code>memberof.ldif</code>:</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-properties" data-lang="properties">  dn: cn=module,cn=config
-  cn: module
-  objectClass: olcModuleList
-  objectclass: top
-  olcModuleLoad: memberof.la
-  olcModulePath: /usr/lib/ldap
-
-  dn: olcOverlay={0}memberof,olcDatabase={1}mdb,cn=config
-  objectClass: olcConfig
-  objectClass: olcMemberOf
-  objectClass: olcOverlayConfig
-  objectClass: top
-  olcOverlay: memberof
-  olcMemberOfDangling: ignore
-  olcMemberOfRefInt: TRUE
-  olcMemberOfGroupOC: groupOfNames
-  olcMemberOfMemberAD: member
-  olcMemberOfMemberOfAD: memberOf</code></pre></div>
-
-<p><code>refint.ldif</code>:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-properties" data-lang="properties">  dn: cn=module,cn=config
-  cn: module
-  objectclass: olcModuleList
-  objectclass: top
-  olcmoduleload: refint.la
-  olcmodulepath: /usr/lib/ldap
-
-  dn: olcOverlay={1}refint,olcDatabase={1}mdb,cn=config
-  objectClass: olcConfig
-  objectClass: olcOverlayConfig
-  objectClass: olcRefintConfig
-  objectClass: top
-  olcOverlay: {1}refint
-  olcRefintAttribute: memberof member manager owner</code></pre></div></p>
-
-<div class="container rb-divider">
-  <div class="row">
-    <div class="dividewhite2"></div>
-    <div class="e-block-centered">
-      &mdash; <img src="/img/logo_quadratisch.png" width="32" /> &mdash;
-    </div>
-    <div class="dividewhite2"></div>
-  </div>
-</div>
-
-
-<p>Then we added the configurations to our OpenLDAP with the <a href="http://www.openldap.org/software//man.cgi?query=ldapmodify&amp;sektion=1&amp;apropos=0&amp;manpath=OpenLDAP+2.4-Release" title="ldapmodify, ldapadd">ldapadd</a> command:</p>
-
-<pre><code>ldapadd -Q -Y EXTERNAL -H ldapi:/// -f memberof.ldif
-ldapadd -Q -Y EXTERNAL -H ldapi:/// -f refint.ldif
-</code></pre>
-
-<p>In the next step we added a <code>groupOfNames</code> object <code>cn=ownCloud</code> to our LDAP:</p>
-
-
-<figure class="image-left">
-    
-        <img src="/img/blog/openldap-groupOfNames.png" class="img-responsive"  />
-    
-    
-</figure>
-
-
-
-<p>And added a <em>Test User</em> <code>uid=testuser</code> as a <code>member</code> to this group:</p>
-
-
-<figure class="image-left">
-    
-        <img src="/img/blog/openldap-member.png" class="img-responsive"  />
-    
-    
-</figure>
-
-
-
-<div class="container rb-divider">
-  <div class="row">
-    <div class="dividewhite2"></div>
-    <div class="e-block-centered">
-      &mdash; <img src="/img/logo_quadratisch.png" width="32" /> &mdash;
-    </div>
-    <div class="dividewhite2"></div>
-  </div>
-</div>
-
-
-<p>Finally we tested the group ownership:</p>
-
-<pre><code>root@ridingbytes:~# ldapsearch -LL -Y EXTERNAL -H ldapi:/// &quot;(uid=testuser)&quot; -b dc=ridingbytes,dc=com memberOf
-SASL/EXTERNAL authentication started
-SASL username: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-SASL SSF: 0
-version: 1
-
-dn: cn=Test User,ou=users,dc=ridingbytes,dc=com
-memberOf: cn=ownCloud,ou=groups,dc=ridingbytes,dc=com
-</code></pre>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>OpenLDAP plays now nicely with OwnCloud and the Group Selection is fully
-functioning. Only members of the <code>ownCloud</code> group are allowed to log into
-OwnCloud.</p>
-
-<p>Another great example how Open Source Software provides enterprise functionality
-without any license costs or vendor lock-ins. Thanks to the developers and the
-Open Source Community for this brilliant pieces of Software.</p>
-
-<div class="container rb-divider">
-  <div class="row">
-    <div class="dividewhite2"></div>
-    <div class="e-block-centered">
-      &mdash; <img src="/img/logo_quadratisch.png" width="32" /> &mdash;
-    </div>
-    <div class="dividewhite2"></div>
-  </div>
-</div>
-
-
             </div>
           </div>
         </div>

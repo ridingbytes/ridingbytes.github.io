@@ -173,7 +173,6 @@ i, i.fa { color: $rb-cyan; }
   /* smaller content fonts */
   #content {
     @include rb-content-fonts;
-    padding-bottom: 2em;
   }
 }
 

@@ -4652,9 +4652,6 @@ i, i.fa {
 .template-about-section {
   /* smaller content fonts */
 }
-.template-about-section #content {
-  padding-bottom: 2em;
-}
 .template-about-section #content h1 {
   font-family: Novecentosanswide-Light, sans-serif;
   font-size: 45px;

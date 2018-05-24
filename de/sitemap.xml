@@ -477,22 +477,6 @@
   </url>
   
   <url>
-    <loc>/de/categories/extjs/</loc>
-    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/extjs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/categories/extjs/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/tags/extjs/</loc>
     <lastmod>2017-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -505,6 +489,22 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/tags/extjs/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/categories/extjs/</loc>
+    <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/extjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/extjs/"
                 />
   </url>
   
@@ -541,22 +541,6 @@
   </url>
   
   <url>
-    <loc>/de/categories/lims/</loc>
-    <lastmod>2018-01-06T21:15:00+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/lims/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/categories/lims/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/tags/lims/</loc>
     <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -569,6 +553,22 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/tags/lims/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/categories/lims/</loc>
+    <lastmod>2018-01-06T21:15:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/lims/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/lims/"
                 />
   </url>
   
@@ -605,22 +605,6 @@
   </url>
   
   <url>
-    <loc>/de/categories/odoo/</loc>
-    <lastmod>2016-03-06T23:44:26+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/odoo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/categories/odoo/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/tags/odoo/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -633,6 +617,22 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/tags/odoo/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/categories/odoo/</loc>
+    <lastmod>2016-03-06T23:44:26+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/odoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/odoo/"
                 />
   </url>
   
@@ -653,22 +653,6 @@
   </url>
   
   <url>
-    <loc>/de/categories/plone/</loc>
-    <lastmod>2017-10-16T10:00:00+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/plone/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/categories/plone/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/tags/plone/</loc>
     <lastmod>2015-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -681,6 +665,22 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/tags/plone/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/categories/plone/</loc>
+    <lastmod>2017-10-16T10:00:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/plone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/plone/"
                 />
   </url>
   
