@@ -85,7 +85,7 @@ Beste Grüße RIDING BYTES</description>
       
       <guid>/de/portfolio/bika-spotlight-search/</guid>
       <description> Overview Bika Spotlight Search is a modern JavaScript application written with CoffeeScript and based on the BackboneJS framework. It communicates with Bika LIMS through plone.jsonapi.routes.
-See it in Action   </description>
+See it in Action    &amp;mdash; &amp;mdash;     </description>
     </item>
     
     <item>
@@ -105,7 +105,7 @@ I investigated in my Master Thesis the impact of Netiquette on Email communicati
       
       <guid>/de/portfolio/bika-commander/</guid>
       <description> Overview Bika Commander is a cross platform web application based on Electron and ExtJS. It communicates with Bika LIMS through plone.jsonapi.routes.
-See it in Action   </description>
+See it in Action    &amp;mdash; &amp;mdash;     </description>
     </item>
     
     <item>
@@ -154,7 +154,8 @@ resulted in an unknown binary file download with the name of the current model.&
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>/de/portfolio/ridingbytes-odoo/</guid>
-      <description>Overview RIDING BYTES manages a variety of business intelligence tasks with Odoo 9. Custom Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order process for national and international customers. Project and Timesheet Bookings gives customers transparence to their projects and allows controlling and planning at any time.</description>
+      <description> Overview RIDING BYTES manages a variety of business intelligence tasks with Odoo 9. Custom Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order process for national and international customers. Project and Timesheet Bookings gives customers transparence to their projects and allows controlling and planning at any time.
+ &amp;mdash; &amp;mdash;     </description>
     </item>
     
     <item>
@@ -259,7 +260,7 @@ Where to get? Get the latest version on the Python Package Index: https://pypi.<
       
       <guid>/de/portfolio/plone-commander/</guid>
       <description> Overview Plone Commander is a cross platform web application based on Electron and ExtJS. It communicates with Plone through plone.jsonapi.routes.
-See it in Action   </description>
+See it in Action    &amp;mdash; &amp;mdash;     </description>
     </item>
     
   </channel>

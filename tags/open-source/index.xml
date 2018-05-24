@@ -18,7 +18,7 @@
       
       <guid>/portfolio/bika-spotlight-search/</guid>
       <description> Overview Bika Spotlight Search is a modern JavaScript application written with CoffeeScript and based on the BackboneJS framework. It communicates with Bika LIMS through plone.jsonapi.routes.
-See it in Action   </description>
+See it in Action    &amp;mdash; &amp;mdash;     </description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ See it in Action   </description>
       
       <guid>/portfolio/bika-commander/</guid>
       <description> Overview Bika Commander is a cross platform web application based on Electron and ExtJS. It communicates with Bika LIMS through plone.jsonapi.routes.
-See it in Action   </description>
+See it in Action    &amp;mdash; &amp;mdash;     </description>
     </item>
     
     <item>
@@ -51,7 +51,7 @@ Where to get? Get the latest version on the Python Package Index: https://pypi.<
       
       <guid>/portfolio/plone-commander/</guid>
       <description> Overview Plone Commander is a cross platform web application based on Electron and ExtJS. It communicates with Plone through plone.jsonapi.routes.
-See it in Action   </description>
+See it in Action    &amp;mdash; &amp;mdash;     </description>
     </item>
     
   </channel>
