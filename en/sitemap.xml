@@ -138,11 +138,6 @@
   </url>
   
   <url>
-    <loc>/services/development/</loc>
-    <lastmod>2016-09-22T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2016/03/06/odoo-developer-mode/</loc>
     <lastmod>2016-03-06T23:44:26+01:00</lastmod>
     <xhtml:link
@@ -263,17 +258,17 @@
   </url>
   
   <url>
-    <loc>/legal/</loc>
+    <loc>/legal/legal/</loc>
     <lastmod>2015-09-22T15:09:25+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/legal/"
+                href="/de/legal/legal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/legal/"
+                href="/legal/legal/"
                 />
   </url>
   
@@ -290,21 +285,6 @@
                 hreflang="en"
                 href="/contact/contact/"
                 />
-  </url>
-  
-  <url>
-    <loc>/services/uiux/</loc>
-    <lastmod>2015-09-21T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/services/consulting/</loc>
-    <lastmod>2015-09-20T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/services/administration/</loc>
-    <lastmod>2015-09-19T00:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -545,6 +525,22 @@
   </url>
   
   <url>
+    <loc>/legal/</loc>
+    <lastmod>2015-09-22T15:09:25+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/legal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/legal/"
+                />
+  </url>
+  
+  <url>
     <loc>/tags/lims/</loc>
     <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -734,12 +730,6 @@
                 hreflang="en"
                 href="/categories/server/"
                 />
-  </url>
-  
-  <url>
-    <loc>/services/</loc>
-    <lastmod>2016-09-22T00:00:00+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

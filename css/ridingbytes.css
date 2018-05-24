@@ -4398,6 +4398,35 @@ i, i.fa {
   z-index: -1;
 }
 
+.section-legal {
+  overflow: hidden;
+  position: relative;
+}
+.section-legal:before, .section-legal:after {
+  content: "";
+  display: table;
+}
+.section-legal:after {
+  clear: both;
+}
+.section-legal::before {
+  content: " ";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  left: 0;
+  background-color: #e8e8e8;
+  background: url("../img/sections/legal_large.jpg") no-repeat top center;
+  background-size: cover;
+  will-change: transform;
+  z-index: -1;
+}
+.section-legal::before {
+  top: 0;
+  background-position: center center;
+}
+
 .section-404 {
   overflow: hidden;
   position: relative;
@@ -4647,6 +4676,35 @@ i, i.fa {
   font-size: 18px;
 }
 .template-about-section #content h6 {
+  font-family: Novecentosanswide-Light, sans-serif;
+  font-size: 14px;
+}
+
+/* legal section*/
+.template-legal-section {
+  /* smaller content fonts */
+}
+.template-legal-section #content h1 {
+  font-family: Novecentosanswide-Light, sans-serif;
+  font-size: 45px;
+}
+.template-legal-section #content h2 {
+  font-family: Novecentosanswide-Light, sans-serif;
+  font-size: 36px;
+}
+.template-legal-section #content h3 {
+  font-family: Novecentosanswide-Light, sans-serif;
+  font-size: 26px;
+}
+.template-legal-section #content h4 {
+  font-family: Novecentosanswide-Light, sans-serif;
+  font-size: 22px;
+}
+.template-legal-section #content h5 {
+  font-family: Novecentosanswide-Light, sans-serif;
+  font-size: 18px;
+}
+.template-legal-section #content h6 {
   font-family: Novecentosanswide-Light, sans-serif;
   font-size: 14px;
 }
@@ -4962,6 +5020,34 @@ i, i.fa {
     background-size: cover;
     will-change: transform;
     z-index: -1;
+  }
+
+  .section-legal {
+    overflow: hidden;
+    position: relative;
+  }
+  .section-legal:before, .section-legal:after {
+    content: "";
+    display: table;
+  }
+  .section-legal:after {
+    clear: both;
+  }
+  .section-legal::before {
+    content: " ";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 120px;
+    left: 0;
+    background-color: #e8e8e8;
+    background: url("../img/sections/legal_medium.jpg") no-repeat top center;
+    background-size: cover;
+    will-change: transform;
+    z-index: -1;
+  }
+  .section-legal::before {
+    top: 0;
   }
 
   .section-404 {

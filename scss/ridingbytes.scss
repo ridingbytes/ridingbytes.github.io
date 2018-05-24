@@ -89,6 +89,13 @@ i, i.fa { color: $rb-cyan; }
 .section-contact {
   @include rb-section("../img/sections/phone_large.jpg");
 }
+.section-legal {
+    @include rb-section("../img/sections/legal_large.jpg");
+    &::before {
+        top: 0;
+        background-position: center center;
+    }
+}
 .section-404 {
   @include rb-section("../img/sections/404_large.jpg");
     &::before {
@@ -168,6 +175,14 @@ i, i.fa { color: $rb-cyan; }
     @include rb-content-fonts;
     padding-bottom: 2em;
   }
+}
+
+/* legal section*/
+.template-legal-section {
+    /* smaller content fonts */
+    #content {
+        @include rb-content-fonts;
+    }
 }
 
 /* blog section */
@@ -297,6 +312,12 @@ i, i.fa { color: $rb-cyan; }
   }
   .section-about {
     @include rb-section("../img/sections/about_medium.jpg");
+  }
+  .section-legal {
+    @include rb-section("../img/sections/legal_medium.jpg");
+    &::before {
+      top: 0;
+    }
   }
   .section-404 {
     @include rb-section("../img/sections/404_medium.jpg");

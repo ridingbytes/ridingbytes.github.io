@@ -108,17 +108,6 @@ See it in Action   </description>
     </item>
     
     <item>
-      <title>Development</title>
-      <link>/services/development/</link>
-      <pubDate>Thu, 22 Sep 2016 00:00:00 +0200</pubDate>
-      
-      <guid>/services/development/</guid>
-      <description>Development RIDING BYTES offers a variety of custom development services. Starting from small scripts for task automation or data manipulation, up to enterprise server based solutions, like content management systems or enterprise resource planning systems.
-The next sections provide a small overview of used systems, technologies and the provided services.
-  SENAITE is a universal ISO 17025 compliant LIMS for chemistry and micro biology - used in anything from agriculture, food and beverages, water quality management, mining etc.</description>
-    </item>
-    
-    <item>
       <title>Odoo: Developer mode</title>
       <link>/2016/03/06/odoo-developer-mode/</link>
       <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
@@ -233,17 +222,12 @@ edit and explore Plone contents with ease.&lt;/p&gt;
     
     <item>
       <title>Legal Notice</title>
-      <link>/legal/</link>
+      <link>/legal/legal/</link>
       <pubDate>Tue, 22 Sep 2015 15:09:25 +0200</pubDate>
       
-      <guid>/legal/</guid>
-      <description>Responsible for the Content RIDING BYTES UG (haftungsbeschränkt)
-Address: RIDING BYTES UG (haftungsbeschränkt), Würzburger Straße 81, 90766 Fürth, Germany Phone: &amp;#43;49 (0) 911 974 930 90 Registration Court: Amtsgericht Ulm
-Commercial Register Number: HRB 732278 USt-IdNr. (VAT No.): DE301668607 Managing Director: Ramon Bartl
-Responsible for the content: Ramon Bartl
-Contact Mail: hello@ridingbytes.com
-Internet: http://ridingbytes.com
- &amp;mdash; &amp;mdash;     Disclaimer Inhalt Die RIDING BYTES UG stellt die Inhalte dieser Internetseiten mit großer Sorgfalt zusammen.</description>
+      <guid>/legal/legal/</guid>
+      <description>Responsible for the content RIDING BYTES UG (haftungsbeschränkt)
+ Würzburger Straße 81 90766 Fürth Germany  Phone: &amp;#43;49 (0) 911 974 930 90  VAT ID: DE301668607  Managing Director: Ramon Bartl  Register: HRB 732278 ( Amtsgericht Ulm )  Responsible as of §10 Abs. 3 MdStV: Ramon Bartl  &amp;mdash; &amp;mdash;     Disclaimer Inhalt Die RIDING BYTES UG stellt die Inhalte dieser Internetseiten mit großer Sorgfalt zusammen.</description>
     </item>
     
     <item>
@@ -252,39 +236,7 @@ Internet: http://ridingbytes.com
       <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
       
       <guid>/contact/contact/</guid>
-      <description>RIDING BYTES UG (haftungsbeschränkt), Würzburger Straße 81, 90766 Fürth, Germany hello@ridingbytes.com • http://ridingbytes.com</description>
-    </item>
-    
-    <item>
-      <title>UIUX</title>
-      <link>/services/uiux/</link>
-      <pubDate>Mon, 21 Sep 2015 00:00:00 +0200</pubDate>
-      
-      <guid>/services/uiux/</guid>
-      <description>UI/UX These two terms stand for User Interface and User Experience. While the first one is mainly concerned with the layout of application elements, the latter one cares about how the interaction with the application feels to the user.
-Both terms are linked to each other and highly influence the user acceptance of the finished application/product.
-Case Study: Bika Spotlight Search Bika Spotlight Search offers an MAC OS X like Search UI for Bika LIMS.</description>
-    </item>
-    
-    <item>
-      <title>Consulting</title>
-      <link>/services/consulting/</link>
-      <pubDate>Sun, 20 Sep 2015 00:00:00 +0200</pubDate>
-      
-      <guid>/services/consulting/</guid>
-      <description>Consulting A consultant (from Latin: consultare &amp;ldquo;to discuss&amp;rdquo;) is a professional who provides professional or expert advice (Source: Wikipedia).
-It is one of the most important services to ensure the planned and proposed IT solution meets the needs of the customer.
-What we offer We offer all our professional expertise and knowledge in house or remote to analyze current workflows, optimize business processes and find the right IT solutions to support the management or the staff to get their work done more effective and efficient.</description>
-    </item>
-    
-    <item>
-      <title>Administration</title>
-      <link>/services/administration/</link>
-      <pubDate>Sat, 19 Sep 2015 00:00:00 +0200</pubDate>
-      
-      <guid>/services/administration/</guid>
-      <description>Administration The right IT solution needs the right operating environment to work properly. Server based IT are always coupled with administrative tasks such as Installation, Configuration, Updates, Monitoring, Optimizations, Backups, Custom Scripts, Domain-, Hosting-, DNS- and Email Setup, Operational Support, &amp;hellip;
-What we offer We provide support for the installation, deployment and maintenance of our software solutions or offer the complete service in house or remote through a secure tunnel connection.</description>
+      <description>  Würzburger Straße 81 90766 Fürth Germany  hello@ridingbytes.com  • https://www.ridingbytes.com   &amp;mdash; &amp;mdash;     </description>
     </item>
     
     <item>

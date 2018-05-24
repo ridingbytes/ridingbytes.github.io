@@ -258,17 +258,17 @@
   </url>
   
   <url>
-    <loc>/de/legal/</loc>
+    <loc>/de/legal/legal/</loc>
     <lastmod>2015-09-22T15:09:25+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/legal/"
+                href="/legal/legal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/legal/"
+                href="/de/legal/legal/"
                 />
   </url>
   
@@ -521,6 +521,22 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/categories/howto/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/legal/</loc>
+    <lastmod>2015-09-22T15:09:25+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/legal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/legal/"
                 />
   </url>
   
