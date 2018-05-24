@@ -5377,4 +5377,23 @@ img.system-logo {
   height: 200px;
 }
 
+/* cover image mixin */
+.cover-image-senaite {
+  background: url("/img/systems/senaite_teaser.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+
+.cover-image-plone {
+  background: url("/img/systems/plone_teaser.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+
 /*# sourceMappingURL=src/static/css/ridingbytes.css.map */

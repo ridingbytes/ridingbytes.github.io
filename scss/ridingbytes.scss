@@ -502,3 +502,21 @@ img.system-logo {
 .dividewhite16 {  height: 160px;  }
 .dividewhite18 {  height: 180px;  }
 .dividewhite20 {  height: 200px;  }
+
+/* cover image mixin */
+@mixin cover-image($url) {
+    background: url($url) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+.cover-image-senaite {
+    @include cover-image("/img/systems/senaite_teaser.jpg");
+}
+
+.cover-image-plone {
+    @include cover-image("/img/systems/plone_teaser.jpg");
+}
