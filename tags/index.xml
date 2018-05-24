@@ -5,7 +5,6 @@
     <link>/tags/</link>
     <description>Recent content in Tags on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
     <lastBuildDate>Mon, 14 Sep 2015 00:00:00 +0000</lastBuildDate>
     
@@ -60,7 +59,7 @@
     <item>
       <title>Odoo</title>
       <link>/tags/odoo/</link>
-      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/odoo/</guid>
       <description></description>
@@ -87,7 +86,7 @@
     <item>
       <title>Web</title>
       <link>/tags/web/</link>
-      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/web/</guid>
       <description></description>

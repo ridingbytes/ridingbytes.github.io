@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bika on RIDING BYTES</title>
+    <link>/de/tags/bika/</link>
+    <description>Recent content in Bika on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 25 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/de/tags/bika/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bika Spotlight Search</title>
+      <link>/de/portfolio/bika-spotlight-search/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/de/portfolio/bika-spotlight-search/</guid>
+      <description> Overview Bika Spotlight Search is a modern JavaScript application written with CoffeeScript and based on the BackboneJS framework. It communicates with Bika LIMS through plone.jsonapi.routes.
+See it in Action   </description>
+    </item>
+    
+    <item>
+      <title>Bika Commander</title>
+      <link>/de/portfolio/bika-commander/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/de/portfolio/bika-commander/</guid>
+      <description> Overview Bika Commander is a cross platform web application based on Electron and ExtJS. It communicates with Bika LIMS through plone.jsonapi.routes.
+See it in Action   </description>
+    </item>
+    
+  </channel>
+</rss>

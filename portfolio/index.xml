@@ -5,7 +5,6 @@
     <link>/portfolio/</link>
     <description>Recent content in Portfolios on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
     <lastBuildDate>Sat, 25 Feb 2017 00:00:00 +0000</lastBuildDate>
     
@@ -30,15 +29,6 @@ See it in Action   </description>
       <guid>/portfolio/bika-commander/</guid>
       <description> Overview Bika Commander is a cross platform web application based on Electron and ExtJS. It communicates with Bika LIMS through plone.jsonapi.routes.
 See it in Action   </description>
-    </item>
-    
-    <item>
-      <title>Alpenleder ERP</title>
-      <link>/portfolio/alpenleder/</link>
-      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/portfolio/alpenleder/</guid>
-      <description>Overview Alpenleder is an international bag manufacturing company and retailer. They have special requirements to their IT system, like shop functionality, reseller and customer login, multi-language support, product variants, inventory and HR capabilities. Odoo 9 serves all their needs and is ready for future requirements by customizations from RIDING BYTES.</description>
     </item>
     
     <item>

@@ -5,11 +5,92 @@
     <link>/de/tags/</link>
     <description>Recent content in Tags on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 14 Sep 2015 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/de/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Api</title>
+      <link>/de/tags/api/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backbonejs</title>
+      <link>/de/tags/backbonejs/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/backbonejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bika</title>
+      <link>/de/tags/bika/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/bika/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extjs</title>
+      <link>/de/tags/extjs/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/extjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lims</title>
+      <link>/de/tags/lims/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/lims/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Odoo</title>
+      <link>/de/tags/odoo/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/odoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/de/tags/open-source/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plone</title>
+      <link>/de/tags/plone/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/plone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>/de/tags/web/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/de/tags/web/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
