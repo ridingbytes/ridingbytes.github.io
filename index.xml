@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RIDING BYTES</title>
+    <link>/</link>
+    <description>Recent content on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 06 Jan 2018 21:15:00 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SENAITE, Professional Open Source LIMS</title>
+      <link>/2018/01/06/senaite-professional-open-source-lims/</link>
+      <pubDate>Sat, 06 Jan 2018 21:15:00 +0200</pubDate>
+      
+      <guid>/2018/01/06/senaite-professional-open-source-lims/</guid>
+      <description>&amp;nbsp;
+ &amp;nbsp;
+3 months ago, Riding Bytes and Naralabs decided to join efforts in bringing Open Source Laboratory Information Management Systems (LIMS) to the next level. Now, after 3 months of hard work, Riding Bytes and Naralabs are proud to finally announce the first official release of SENAITE. This announcement comes at the beginning of a new year, and we also want this release to be the beginning of a new era for Open Source LIMS.</description>
+    </item>
+    
+    <item>
+      <title>PLONE Conference 2017 – Digital Experience Conference</title>
+      <link>/2017/10/16/riding-bytes-plone/</link>
+      <pubDate>Mon, 16 Oct 2017 10:00:00 +0200</pubDate>
+      
+      <guid>/2017/10/16/riding-bytes-plone/</guid>
+      <description>Von den neusten schöpferischen Gedankengängen - über die Umsetzung - bis zum Fortschritt Auch dieses Jahr wieder ist die RIDING BYTES auf der PLONE Konferenz, die 2017 in Barcelona Ihre Pforten öffnet, vertreten.
+Mit einem Vortrag über die JSON API Schnittstelle, erhalten Sie unter anderem Einsicht über die neuartige Weiterentwicklung um moderne JavaScript Applikationen an das Plone CMS anzubinden.
+Using a Plone JSON API to interface modern Web Applications https://2017.</description>
+    </item>
+    
+    <item>
+      <title>Master of Business Administration (MBA)</title>
+      <link>/2017/06/27/riding-bytes-mba/</link>
+      <pubDate>Tue, 27 Jun 2017 17:00:00 +0200</pubDate>
+      
+      <guid>/2017/06/27/riding-bytes-mba/</guid>
+      <description>Herzlichen Glückwunsch zum erfolgreichen Abschluss Das einzigartige Programm zur Entwicklung von Führungspersönlichkeiten der Hochschule Kempten, fand dieses Jahr Ihren Höhepunkt, mit der Übergabe der Urkunden an die MBA Absolventen, im Rahmen einer feierlichen Zeremonie, im Stadttheater Kempten.
+Die Festveranstaltung, die ab 18:00 Uhr im Theatersaal stattfand, stand den Absolventinnen und Absolventen, ihren Begleitpersonen sowie auch den Professorinnen und Professoren der Kemptener Denkfabrik offen.
+Die Mitarbeiter, Freunde und Partner der Riding Bytes, gratulieren der Geschäftsleitung, Herrn Ramon Bartl, herzlichst zum erfolgreichen Abschluss des MBA.</description>
+    </item>
+    
+    <item>
+      <title>Coding Know-how kehrt in die Metropolregion Nürnberg ein</title>
+      <link>/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</link>
+      <pubDate>Tue, 20 Jun 2017 17:00:00 +0200</pubDate>
+      
+      <guid>/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</guid>
+      <description>Neu in der Stadt Offenheit in den Köpfen und Nachhaltigkeit in der Umsetzung kennzeichnen unsere Projekte.
+Im Mai 2017 verlegt die Riding Bytes seinen Firmensitz nach Fürth.
+Moderne Komplettlösungen im Laborbereich werden nun von der Kleeblattstadt aus, für nationale und internationale Kunden ausgebaut.
+Ein individuelles Funktionsspektrum, basierend auf Open Source Lösungen spricht die Sprache der Zukunft.
+Das Bika Open Source LIMS Projekt ist als Marktführer im Laborbereich, das Fundament, das den komplexen Besonderheiten des jeweiligen Labors angepasst werden kann.</description>
+    </item>
+    
+    <item>
+      <title>How to configure OpenLDAP to be usable for OwnCloud</title>
+      <link>/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</link>
+      <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
+      
+      <guid>/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</guid>
+      <description>OwnCloud and OpenLDAP We recently integrated OwnCloud 9 in our IT infrastructure and wanted to hook it up with our OpenLDAP server, which is running on a Ubuntu 16.04 LTS Xenial Xerus Server.
+After installing the required LDAP user and group App in OwnCloud, we could hook our LDAP server into OwnCloud. However, the Group selection to narrow down the users who are allowed to log into OwnCloud was disabled, since the memberOf LDAP Overlay was not yet supported by our companys LDAP.</description>
+    </item>
+    
+    <item>
+      <title>Thank You</title>
+      <link>/thanks/</link>
+      <pubDate>Thu, 02 Mar 2017 09:00:00 +0200</pubDate>
+      
+      <guid>/thanks/</guid>
+      <description>Thank You Thank you for your message. Your message is important to us and we will respond as soon as possible.
+Best Regards RIDING BYTES</description>
+    </item>
+    
+    <item>
+      <title>Bika Spotlight Search</title>
+      <link>/portfolio/bika-spotlight-search/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/bika-spotlight-search/</guid>
+      <description> Overview Bika Spotlight Search is a modern JavaScript application written with CoffeeScript and based on the BackboneJS framework. It communicates with Bika LIMS through plone.jsonapi.routes.
+See it in Action    &amp;mdash; &amp;mdash;     </description>
+    </item>
+    
+    <item>
+      <title>MBA Master Thesis: Impact of Netiquette on Email Communication</title>
+      <link>/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
+      <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
+      
+      <guid>/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</guid>
+      <description>Impact of Netiquette on Email Communication Emails are likely to get evaluated more negative than maybe intended of the sender. Therefore, we should consider carefully what and how we write Emails, because every human has a need for self-esteem, respect and courtesy when communicating with others.
+I investigated in my Master Thesis the impact of Netiquette on Email communication and found out, that writing in a respectful and courteous way has significant positive effects on the recipient.</description>
+    </item>
+    
+    <item>
+      <title>Bika Commander</title>
+      <link>/portfolio/bika-commander/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/bika-commander/</guid>
+      <description> Overview Bika Commander is a cross platform web application based on Electron and ExtJS. It communicates with Bika LIMS through plone.jsonapi.routes.
+See it in Action    &amp;mdash; &amp;mdash;     </description>
+    </item>
+    
+    <item>
+      <title>Odoo: Developer mode</title>
+      <link>/2016/03/06/odoo-developer-mode/</link>
+      <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
+      
+      <guid>/2016/03/06/odoo-developer-mode/</guid>
+      <description>Odoo: Access Technical Features In Odoo 9 you might miss the Technical Features checkbox in the Access Rights of your user. These settings are now visible if you activate the Developer Mode from the About menu.
+I had to access this many times during development and found out, that I lose too much time accessing the menu and clicking on the button. I had to change this!
+I created this small Bookmarklet, which toggles the developer mode by a single click&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Odoo: Dynamic image resizing</title>
+      <link>/2016/01/04/odoo-dynamic-image-resizing/</link>
+      <pubDate>Mon, 04 Jan 2016 11:44:06 +0100</pubDate>
+      
+      <guid>/2016/01/04/odoo-dynamic-image-resizing/</guid>
+      <description>Odoo: Scale images on the fly Odoo uses Python Imaging Library (PIL) to support image resizing on the fly. This functionality ships with the image.py module, which is located in openerp.tools.image.
+Problem I implemented a custom model which defined a binary field called image:
+class MyModel(models.Model): _name = &amp;#39;my.model&amp;#39; image = fields.Binary(&amp;#39;Image&amp;#39;, required=True) image_filename = fields.Char(&amp;#34;Image Filename&amp;#34;) I wanted to use this model within in a website view, but struggled with finding a suitable image source URL for the image field.</description>
+    </item>
+    
+    <item>
+      <title>Odoo: Remember the filename of binary files</title>
+      <link>/2016/01/02/odoo-remember-the-filename-of-binary-files/</link>
+      <pubDate>Sat, 02 Jan 2016 19:26:32 +0100</pubDate>
+      
+      <guid>/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
+      <description>&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;I wanted to use a binary field to store image data to a custom model.
+Therefore I used a field of the type &lt;code&gt;Binary&lt;/code&gt; in my model. Unfortunately only
+the base64 encoded file was stored in the database but not the filename. This
+resulted in an unknown binary file download with the name of the current model.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES ERP</title>
+      <link>/portfolio/ridingbytes-odoo/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/ridingbytes-odoo/</guid>
+      <description> Overview RIDING BYTES manages a variety of business intelligence tasks with Odoo 9. Custom Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order process for national and international customers. Project and Timesheet Bookings gives customers transparence to their projects and allows controlling and planning at any time.
+ &amp;mdash; &amp;mdash;     </description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES-Bika Labs-Partnership</title>
+      <link>/2015/12/17/riding-bytes-bika-labs-partnership/</link>
+      <pubDate>Thu, 17 Dec 2015 21:53:09 +0100</pubDate>
+      
+      <guid>/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
+      <description>&lt;h1 id=&#34;riding-bytes-bika-labs-partnership&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
+
+&lt;!-- &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;More than just a Company – A strong Network of Partners.&lt;br&gt;RIDING BYTES is now official Partner of Bika Lab Systems &lt;a href=&#34;https://t.co/07B6ap3DMO&#34;&gt;https://t.co/07B6ap3DMO&lt;/a&gt;&lt;/p&gt;&amp;mdash; RIDING BYTES (@ridingbytes) &lt;a href=&#34;https://twitter.com/ridingbytes/status/677201899674800129?ref_src=twsrc%5Etfw&#34;&gt;December 16, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+ --&gt;
+
+&lt;p&gt;Since December 15, 2015 RIDING BYTES and Bika Labs (South Africa) are official Partners.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES Website</title>
+      <link>/portfolio/ridingbytes/</link>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/ridingbytes/</guid>
+      <description>Overview The RIDING BYTES website is based on a general-purpose website framework called Hugo. Unlike systems like WordPress, Ghost and Drupal, Hugo doesn’t depend on administrative privileges, databases, runtimes, interpreters or external libraries. It creates the website only once, when you create new content.
+About Sites built with Hugo are extremely fast and very secure. Hugo sites can be hosted anywhere, including Heroku, GoDaddy, DreamHost, GitHub Pages, Google Cloud Storage, Amazon S3 and CloudFront, and work well with CDNs.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>/about/about/</link>
+      <pubDate>Thu, 24 Sep 2015 14:18:03 +0200</pubDate>
+      
+      <guid>/about/about/</guid>
+      <description>RIDING BYTES RIDING BYTES was founded on July, 2nd 2015. Ramon Bartl, the owner of the company, holds a degree in applied computer sciences and has over 10 years of experience in web development.
+The company name is a homage to the lately experienced partnership with the owners horse &amp;ldquo;Lucky&amp;rdquo;. It also symbolizes the relation between the company and its customers, which is based on trust, goodwill and a mutual understanding based on communication.</description>
+    </item>
+    
+    <item>
+      <title>Plone Commander</title>
+      <link>/2015/09/23/plone-commander/</link>
+      <pubDate>Wed, 23 Sep 2015 20:26:22 +0200</pubDate>
+      
+      <guid>/2015/09/23/plone-commander/</guid>
+      <description>&lt;h1 id=&#34;plone-commander&#34;&gt;Plone Commander&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a
+cross platform application built with &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;
+and &lt;a href=&#34;https://github.com/atom/electron&#34;&gt;Electron&lt;/a&gt;. It allows you to find, view,
+edit and explore Plone contents with ease.&lt;/p&gt;
+
+&lt;p&gt;It is free, open source and &lt;a href=&#34;https://opensource.org/licenses/MIT&#34;&gt;MIT&lt;/a&gt; licensed.&lt;/p&gt;
+
+&lt;!--
+&lt;figure class=&#34;e-block-skin image-left&#34;&gt;
+    
+        &lt;img src=&#34;/img/blog/plone-commander.jpg&#34; width=&#34;85%&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Legal Notice</title>
+      <link>/legal/legal/</link>
+      <pubDate>Tue, 22 Sep 2015 15:09:25 +0200</pubDate>
+      
+      <guid>/legal/legal/</guid>
+      <description>Responsible for the content RIDING BYTES UG (haftungsbeschränkt)
+ Würzburger Straße 81 90766 Fürth Germany  Phone: &amp;#43;49 (0) 911 974 930 90   VAT ID: DE301668607  Managing Director: Ramon Bartl  Register: HRB 732278 ( Amtsgericht Ulm )  Responsible as of §10 Abs. 3 MdStV: Ramon Bartl  &amp;mdash; &amp;mdash;     Disclaimer Inhalt Die RIDING BYTES UG stellt die Inhalte dieser Internetseiten mit großer Sorgfalt zusammen.</description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES</title>
+      <link>/contact/contact/</link>
+      <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
+      
+      <guid>/contact/contact/</guid>
+      <description> Würzburger Straße 81 • 90766 Fürth • Germany  &amp;#43;49 (0) 911 974 930 90  • hello@ridingbytes.com  • https://www.ridingbytes.com    &amp;mdash; &amp;mdash;     </description>
+    </item>
+    
+    <item>
+      <title>Plone JSON API</title>
+      <link>/portfolio/plone-jsonapi/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/plone-jsonapi/</guid>
+      <description>Overview This is an add-on package for plone.jsonapi.core which provides resource URLs for Plone standard contents (and more).
+Motivation The routes package is built on top of the plone.jsonapi.core package to allow Plone developers to build modern (JavaScript) web UIs which communicate through a RESTful API with their Plone site.
+Compatibility The plone.jsonapi.routes is compatible with Plone 4.
+Documentation Read the latest documentation: http://plonejsonapiroutes.readthedocs.org
+Where to get? Get the latest version on the Python Package Index: https://pypi.</description>
+    </item>
+    
+    <item>
+      <title>Plone Commander</title>
+      <link>/portfolio/plone-commander/</link>
+      <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/plone-commander/</guid>
+      <description> Overview Plone Commander is a cross platform web application based on Electron and ExtJS. It communicates with Plone through plone.jsonapi.routes.
+See it in Action    &amp;mdash; &amp;mdash;     </description>
+    </item>
+    
+  </channel>
+</rss>
