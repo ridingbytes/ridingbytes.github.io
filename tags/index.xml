@@ -5,23 +5,14 @@
     <link>/tags/</link>
     <description>Recent content in Tags on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 14 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>Copyright (c) 2015-2019, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 25 Feb 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Api</title>
-      <link>/tags/api/</link>
-      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Backbonejs</title>
+      <title>backbonejs</title>
       <link>/tags/backbonejs/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -30,7 +21,7 @@
     </item>
     
     <item>
-      <title>Bika</title>
+      <title>bika</title>
       <link>/tags/bika/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -39,16 +30,7 @@
     </item>
     
     <item>
-      <title>Extjs</title>
-      <link>/tags/extjs/</link>
-      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/extjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lims</title>
+      <title>lims</title>
       <link>/tags/lims/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -57,16 +39,7 @@
     </item>
     
     <item>
-      <title>Odoo</title>
-      <link>/tags/odoo/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/odoo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
+      <title>open-source</title>
       <link>/tags/open-source/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -75,20 +48,47 @@
     </item>
     
     <item>
-      <title>Plone</title>
-      <link>/tags/plone/</link>
-      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      <title>extjs</title>
+      <link>/tags/extjs/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/plone/</guid>
+      <guid>/tags/extjs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Web</title>
+      <title>odoo</title>
+      <link>/tags/odoo/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/odoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
       <link>/tags/web/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>/tags/api/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plone</title>
+      <link>/tags/plone/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plone/</guid>
       <description></description>
     </item>
     

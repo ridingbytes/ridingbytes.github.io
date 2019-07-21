@@ -5,89 +5,18 @@
     <link>/categories/</link>
     <description>Recent content in Categories on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
+    <copyright>Copyright (c) 2015-2019, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 06 Jan 2018 21:15:00 +0200</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Company</title>
-      <link>/categories/company/</link>
-      <pubDate>Tue, 20 Jun 2017 17:00:00 +0200</pubDate>
-      
-      <guid>/categories/company/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>/categories/development/</link>
-      <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
-      
-      <guid>/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Email</title>
-      <link>/categories/email/</link>
-      <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
-      
-      <guid>/categories/email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Extjs</title>
-      <link>/categories/extjs/</link>
-      <pubDate>Wed, 23 Sep 2015 20:26:22 +0200</pubDate>
-      
-      <guid>/categories/extjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Howto</title>
-      <link>/categories/howto/</link>
-      <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
-      
-      <guid>/categories/howto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lims</title>
+      <title>LIMS</title>
       <link>/categories/lims/</link>
       <pubDate>Sat, 06 Jan 2018 21:15:00 +0200</pubDate>
       
       <guid>/categories/lims/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mba</title>
-      <link>/categories/mba/</link>
-      <pubDate>Tue, 27 Jun 2017 17:00:00 +0200</pubDate>
-      
-      <guid>/categories/mba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Netiquette</title>
-      <link>/categories/netiquette/</link>
-      <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
-      
-      <guid>/categories/netiquette/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Odoo</title>
-      <link>/categories/odoo/</link>
-      <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
-      
-      <guid>/categories/odoo/</guid>
       <description></description>
     </item>
     
@@ -101,11 +30,83 @@
     </item>
     
     <item>
+      <title>MBA</title>
+      <link>/categories/mba/</link>
+      <pubDate>Tue, 27 Jun 2017 17:00:00 +0200</pubDate>
+      
+      <guid>/categories/mba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Company</title>
+      <link>/categories/company/</link>
+      <pubDate>Tue, 20 Jun 2017 17:00:00 +0200</pubDate>
+      
+      <guid>/categories/company/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HowTo</title>
+      <link>/categories/howto/</link>
+      <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
+      
+      <guid>/categories/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Server</title>
       <link>/categories/server/</link>
       <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
       
       <guid>/categories/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Email</title>
+      <link>/categories/email/</link>
+      <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
+      
+      <guid>/categories/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Netiquette</title>
+      <link>/categories/netiquette/</link>
+      <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
+      
+      <guid>/categories/netiquette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/categories/development/</link>
+      <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
+      
+      <guid>/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Odoo</title>
+      <link>/categories/odoo/</link>
+      <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
+      
+      <guid>/categories/odoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ExtJS</title>
+      <link>/categories/extjs/</link>
+      <pubDate>Wed, 23 Sep 2015 20:26:22 +0200</pubDate>
+      
+      <guid>/categories/extjs/</guid>
       <description></description>
     </item>
     

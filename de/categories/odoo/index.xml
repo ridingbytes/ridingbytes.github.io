@@ -5,7 +5,7 @@
     <link>/de/categories/odoo/</link>
     <description>Recent content in Odoo on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright (c) 2015-2018, RIDING BYTES; all rights reserved.</copyright>
+    <copyright>Copyright (c) 2015-2019, RIDING BYTES; all rights reserved.</copyright>
     <lastBuildDate>Sun, 06 Mar 2016 23:44:26 +0100</lastBuildDate>
     
 	<atom:link href="/de/categories/odoo/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +17,7 @@
       <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
       
       <guid>/de/2016/03/06/odoo-developer-mode/</guid>
-      <description>Odoo: Access Technical Features In Odoo 9 you might miss the Technical Features checkbox in the Access Rights of your user. These settings are now visible if you activate the Developer Mode from the About menu.
-I had to access this many times during development and found out, that I lose too much time accessing the menu and clicking on the button. I had to change this!
-I created this small Bookmarklet, which toggles the developer mode by a single click&amp;hellip;</description>
+      <description>Activate Odoo Developer with a Bookmarklet</description>
     </item>
     
     <item>
@@ -28,9 +26,7 @@ I created this small Bookmarklet, which toggles the developer mode by a single c
       <pubDate>Mon, 04 Jan 2016 11:44:06 +0100</pubDate>
       
       <guid>/de/2016/01/04/odoo-dynamic-image-resizing/</guid>
-      <description>Odoo: Scale images on the fly Odoo uses Python Imaging Library (PIL) to support image resizing on the fly. This functionality ships with the image.py module, which is located in openerp.tools.image.
-Problem I implemented a custom model which defined a binary field called image:
-class MyModel(models.Model): _name = &amp;#39;my.model&amp;#39; image = fields.Binary(&amp;#39;Image&amp;#39;, required=True) image_filename = fields.Char(&amp;#34;Image Filename&amp;#34;) I wanted to use this model within in a website view, but struggled with finding a suitable image source URL for the image field.</description>
+      <description>Scale images on the fly</description>
     </item>
     
     <item>
@@ -46,9 +42,7 @@ class MyModel(models.Model): _name = &amp;#39;my.model&amp;#39; image = fields.B
 &lt;p&gt;I wanted to use a binary field to store image data to a custom model.
 Therefore I used a field of the type &lt;code&gt;Binary&lt;/code&gt; in my model. Unfortunately only
 the base64 encoded file was stored in the database but not the filename. This
-resulted in an unknown binary file download with the name of the current model.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+resulted in an unknown binary file download with the name of the current model.&lt;/p&gt;</description>
     </item>
     
   </channel>
