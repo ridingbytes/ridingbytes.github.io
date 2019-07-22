@@ -3,6 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/de/</loc>
+    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/wiki/senaite/</loc>
+    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/wiki/senaite/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/wiki/senaite/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/wiki/</loc>
+    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/wiki/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/wiki/"
+                />
+  </url>
+  
+  <url>
     <loc>/de/portfolio/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -15,22 +62,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/portfolio/"
-                />
-  </url>
-  
-  <url>
-    <loc>/de/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/"
                 />
   </url>
   

@@ -78,6 +78,12 @@ i, i.fa { color: $rb-cyan; }
     top: 0;
   }
 }
+.section-wiki {
+    @include rb-section("../img/sections/wiki_large.jpg");
+    &::before {
+        background-position: center center;
+    }
+}
 .section-about {
   @include rb-section("../img/sections/about_large.jpg");
   &::before {
@@ -276,6 +282,9 @@ i, i.fa { color: $rb-cyan; }
 @media (max-width: 1200px) {
     .section-blog {
         @include rb-section("../img/sections/blog_medium.jpg");
+    }
+    .section-wiki {
+        @include rb-section("../img/sections/wiki_medium.jpg");
     }
     .section-services {
         @include rb-section("../img/sections/services_medium.jpg");

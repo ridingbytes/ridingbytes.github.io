@@ -3,6 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/wiki/senaite/</loc>
+    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/wiki/senaite/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/wiki/senaite/"
+                />
+  </url>
+  
+  <url>
+    <loc>/wiki/</loc>
+    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/wiki/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/wiki/"
+                />
+  </url>
+  
+  <url>
     <loc>/portfolio/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -15,22 +62,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/portfolio/"
-                />
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
                 />
   </url>
   
@@ -193,6 +224,21 @@
   </url>
   
   <url>
+    <loc>/2017/10/16/riding-bytes-plone/</loc>
+    <lastmod>2017-10-16T10:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2017/10/16/riding-bytes-plone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2017/10/16/riding-bytes-plone/"
+                />
+  </url>
+  
+  <url>
     <loc>/categories/plone/</loc>
     <lastmod>2017-10-16T10:00:00+02:00</lastmod>
     <priority>0</priority>
@@ -205,21 +251,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/categories/plone/"
-                />
-  </url>
-  
-  <url>
-    <loc>/2017/10/16/riding-bytes-plone/</loc>
-    <lastmod>2017-10-16T10:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/2017/10/16/riding-bytes-plone/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/2017/10/16/riding-bytes-plone/"
                 />
   </url>
   
