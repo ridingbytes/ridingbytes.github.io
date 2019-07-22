@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Bika Commander</title>
+      <title>SENAITE Commander</title>
       <link>/portfolio/bika-commander/</link>
       <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/bika-commander/</guid>
-      <description> Overview Bika Commander is a cross platform web application based on Electron and ExtJS. It communicates with Bika LIMS through plone.jsonapi.routes.
+      <description> Overview SENAITE Commander is a cross platform web application based on Electron and ExtJS. It communicates with SENAITE LIMS through plone.jsonapi.routes.
 See it in Action    &amp;mdash; &amp;mdash;     </description>
     </item>
     

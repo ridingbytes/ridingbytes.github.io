@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Bika Spotlight Search</title>
+      <title>Senaite Spotlight Search</title>
       <link>/portfolio/bika-spotlight-search/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/bika-spotlight-search/</guid>
-      <description> Overview Bika Spotlight Search is a modern JavaScript application written with CoffeeScript and based on the BackboneJS framework. It communicates with Bika LIMS through plone.jsonapi.routes.
+      <description> Overview Senaite Spotlight Search is a modern JavaScript application written with CoffeeScript and based on the BackboneJS framework. It communicates with Senaite LIMS through plone.jsonapi.routes.
 See it in Action    &amp;mdash; &amp;mdash;     </description>
     </item>
     
