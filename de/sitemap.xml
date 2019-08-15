@@ -5,7 +5,6 @@
   <url>
     <loc>/de/</loc>
     <lastmod>2019-07-22T10:00:00+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -36,7 +35,6 @@
   <url>
     <loc>/de/wiki/</loc>
     <lastmod>2019-07-22T10:00:00+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -50,9 +48,53 @@
   </url>
   
   <url>
+    <loc>/de/tags/lims/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/lims/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/lims/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/tags/open-source/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/open-source/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/open-source/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/tags/pdf/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/pdf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/pdf/"
+                />
+  </url>
+  
+  <url>
     <loc>/de/portfolio/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -62,6 +104,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/portfolio/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/tags/senaite/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/senaite/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/senaite/"
                 />
   </url>
   
@@ -83,7 +140,6 @@
   <url>
     <loc>/de/tags/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -97,73 +153,8 @@
   </url>
   
   <url>
-    <loc>/de/tags/lims/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/lims/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/tags/lims/"
-                />
-  </url>
-  
-  <url>
-    <loc>/de/tags/open-source/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/open-source/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/tags/open-source/"
-                />
-  </url>
-  
-  <url>
-    <loc>/de/tags/pdf/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/pdf/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/tags/pdf/"
-                />
-  </url>
-  
-  <url>
-    <loc>/de/tags/senaite/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/senaite/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/tags/senaite/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/blog/</loc>
     <lastmod>2018-01-06T21:15:00+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -179,7 +170,6 @@
   <url>
     <loc>/de/categories/</loc>
     <lastmod>2018-01-06T21:15:00+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -195,7 +185,6 @@
   <url>
     <loc>/de/categories/lims/</loc>
     <lastmod>2018-01-06T21:15:00+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -226,7 +215,6 @@
   <url>
     <loc>/de/categories/plone/</loc>
     <lastmod>2017-10-16T10:00:00+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -255,22 +243,6 @@
   </url>
   
   <url>
-    <loc>/de/categories/mba/</loc>
-    <lastmod>2017-06-27T17:00:00+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/mba/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/categories/mba/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/2017/06/27/riding-bytes-mba/</loc>
     <lastmod>2017-06-27T17:00:00+02:00</lastmod>
     <xhtml:link
@@ -282,6 +254,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/2017/06/27/riding-bytes-mba/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/categories/mba/</loc>
+    <lastmod>2017-06-27T17:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/mba/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/mba/"
                 />
   </url>
   
@@ -303,7 +290,6 @@
   <url>
     <loc>/de/categories/company/</loc>
     <lastmod>2017-06-20T17:00:00+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -334,7 +320,6 @@
   <url>
     <loc>/de/categories/howto/</loc>
     <lastmod>2017-03-06T11:24:31+01:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -350,7 +335,6 @@
   <url>
     <loc>/de/categories/server/</loc>
     <lastmod>2017-03-06T11:24:31+01:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -379,6 +363,21 @@
   </url>
   
   <url>
+    <loc>/de/tags/backbonejs/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/backbonejs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/backbonejs/"
+                />
+  </url>
+  
+  <url>
     <loc>/de/portfolio/bika-spotlight-search/</loc>
     <lastmod>2017-02-25T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -394,25 +393,8 @@
   </url>
   
   <url>
-    <loc>/de/tags/backbonejs/</loc>
-    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/backbonejs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/tags/backbonejs/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/categories/email/</loc>
     <lastmod>2017-01-29T10:08:05+01:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -443,7 +425,6 @@
   <url>
     <loc>/de/categories/netiquette/</loc>
     <lastmod>2017-01-29T10:08:05+01:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -453,6 +434,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/categories/netiquette/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/tags/extjs/</loc>
+    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/extjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/extjs/"
                 />
   </url>
   
@@ -472,25 +468,8 @@
   </url>
   
   <url>
-    <loc>/de/tags/extjs/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/extjs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/tags/extjs/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/categories/development/</loc>
     <lastmod>2016-03-06T23:44:26+01:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -506,7 +485,6 @@
   <url>
     <loc>/de/categories/odoo/</loc>
     <lastmod>2016-03-06T23:44:26+01:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -565,6 +543,21 @@
   </url>
   
   <url>
+    <loc>/de/tags/odoo/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/odoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/odoo/"
+                />
+  </url>
+  
+  <url>
     <loc>/de/portfolio/ridingbytes-odoo/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -580,25 +573,8 @@
   </url>
   
   <url>
-    <loc>/de/tags/odoo/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/odoo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/tags/odoo/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/tags/web/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -642,22 +618,6 @@
   </url>
   
   <url>
-    <loc>/de/about/</loc>
-    <lastmod>2015-09-24T14:18:03+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/about/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/about/about/</loc>
     <lastmod>2015-09-24T14:18:03+02:00</lastmod>
     <xhtml:link
@@ -673,9 +633,23 @@
   </url>
   
   <url>
+    <loc>/de/about/</loc>
+    <lastmod>2015-09-24T14:18:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/about/"
+                />
+  </url>
+  
+  <url>
     <loc>/de/categories/extjs/</loc>
     <lastmod>2015-09-23T20:26:22+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -721,7 +695,6 @@
   <url>
     <loc>/de/legal/</loc>
     <lastmod>2015-09-22T15:09:25+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -737,7 +710,6 @@
   <url>
     <loc>/de/contact/</loc>
     <lastmod>2015-09-22T10:55:01+02:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -766,24 +738,8 @@
   </url>
   
   <url>
-    <loc>/de/portfolio/plone-jsonapi/</loc>
-    <lastmod>2015-09-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/portfolio/plone-jsonapi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/portfolio/plone-jsonapi/"
-                />
-  </url>
-  
-  <url>
     <loc>/de/tags/api/</loc>
     <lastmod>2015-09-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -799,7 +755,6 @@
   <url>
     <loc>/de/tags/plone/</loc>
     <lastmod>2015-09-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -809,6 +764,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/tags/plone/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/portfolio/plone-jsonapi/</loc>
+    <lastmod>2015-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/plone-jsonapi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/plone-jsonapi/"
                 />
   </url>
   
