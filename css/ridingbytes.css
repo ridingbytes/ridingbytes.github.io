@@ -4766,6 +4766,9 @@ i, i.fa {
 .post-content h1, .post-content h2 {
   font-weight: bold;
 }
+.post-content ul {
+  list-style: square;
+}
 
 .comment-baloon a {
   text-decoration: none;

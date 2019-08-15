@@ -199,6 +199,9 @@ i, i.fa { color: $rb-cyan; }
   h1, h2 {
       font-weight: bold;
   }
+  ul {
+      list-style: square;
+  }
 }
 .comment-baloon {
   a {
