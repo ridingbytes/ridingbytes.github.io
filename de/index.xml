@@ -28,7 +28,7 @@ Install dependencies sudo apt install build-essential sudo apt install python2.7
       
       <guid>/de/portfolio/senaite-impress/</guid>
       <description> Overview SENAITE IMPRESS is basically a rendering engine for HTML documents to PDF. It supports any kind of international paperformat with their corresponding paper dimensions, portrait and landscape orientation and merging of multiple PDFs to one document.
- &amp;mdash; &amp;mdash;     </description>
+ &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@ Beste Grüße RIDING BYTES</description>
       
       <guid>/de/portfolio/bika-spotlight-search/</guid>
       <description> Overview Senaite Spotlight Search is a modern JavaScript application written with CoffeeScript and based on the BackboneJS framework. It communicates with Senaite LIMS through plone.jsonapi.routes.
-See it in Action    &amp;mdash; &amp;mdash;     </description>
+See it in Action    &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
@@ -115,7 +115,7 @@ uncertainty and perception of senders’ likability</description>
       
       <guid>/de/portfolio/bika-commander/</guid>
       <description> Overview SENAITE Commander is a cross platform web application based on Electron and ExtJS. It communicates with SENAITE LIMS through plone.jsonapi.routes.
-See it in Action    &amp;mdash; &amp;mdash;     </description>
+See it in Action    &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
@@ -159,7 +159,7 @@ resulted in an unknown binary file download with the name of the current model.&
       
       <guid>/de/portfolio/ridingbytes-odoo/</guid>
       <description> Overview RIDING BYTES manages a variety of business intelligence tasks with Odoo 9. Custom Report-, Quotation-, Sale Order-, and Invoice Templates streamline the whole order process for national and international customers. Project and Timesheet Bookings gives customers transparence to their projects and allows controlling and planning at any time.
- &amp;mdash; &amp;mdash;     </description>
+ &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
@@ -224,7 +224,7 @@ edit and explore Plone contents with ease.&lt;/p&gt;
       <pubDate>Tue, 22 Sep 2015 15:09:25 +0200</pubDate>
       
       <guid>/de/legal/legal/</guid>
-      <description>Verantwortlich für den Inhalt RIDING BYTES GmbH  Würzburger Straße 81 90766 Fürth Deutschland  Telefon: &amp;#43;49 (0) 911 974 930 90   UstId: DE301668607  Geschäftsführer: Ramon Bartl  Register: HRB 17318 ( Amtsgericht Fürth )  Inhaltlich Verantwortlicher gem. §10 Abs. 3 MdStV: Ramon Bartl  &amp;mdash; &amp;mdash;     Datenschutzerklärung Inhalt Die RIDING BYTES Gmbh stellt die Inhalte dieser Internetseiten mit großer Sorgfalt zusammen.</description>
+      <description>Verantwortlich für den Inhalt RIDING BYTES GmbH  Würzburger Straße 81 90766 Fürth Deutschland  Telefon: &amp;#43;49 (0) 911 974 930 90   UstId: DE301668607  Geschäftsführer: Ramon Bartl  Register: HRB 17318 ( Amtsgericht Fürth )  Inhaltlich Verantwortlicher gem. §10 Abs. 3 MdStV: Ramon Bartl  &amp;mdash; &amp;mdash;    Datenschutzerklärung Inhalt Die RIDING BYTES Gmbh stellt die Inhalte dieser Internetseiten mit großer Sorgfalt zusammen. Jedoch übernehmen wir keine Gewähr für die Aktualität, Richtigkeit und Vollständigkeit der Informationen auf diesen Seiten oder den jederzeitigen störungsfreien Zugang.</description>
     </item>
     
     <item>
@@ -233,7 +233,7 @@ edit and explore Plone contents with ease.&lt;/p&gt;
       <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
       
       <guid>/de/contact/contact/</guid>
-      <description> Würzburger Straße 81 • 90766 Fürth • Deutschland  &amp;#43;49 (0) 911 974 930 90  • hallo@ridingbytes.com  • https://www.ridingbytes.com    &amp;mdash; &amp;mdash;     </description>
+      <description> Würzburger Straße 81 • 90766 Fürth • Deutschland  &amp;#43;49 (0) 911 974 930 90  • hallo@ridingbytes.com  • https://www.ridingbytes.com    &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
@@ -256,7 +256,7 @@ Where to get? Get the latest version on the Python Package Index: https://pypi.<
       
       <guid>/de/portfolio/plone-commander/</guid>
       <description> Overview Plone Commander is a cross platform web application based on Electron and ExtJS. It communicates with Plone through plone.jsonapi.routes.
-See it in Action    &amp;mdash; &amp;mdash;     </description>
+See it in Action    &amp;mdash; &amp;mdash;    </description>
     </item>
     
   </channel>
