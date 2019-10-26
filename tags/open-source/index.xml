@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open-source on RIDING BYTES</title>
+    <link>/tags/open-source/</link>
+    <description>Recent content in open-source on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2019, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SENAITE IMPRESS</title>
+      <link>/portfolio/senaite-impress/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/senaite-impress/</guid>
+      <description> Overview SENAITE IMPRESS is basically a rendering engine for HTML documents to PDF. It supports any kind of international paperformat with their corresponding paper dimensions, portrait and landscape orientation and merging of multiple PDFs to one document.
+ &amp;mdash; &amp;mdash;    </description>
+    </item>
+    
+    <item>
+      <title>Senaite Spotlight Search</title>
+      <link>/portfolio/bika-spotlight-search/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/bika-spotlight-search/</guid>
+      <description> Overview Senaite Spotlight Search is a modern JavaScript application written with CoffeeScript and based on the BackboneJS framework. It communicates with Senaite LIMS through plone.jsonapi.routes.
+See it in Action    &amp;mdash; &amp;mdash;    </description>
+    </item>
+    
+    <item>
+      <title>SENAITE Commander</title>
+      <link>/portfolio/bika-commander/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/bika-commander/</guid>
+      <description> Overview SENAITE Commander is a cross platform web application based on Electron and ExtJS. It communicates with SENAITE LIMS through plone.jsonapi.routes.
+See it in Action    &amp;mdash; &amp;mdash;    </description>
+    </item>
+    
+    <item>
+      <title>Plone JSON API</title>
+      <link>/portfolio/plone-jsonapi/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/plone-jsonapi/</guid>
+      <description>Overview This is an add-on package for plone.jsonapi.core which provides resource URLs for Plone standard contents (and more).
+Motivation The routes package is built on top of the plone.jsonapi.core package to allow Plone developers to build modern (JavaScript) web UIs which communicate through a RESTful API with their Plone site.
+Compatibility The plone.jsonapi.routes is compatible with Plone 4.
+Documentation Read the latest documentation: http://plonejsonapiroutes.readthedocs.org
+Where to get? Get the latest version on the Python Package Index: https://pypi.</description>
+    </item>
+    
+    <item>
+      <title>Plone Commander</title>
+      <link>/portfolio/plone-commander/</link>
+      <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/plone-commander/</guid>
+      <description> Overview Plone Commander is a cross platform web application based on Electron and ExtJS. It communicates with Plone through plone.jsonapi.routes.
+See it in Action    &amp;mdash; &amp;mdash;    </description>
+    </item>
+    
+  </channel>
+</rss>
