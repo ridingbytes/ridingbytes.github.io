@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LIMS on RIDING BYTES</title>
+    <link>/categories/lims/</link>
+    <description>Recent content in LIMS on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 06 Jan 2018 21:15:00 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/lims/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SENAITE, Professional Open Source LIMS</title>
+      <link>/2018/01/06/senaite-professional-open-source-lims/</link>
+      <pubDate>Sat, 06 Jan 2018 21:15:00 +0200</pubDate>
+      
+      <guid>/2018/01/06/senaite-professional-open-source-lims/</guid>
+      <description>Riding Bytes and Naralabs join efforts in bringing Open Source Laboratory Information Management Systems (LIMS/LIS) to the next level. Today they are proud to announce the first official release of SENAITE</description>
+    </item>
+    
+  </channel>
+</rss>

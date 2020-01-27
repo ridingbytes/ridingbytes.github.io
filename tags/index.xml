@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on RIDING BYTES</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lims</title>
+      <link>/tags/lims/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lims/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pdf</title>
+      <link>/tags/pdf/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>senaite</title>
+      <link>/tags/senaite/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/senaite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backbonejs</title>
+      <link>/tags/backbonejs/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/backbonejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extjs</title>
+      <link>/tags/extjs/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/extjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>odoo</title>
+      <link>/tags/odoo/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/odoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>/tags/web/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>/tags/api/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plone</title>
+      <link>/tags/plone/</link>
+      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plone/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

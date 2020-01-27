@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on RIDING BYTES</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 15 Aug 2019 22:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How can SENAITE be maintained Open Source</title>
+      <link>/2019/08/15/how-can-senaite-be-maintained-open-source/</link>
+      <pubDate>Thu, 15 Aug 2019 22:00:00 +0200</pubDate>
+      
+      <guid>/2019/08/15/how-can-senaite-be-maintained-open-source/</guid>
+      <description>And what you can do to keep (niche) Open Source Projects like SENAITE alive.</description>
+    </item>
+    
+    <item>
+      <title>SENAITE, Professional Open Source LIMS</title>
+      <link>/2018/01/06/senaite-professional-open-source-lims/</link>
+      <pubDate>Sat, 06 Jan 2018 21:15:00 +0200</pubDate>
+      
+      <guid>/2018/01/06/senaite-professional-open-source-lims/</guid>
+      <description>Riding Bytes and Naralabs join efforts in bringing Open Source Laboratory Information Management Systems (LIMS/LIS) to the next level. Today they are proud to announce the first official release of SENAITE</description>
+    </item>
+    
+    <item>
+      <title>PLONE Conference 2017 – Digital Experience Conference</title>
+      <link>/2017/10/16/riding-bytes-plone/</link>
+      <pubDate>Mon, 16 Oct 2017 10:00:00 +0200</pubDate>
+      
+      <guid>/2017/10/16/riding-bytes-plone/</guid>
+      <description>October 16 2017|October 22 2017</description>
+    </item>
+    
+    <item>
+      <title>Master of Business Administration (MBA)</title>
+      <link>/2017/06/27/riding-bytes-mba/</link>
+      <pubDate>Tue, 27 Jun 2017 17:00:00 +0200</pubDate>
+      
+      <guid>/2017/06/27/riding-bytes-mba/</guid>
+      <description>Graduierungsfeier am 16 Juni 2017</description>
+    </item>
+    
+    <item>
+      <title>Coding Know-how kehrt in die Metropolregion Nürnberg ein</title>
+      <link>/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</link>
+      <pubDate>Tue, 20 Jun 2017 17:00:00 +0200</pubDate>
+      
+      <guid>/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</guid>
+      <description>Riding Bytes sind umgezogen</description>
+    </item>
+    
+    <item>
+      <title>How to configure OpenLDAP to be usable for OwnCloud</title>
+      <link>/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</link>
+      <pubDate>Mon, 06 Mar 2017 11:24:31 +0100</pubDate>
+      
+      <guid>/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</guid>
+      <description>Configuration of the memberOf overlay in OpenLDAP</description>
+    </item>
+    
+    <item>
+      <title>MBA Master Thesis: Impact of Netiquette on Email Communication</title>
+      <link>/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</link>
+      <pubDate>Sun, 29 Jan 2017 10:08:05 +0100</pubDate>
+      
+      <guid>/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</guid>
+      <description>This MBA Master Thesis investigated the impact of Netiquette in
+Emails on the recipients&amp;rsquo; level of understanding, job satisfaction, amount of
+uncertainty and perception of senders’ likability</description>
+    </item>
+    
+    <item>
+      <title>Odoo: Developer mode</title>
+      <link>/2016/03/06/odoo-developer-mode/</link>
+      <pubDate>Sun, 06 Mar 2016 23:44:26 +0100</pubDate>
+      
+      <guid>/2016/03/06/odoo-developer-mode/</guid>
+      <description>Activate Odoo Developer with a Bookmarklet</description>
+    </item>
+    
+    <item>
+      <title>Odoo: Dynamic image resizing</title>
+      <link>/2016/01/04/odoo-dynamic-image-resizing/</link>
+      <pubDate>Mon, 04 Jan 2016 11:44:06 +0100</pubDate>
+      
+      <guid>/2016/01/04/odoo-dynamic-image-resizing/</guid>
+      <description>Scale images on the fly</description>
+    </item>
+    
+    <item>
+      <title>Odoo: Remember the filename of binary files</title>
+      <link>/2016/01/02/odoo-remember-the-filename-of-binary-files/</link>
+      <pubDate>Sat, 02 Jan 2016 19:26:32 +0100</pubDate>
+      
+      <guid>/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
+      <description>&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+&lt;p&gt;I wanted to use a binary field to store image data to a custom model.
+Therefore I used a field of the type &lt;code&gt;Binary&lt;/code&gt; in my model. Unfortunately only
+the base64 encoded file was stored in the database but not the filename. This
+resulted in an unknown binary file download with the name of the current model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES-Bika Labs-Partnership</title>
+      <link>/2015/12/17/riding-bytes-bika-labs-partnership/</link>
+      <pubDate>Thu, 17 Dec 2015 21:53:09 +0100</pubDate>
+      
+      <guid>/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
+      <description>&lt;h1 id=&#34;riding-bytes--bika-labs---partnership&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Since December 15, 2015 RIDING BYTES and Bika Labs (South Africa) are official Partners.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Plone Commander</title>
+      <link>/2015/09/23/plone-commander/</link>
+      <pubDate>Wed, 23 Sep 2015 20:26:22 +0200</pubDate>
+      
+      <guid>/2015/09/23/plone-commander/</guid>
+      <description>&lt;h1 id=&#34;plone-commander&#34;&gt;Plone Commander&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ridingbytes/plone.commander/releases&#34;&gt;Plone Commander&lt;/a&gt; is a
+cross platform application built with &lt;a href=&#34;https://www.sencha.com/products/extjs&#34;&gt;ExtJS&lt;/a&gt;
+and &lt;a href=&#34;https://github.com/atom/electron&#34;&gt;Electron&lt;/a&gt;. It allows you to find, view,
+edit and explore Plone contents with ease.&lt;/p&gt;
+&lt;p&gt;It is free, open source and &lt;a href=&#34;https://opensource.org/licenses/MIT&#34;&gt;MIT&lt;/a&gt; licensed.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

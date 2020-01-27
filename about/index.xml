@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on RIDING BYTES</title>
+    <link>/about/</link>
+    <description>Recent content in Abouts on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 24 Sep 2015 14:18:03 +0200</lastBuildDate>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about</title>
+      <link>/about/about/</link>
+      <pubDate>Thu, 24 Sep 2015 14:18:03 +0200</pubDate>
+      
+      <guid>/about/about/</guid>
+      <description>RIDING BYTES RIDING BYTES was founded on July, 2nd 2015. Ramon Bartl, the owner of the company, holds a degree in applied computer sciences and has many years of experience in web development.
+The company name is a homage to the lately experienced partnership with the owners horse &amp;ldquo;Lucky&amp;rdquo;. It also symbolizes the relation between the company and its customers, which is based on trust, goodwill and a mutual understanding based on communication.</description>
+    </item>
+    
+  </channel>
+</rss>
