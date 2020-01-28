@@ -230,6 +230,8 @@ jQuery(document).ready(function () {
 
                 touchenabled: "off",
                 onHoverStop: "on",
+                fullScreenOffsetContainer:"",			// Size for FullScreen Slider minimising Calculated on the Container sizes
+					      fullScreenOffset:"160",					// Size for FullScreen Slider minimising
 
                 parallax: "scroll",
                 parallaxBgFreeze: "on",
