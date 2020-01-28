@@ -4736,6 +4736,35 @@ i, i.fa {
   z-index: -1;
 }
 
+.landing-page {
+  overflow: hidden;
+  position: relative;
+}
+.landing-page:before, .landing-page:after {
+  content: "";
+  display: table;
+}
+.landing-page:after {
+  clear: both;
+}
+.landing-page::before {
+  content: " ";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  left: 0;
+  background-color: #e8e8e8;
+  background: url("../img/sections/blogpost_large.jpg") no-repeat top center;
+  background-size: cover;
+  will-change: transform;
+  z-index: -1;
+}
+.landing-page::before {
+  top: 0;
+  background-position: center center;
+}
+
 .post-content {
   padding-bottom: 2em;
 }

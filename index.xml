@@ -256,5 +256,23 @@ Where to get? Get the latest version on the Python Package Index: https://pypi.<
 See it in Action    &amp;mdash; &amp;mdash;    </description>
     </item>
     
+    <item>
+      <title>LIMS Changer</title>
+      <link>/lims-changer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lims-changer.html</guid>
+      <description>LIMS Changer </description>
+    </item>
+    
+    <item>
+      <title>LIMS Starter</title>
+      <link>/lims-starter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lims-starter.html</guid>
+      <description>LIMS Starter </description>
+    </item>
+    
   </channel>
 </rss>

@@ -807,4 +807,12 @@
                 />
   </url>
   
+  <url>
+    <loc>/lims-changer.html</loc>
+  </url>
+  
+  <url>
+    <loc>/lims-starter.html</loc>
+  </url>
+  
 </urlset>

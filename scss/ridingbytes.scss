@@ -193,6 +193,13 @@ i, i.fa { color: $rb-cyan; }
 .blog-page-single {
   @include rb-section("../img/sections/blogpost_large.jpg");
 }
+.landing-page {
+    @include rb-section("../img/sections/blogpost_large.jpg");
+    &::before {
+        top: 0;
+        background-position: center center;
+    }
+}
 .post-content {
   @include rb-content-fonts;
   padding-bottom: 2em;
