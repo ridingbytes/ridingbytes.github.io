@@ -2018,6 +2018,8 @@ ul.sf-menu > li, .sf-menu > li > a {
   width: 100%;
   position: relative;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   /*margin-bottom: 64px;*/
 }
 

@@ -1789,9 +1789,11 @@ ul.sf-menu > li, .sf-menu > li > a {  border: none;  text-align: left;  }
 .tp-banner-container{
   width:100%;
   position:relative;
-  padding:0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   /*margin-bottom: 64px;*/
-//  margin-top: -32px;
+  // margin-top: -64px;
 }
 .tp-banner{
   width:100%;
