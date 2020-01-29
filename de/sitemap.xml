@@ -797,4 +797,32 @@
                 />
   </url>
   
+  <url>
+    <loc>/de/lims-changer.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/lims-changer.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/lims-changer.html"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/lims-starter.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/lims-starter.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/lims-starter.html"
+                />
+  </url>
+  
 </urlset>

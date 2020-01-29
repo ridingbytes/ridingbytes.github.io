@@ -809,10 +809,30 @@
   
   <url>
     <loc>/lims-changer.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/lims-changer.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/lims-changer.html"
+                />
   </url>
   
   <url>
     <loc>/lims-starter.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/lims-starter.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/lims-starter.html"
+                />
   </url>
   
 </urlset>
