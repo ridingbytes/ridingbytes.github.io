@@ -4261,6 +4261,21 @@ i, i.fa {
   color: #70ccad;
 }
 
+ul.list-check {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.list-check li {
+  padding-left: 1em;
+  text-indent: -0.7em;
+}
+ul.list-check li:before {
+  padding-right: 4px;
+  content: "✔ ";
+  color: limegreen;
+}
+
 /*------------------------------------------------------------------
 [3. Sections]
 */
@@ -4464,6 +4479,141 @@ i, i.fa {
 /*------------------------------------------------------------------
 [4. Templates]
 */
+body.template-landing-page .package-item {
+  background: #fff;
+  border: 1px solid #dedede;
+  min-height: 300px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 60px;
+}
+body.template-landing-page .package-item .item-photo {
+  background: #fff;
+  min-height: 200px;
+  margin: 0 auto;
+  padding: 24px 0 32px 0;
+}
+body.template-landing-page .package-item .item-photo img {
+  margin: 0 auto;
+}
+body.template-landing-page .package-item .item-attrs {
+  padding: 9px 16px 0 16px;
+}
+body.template-landing-page .package-item .item-attrs .item-oldprice {
+  font-size: 18px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: line-through;
+}
+body.template-landing-page .package-item .item-attrs .item-newprice {
+  font-size: 30px;
+  line-height: 30px;
+  color: #333;
+}
+body.template-landing-page .package-item .item-attrs .add-to-cart {
+  border-top: 1px solid #999;
+  margin-top: 24px;
+}
+body.template-landing-page .package-item .item-attrs .add-to-cart i {
+  color: #999;
+  font-size: 18px;
+  margin-top: 16px;
+}
+body.template-landing-page .package-item .item-attrs .add-to-cart a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+}
+body.template-landing-page .package-item .item-attrs .add-to-cart a:hover, body.template-landing-page .package-item .item-attrs .add-to-cart a:hover i {
+  color: #de3627;
+}
+body.template-landing-page .package-item .item-content {
+  background: #f5f5f5;
+  font-size: 11px;
+  padding: 16px;
+}
+body.template-landing-page .package-item .item-content p {
+  color: #333;
+}
+body.template-landing-page .package-item:hover {
+  border: 1px solid #91825c;
+}
+body.template-landing-page .package-item:hover .add-to-cart {
+  border-top: 1px solid #de3627;
+}
+body.template-landing-page .package-item:hover .item-newprice, body.template-landing-page .package-item:hover .add-to-cart i, body.template-landing-page .package-item:hover .add-to-cart a {
+  color: #91825c;
+}
+body.template-landing-page .landing-page-start {
+  overflow: hidden;
+  position: relative;
+}
+body.template-landing-page .landing-page-start:before, body.template-landing-page .landing-page-start:after {
+  content: "";
+  display: table;
+}
+body.template-landing-page .landing-page-start:after {
+  clear: both;
+}
+body.template-landing-page .landing-page-start::before {
+  content: " ";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  left: 0;
+  background-color: #e8e8e8;
+  background: url("../img/landingpage/Start.png") no-repeat top center;
+  background-size: cover;
+  will-change: transform;
+  z-index: -1;
+}
+body.template-landing-page .landing-page-start::before {
+  top: 0;
+  background-position: center center;
+}
+body.template-landing-page .landing-page-change {
+  overflow: hidden;
+  position: relative;
+}
+body.template-landing-page .landing-page-change:before, body.template-landing-page .landing-page-change:after {
+  content: "";
+  display: table;
+}
+body.template-landing-page .landing-page-change:after {
+  clear: both;
+}
+body.template-landing-page .landing-page-change::before {
+  content: " ";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  left: 0;
+  background-color: #e8e8e8;
+  background: url("../img/landingpage/Start.png") no-repeat top center;
+  background-size: cover;
+  will-change: transform;
+  z-index: -1;
+}
+body.template-landing-page .landing-page-change::before {
+  top: 0;
+  background-position: center center;
+}
+body.template-landing-page #header-wrapper-mp .container #page-title .page-title-details {
+  top: 45%;
+  margin: 0 auto;
+  padding: 2em 2em;
+  display: inline-block;
+  background-color: rgba(41, 51, 51, 0.7);
+  min-width: 30%;
+  border-radius: 30px;
+}
+body.template-landing-page #header-wrapper-mp .container #page-title .page-title-details h2 {
+  font-size: 30px;
+}
+
 /* 404 view */
 .template-fourohfour {
   background-color: #2b2b2b;
@@ -4734,35 +4884,6 @@ i, i.fa {
   background-size: cover;
   will-change: transform;
   z-index: -1;
-}
-
-.landing-page {
-  overflow: hidden;
-  position: relative;
-}
-.landing-page:before, .landing-page:after {
-  content: "";
-  display: table;
-}
-.landing-page:after {
-  clear: both;
-}
-.landing-page::before {
-  content: " ";
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 120px;
-  left: 0;
-  background-color: #e8e8e8;
-  background: url("../img/sections/blogpost_large.jpg") no-repeat top center;
-  background-size: cover;
-  will-change: transform;
-  z-index: -1;
-}
-.landing-page::before {
-  top: 0;
-  background-position: center center;
 }
 
 .post-content {
