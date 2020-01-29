@@ -3231,7 +3231,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
   border: none;
   margin-top: 20px;
   padding: 0 0 24px 40px;
-  background: url("../img/blocks.png") no-repeat left top;
+  /* background: url("../img/assets/blocks.png") no-repeat left top; */
 }
 
 /* Post */
