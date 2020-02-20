@@ -86,13 +86,13 @@
     <div class="" id="language-links">
       
         
-          <a href="" class="btn btn-xs btn-default">Deutsch</a>
+          
+            <a href="/packages/" class="btn btn-xs">English</a>
+          
         
 	    
         
-          
-            <a href="/wiki/senaite/" class="btn btn-xs">English</a>
-          
+          <a href="" class="btn btn-xs btn-default">Deutsch</a>
         
 	    
     </div>
@@ -165,7 +165,7 @@
       <div class="container">
   <div id="page-title">
     <div class="page-title-details">
-      <h1 class="font-accident-one fontcolor-invert">SENAITE Installation Instructions</h1>
+      <h1 class="font-accident-one fontcolor-invert">Unsere Service Pakete</h1>
       <h4 class="font-accident-one-light fontcolor-invert"></h4>
       
     </div>
@@ -188,81 +188,9 @@
         <div class="row">
           
           <div class="col-md-12">
-            <h1 id="setup-senaite-with-the-unified-installer">Setup SENAITE with the unified installer</h1>
-<p>This guide describes the steps how to install
-<a href="https://www.senaite.com">SENAITE LIMS</a> on a Debian based Linux system.</p>
-<h2 id="install-dependencies">Install dependencies</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt install build-essential
-sudo apt install python2.7 python2.7-dev
-sudo apt install libxml2 libxml2-dev libxslt1.1 libxslt1-dev
-sudo apt install libffi-dev libcairo2 libpango-1.0-0 libgdk-pixbuf2.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0</code></pre></div>
-<h2 id="download-the-plone-unified-installer">Download the Plone unified installer</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">wget --no-check-certificate https://launchpad.net/plone/4.3/4.3.18/+download/Plone-4.3.18-UnifiedInstaller.tgz
-tar xzf Plone-4.3.18-UnifiedInstaller.tgz
-cd Plone-4.3.18-UnifiedInstaller</code></pre></div>
-<h2 id="install-plone">Install Plone</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">./install.sh standalone --target<span style="color:#f92672">=</span>/home/senaite --instance<span style="color:#f92672">=</span>senaitelims --password<span style="color:#f92672">=</span>admin</code></pre></div>
-<h2 id="install-senaite">Install SENAITE</h2>
-<p>To install SENAITE we need to modify the generated <code>buildout.cfg</code> config file:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd /home/senaite
-vim buildout.cfg</code></pre></div>
-<p>Add <code>senaite.lims</code> to the <code>eggs</code> section of the file:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#66d9ef">[buildout]</span>
-<span style="color:#a6e22e">...</span>
-<span style="color:#a6e22e">eggs</span> <span style="color:#f92672">=</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    ...
-</span><span style="color:#e6db74">    senaite.lims</span>
-<span style="color:#a6e22e">zcml</span> <span style="color:#f92672">=</span><span style="color:#e6db74"></span>
-<span style="color:#a6e22e">...</span></code></pre></div>
-<p>Re-run the buildout script:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">bin/buildout</code></pre></div>
-<p>Also see here: <a href="https://github.com/senaite/senaite.lims#readme">https://github.com/senaite/senaite.lims#readme</a></p>
-<div class="rb-divider">
-    <div class="dividewhite2"></div>
-    <div class="text-center">
-      &mdash; <img src="/img/logo_quadratisch.png" width="32" /> &mdash;
-    </div>
-    <div class="dividewhite2"></div>
-</div>
-
-<h1 id="setup-senaite-for-development">Setup SENAITE for development</h1>
-<p>This guide describes the steps how to prepare your system for SENAITE
-development.</p>
-<h2 id="senaite-dependencies">SENAITE Dependencies</h2>
-<p>SENAITE depends on the following systems:</p>
-<ul>
-<li>Plone 4.x: <a href="https://plone.org">https://plone.org</a> (currently 4.3.18)</li>
-<li>Python 2.x: <a href="https://www.python.org">https://www.python.org</a> (currently 2.7.16)</li>
-</ul>
-<h2 id="python">Python</h2>
-<p>Most UNIX based operating system (Linux/Mac OSX) ship already with a Python
-interpreter installed. However, it is not recommended to use the system
-interpreter to setup and install SENAITE on the local system.</p>
-<p>Besides the required super-user permissions for installing additional Python
-libraries is that it might get upgraded by the system and get incompatible.</p>
-<p>Therefore, it is better to setup a virtual Python environment with one of the
-following tools:</p>
-<ul>
-<li>Virtualenv: <a href="https://pypi.org/project/virtualenv">https://pypi.org/project/virtualenv</a></li>
-<li>Miniconda: <a href="https://conda.io/miniconda.html">https://conda.io/miniconda.html</a></li>
-</ul>
-<p>In this manual we will use Miniconda.</p>
-<h2 id="miniconda">Miniconda</h2>
-<p>Please use your terminal to run the commands listed below.</p>
-<ol>
-<li>Download the <code>Python 2.7</code> version for your operating system</li>
-<li>Create a virtual environment with <code>conda create --name senaite</code></li>
-<li>Activate the environment with <code>conda activate senaite</code></li>
-</ol>
-<p>The command <code>which python</code> can be used to check if the right Python interpreter
-is active in the current shell:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ which python
-~/miniconda2/envs/senaite/bin/python</code></pre></div>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ python
-Python 2.7.16 |Anaconda, Inc.| (default, May  1 2018, 18:37:05)
-[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
-Type &#34;help&#34;, &#34;copyright&#34;, &#34;credits&#34; or &#34;license&#34; for more information.
-&gt;&gt;&gt;</code></pre></div>
+            <p>Wir haben für Sie die häufigsten Anpassungen und Anforderungen in kompakte
+Servicepakete zusammengefasst, damit die Integration unseres LIMS in Ihr
+Prüflabor zu einem kalkulierbaren Projekt wird.</p>
 
           </div>
         </div>
@@ -408,6 +336,8 @@ Type &#34;help&#34;, &#34;copyright&#34;, &#34;credits&#34; or &#34;license&#34;
 
 
 
+
+<img src="https://piwik.ridingbytes.com/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" />
 
 
 

@@ -4,7 +4,7 @@
   
   <url>
     <loc>/de/</loc>
-    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
+    <lastmod>2020-01-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,32 +18,17 @@
   </url>
   
   <url>
-    <loc>/de/wiki/senaite/</loc>
-    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
+    <loc>/de/lims-starter.html</loc>
+    <lastmod>2020-01-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/wiki/senaite/"
+                href="/lims-starter.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/wiki/senaite/"
-                />
-  </url>
-  
-  <url>
-    <loc>/de/wiki/</loc>
-    <lastmod>2019-07-22T10:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/wiki/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/wiki/"
+                href="/de/lims-starter.html"
                 />
   </url>
   
@@ -798,6 +783,20 @@
   </url>
   
   <url>
+    <loc>/de/home/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/home/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/home/"
+                />
+  </url>
+  
+  <url>
     <loc>/de/lims-changer.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -812,16 +811,30 @@
   </url>
   
   <url>
-    <loc>/de/lims-starter.html</loc>
+    <loc>/de/packages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/lims-starter.html"
+                href="/packages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/lims-starter.html"
+                href="/de/packages/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/reviews/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/reviews/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/reviews/"
                 />
   </url>
   

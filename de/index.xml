@@ -6,19 +6,20 @@
     <description>Recent content on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Jul 2019 10:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/de/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>SENAITE Installation Instructions</title>
-      <link>/de/wiki/senaite/</link>
-      <pubDate>Mon, 22 Jul 2019 10:00:00 +0200</pubDate>
+      <title>Unser etwas anderes LIMS</title>
+      <link>/de/lims-starter.html</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/de/wiki/senaite/</guid>
-      <description>Setup SENAITE with the unified installer This guide describes the steps how to install SENAITE LIMS on a Debian based Linux system.
-Install dependencies sudo apt install build-essential sudo apt install python2.7 python2.7-dev sudo apt install libxml2 libxml2-dev libxslt1.1 libxslt1-dev sudo apt install libffi-dev libcairo2 libpango-1.0-0 libgdk-pixbuf2.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 Download the Plone unified installer wget --no-check-certificate https://launchpad.net/plone/4.3/4.3.18/+download/Plone-4.3.18-UnifiedInstaller.tgz tar xzf Plone-4.3.18-UnifiedInstaller.tgz cd Plone-4.3.18-UnifiedInstaller Install Plone ./install.sh standalone --target=/home/senaite --instance=senaitelims --password=admin Install SENAITE To install SENAITE we need to modify the generated buildout.</description>
+      <guid>/de/lims-starter.html</guid>
+      <description>Heading 1 Text 1
+Subheading 1 Subtext 1
+Heading 2 Text 2</description>
     </item>
     
     <item>
@@ -248,6 +249,15 @@ See it in Action    &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
+      <title>Home</title>
+      <link>/de/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/de/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LIMS Changer</title>
       <link>/de/lims-changer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -257,11 +267,20 @@ See it in Action    &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
-      <title>Unser etwas anderes LIMS</title>
-      <link>/de/lims-starter.html</link>
+      <title>Unsere Service Pakete</title>
+      <link>/de/packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/de/lims-starter.html</guid>
+      <guid>/de/packages/</guid>
+      <description>Wir haben für Sie die häufigsten Anpassungen und Anforderungen in kompakte Servicepakete zusammengefasst, damit die Integration unseres LIMS in Ihr Prüflabor zu einem kalkulierbaren Projekt wird.</description>
+    </item>
+    
+    <item>
+      <title>Was unsere Kunden über uns sagen</title>
+      <link>/de/reviews/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/de/reviews/</guid>
       <description></description>
     </item>
     

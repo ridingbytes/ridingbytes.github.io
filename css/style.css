@@ -3392,7 +3392,6 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
 }
 .pricing:hover .price-number, .pricing:hover .price-plan, .pricing:hover .price-descr, .pricing:hover .price-conclusion, .pricing:hover ul li {
   color: #de3627;
-  cursor: pointer;
 }
 .pricing:hover .btn {
   background: #de3627;

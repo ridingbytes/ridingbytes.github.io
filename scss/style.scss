@@ -3036,7 +3036,7 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {  c
   &:hover .price-conclusion,
   &:hover ul li {
     color: $hovercolor;
-  cursor: pointer;
+  // cursor: pointer;
   }
   &:hover .btn {
   background: $hovercolor;
