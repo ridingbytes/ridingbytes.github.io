@@ -5452,7 +5452,7 @@ body.template-landing-page #header-wrapper-mp .container #page-title .page-title
 }
 
 .contentblock {
-  font-size: 125%;
+  /* font-size: 100%; */
 }
 
 .highlight pre {

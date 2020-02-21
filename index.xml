@@ -76,13 +76,14 @@
     </item>
     
     <item>
-      <title>Thank You</title>
+      <title>Danke</title>
       <link>/thanks/</link>
       <pubDate>Thu, 02 Mar 2017 09:00:00 +0200</pubDate>
       
       <guid>/thanks/</guid>
-      <description>Thank You Thank you for your message. Your message is important to us and we will respond as soon as possible.
-Best Regards RIDING BYTES</description>
+      <description>Danke Vielen Dank für Ihre Nachricht.
+Ihre Nachricht ist uns wichtig und wir werden so schnell wie möglich antworten.
+Beste Grüße RIDING BYTES</description>
     </item>
     
     <item>
@@ -205,13 +206,12 @@ edit and explore Plone contents with ease.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Legal Notice</title>
+      <title>Impressum</title>
       <link>/legal/legal/</link>
       <pubDate>Tue, 22 Sep 2015 15:09:25 +0200</pubDate>
       
       <guid>/legal/legal/</guid>
-      <description>Responsible for the content RIDING BYTES GmbH
- Würzburger Straße 81 90766 Fürth Germany  Phone: &amp;#43;49 (0) 911 974 930 90  VAT ID: DE301668607 Managing Director: Ramon Bartl Register: HRB 17318 ( Amtsgericht Fürth ) Responsible as of §10 Abs. 3 MdStV: Ramon Bartl  &amp;mdash; &amp;mdash;    Disclaimer Inhalt Die RIDING BYTES GmbH stellt die Inhalte dieser Internetseiten mit großer Sorgfalt zusammen. Jedoch übernehmen wir keine Gewähr für die Aktualität, Richtigkeit und Vollständigkeit der Informationen auf diesen Seiten oder den jederzeitigen störungsfreien Zugang.</description>
+      <description>Verantwortlich für den Inhalt RIDING BYTES GmbH  Würzburger Straße 81 90766 Fürth Deutschland  Telefon: &amp;#43;49 (0) 911 974 930 90  UstId: DE301668607 Geschäftsführer: Ramon Bartl Register: HRB 17318 ( Amtsgericht Fürth ) Inhaltlich Verantwortlicher gem. §10 Abs. 3 MdStV: Ramon Bartl  &amp;mdash; &amp;mdash;    Datenschutzerklärung Inhalt Die RIDING BYTES Gmbh stellt die Inhalte dieser Internetseiten mit großer Sorgfalt zusammen. Jedoch übernehmen wir keine Gewähr für die Aktualität, Richtigkeit und Vollständigkeit der Informationen auf diesen Seiten oder den jederzeitigen störungsfreien Zugang.</description>
     </item>
     
     <item>
@@ -220,7 +220,7 @@ edit and explore Plone contents with ease.&lt;/p&gt;
       <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
       
       <guid>/contact/contact/</guid>
-      <description> Würzburger Straße 81 • 90766 Fürth • Germany &amp;#43;49 (0) 911 974 930 90  • hello@ridingbytes.com  • https://www.ridingbytes.com  </description>
+      <description> Würzburger Straße 81 • 90766 Fürth • Deutschland &amp;#43;49 (0) 911 974 930 90  • hallo@ridingbytes.com  • https://www.ridingbytes.com  </description>
     </item>
     
     <item>
@@ -256,16 +256,7 @@ See it in Action    &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
-      <title>Our Service Packages</title>
-      <link>/packages/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/packages/</guid>
-      <description>We have summarized the most common customizations and requirements into compact service packages, so that the integration of our LIMS for your laboratory becomes a calculable project.</description>
-    </item>
-    
-    <item>
-      <title>Start with our slightly different LIMS for your laboratory</title>
+      <title>Starten Sie mit unserem etwas anderen LIMS für Ihr Labor</title>
       <link>/start.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -274,7 +265,16 @@ See it in Action    &amp;mdash; &amp;mdash;    </description>
     </item>
     
     <item>
-      <title>What our customers say about us</title>
+      <title>Unsere Service Pakete</title>
+      <link>/packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/packages/</guid>
+      <description>Wir haben für Sie die häufigsten Anpassungen und Anforderungen in kompakte Servicepakete zusammengefasst, damit die Integration unseres LIMS in Ihr Prüflabor zu einem kalkulierbaren Projekt wird.</description>
+    </item>
+    
+    <item>
+      <title>Was unsere Kunden über uns sagen</title>
       <link>/reviews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
