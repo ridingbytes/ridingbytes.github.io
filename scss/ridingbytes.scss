@@ -528,11 +528,11 @@ body.template-landing-page {
 }
 
 #content {
-  font-size: 115%;
+  /* font-size: 115%; */
 }
 
 .contentblock {
-    font-size: 98%;
+    font-size: 110%;
     text-align: justify;
 }
 
@@ -652,4 +652,13 @@ img.system-logo {
 
 .cover-image-plone {
     @include cover-image("/img/systems/plone_teaser.jpg");
+}
+
+#senaite-screenshot {
+    background-color: transparent;
+    img {
+        width: 800px;
+        padding-top: 3em;
+        margin-bottom: -1em;
+    }
 }

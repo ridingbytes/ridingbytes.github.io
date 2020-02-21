@@ -5448,11 +5448,11 @@ body.template-landing-page #header-wrapper-mp .container #page-title .page-title
 }
 
 #content {
-  font-size: 115%;
+  /* font-size: 115%; */
 }
 
 .contentblock {
-  font-size: 98%;
+  font-size: 110%;
   text-align: justify;
 }
 
@@ -5635,6 +5635,15 @@ img.system-logo {
   -o-background-size: cover;
   background-size: cover;
   height: 600px;
+}
+
+#senaite-screenshot {
+  background-color: transparent;
+}
+#senaite-screenshot img {
+  width: 800px;
+  padding-top: 3em;
+  margin-bottom: -1em;
 }
 
 /*# sourceMappingURL=ridingbytes.css.map */

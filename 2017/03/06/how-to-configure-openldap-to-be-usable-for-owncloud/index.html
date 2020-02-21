@@ -200,7 +200,7 @@ the <code>memberOf</code> <a href="http://www.openldap.org/doc/admin24/overlays.
 <p>The goal was to put all users into a group called <code>onwCloud</code> which should be
 able to log into OwnCloud as seen in this screenshot:</p>
 
-<figure class="image-left">
+<figure  class="image-left">
     
         <img src="/img/blog/owncloud-ldap-configuration.png" class="img-responsive"  />
     
@@ -261,7 +261,7 @@ ldapadd -Q -Y EXTERNAL -H ldapi:/// -f refint.ldif
 </code></pre>
 <p>In the next step we added a <code>groupOfNames</code> object <code>cn=ownCloud</code> to our LDAP:</p>
 
-<figure class="image-left">
+<figure  class="image-left">
     
         <img src="/img/blog/openldap-groupOfNames.png" class="img-responsive"  />
     
@@ -271,7 +271,7 @@ ldapadd -Q -Y EXTERNAL -H ldapi:/// -f refint.ldif
 
 <p>And added a <em>Test User</em> <code>uid=testuser</code> as a <code>member</code> to this group:</p>
 
-<figure class="image-left">
+<figure  class="image-left">
     
         <img src="/img/blog/openldap-member.png" class="img-responsive"  />
     
