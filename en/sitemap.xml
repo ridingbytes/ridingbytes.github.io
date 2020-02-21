@@ -806,16 +806,16 @@
   </url>
   
   <url>
-    <loc>/lims-starter.html</loc>
+    <loc>/start.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/lims-starter.html"
+                href="/de/start.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/lims-starter.html"
+                href="/start.html"
                 />
   </url>
   
