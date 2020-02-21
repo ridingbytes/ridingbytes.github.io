@@ -3,314 +3,824 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2019-08-15T22:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-08-15T22:00:00+02:00</lastmod>
+    <loc>/de/tags/lims/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="/tags/lims/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/categories/"
+                href="/de/tags/lims/"
                 />
   </url>
   
   <url>
-    <loc>/2019/08/15/how-can-senaite-be-maintained-open-source/</loc>
-    <lastmod>2019-08-15T22:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/open-source/</loc>
-    <lastmod>2019-08-15T22:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-08-15T22:00:00+02:00</lastmod>
+    <loc>/de/tags/open-source/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="/tags/open-source/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
+                href="/de/tags/open-source/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/tags/pdf/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/pdf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/pdf/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/portfolio/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/"
+                />
   </url>
   
   <url>
-    <loc>/tags/lims/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/open-source/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/pdf/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/portfolio/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/senaite/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/portfolio/senaite-impress/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>/de/tags/senaite/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="/tags/senaite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/tags/"
+                href="/de/tags/senaite/"
                 />
   </url>
   
   <url>
-    <loc>/categories/lims/</loc>
+    <loc>/de/portfolio/senaite-impress/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/senaite-impress/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/senaite-impress/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/tags/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/blog/</loc>
     <lastmod>2018-01-06T21:15:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/blog/"
+                />
   </url>
   
   <url>
-    <loc>/2018/01/06/senaite-professional-open-source-lims/</loc>
+    <loc>/de/categories/</loc>
     <lastmod>2018-01-06T21:15:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/"
+                />
   </url>
   
   <url>
-    <loc>/categories/plone/</loc>
+    <loc>/de/categories/lims/</loc>
+    <lastmod>2018-01-06T21:15:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/lims/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/lims/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/2018/01/06/senaite-professional-open-source-lims/</loc>
+    <lastmod>2018-01-06T21:15:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2018/01/06/senaite-professional-open-source-lims/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2018/01/06/senaite-professional-open-source-lims/"
+                />
+  </url>
+  
+  <url>
+    <loc>/de/categories/plone/</loc>
     <lastmod>2017-10-16T10:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/plone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/plone/"
+                />
   </url>
   
   <url>
-    <loc>/2017/10/16/riding-bytes-plone/</loc>
+    <loc>/de/2017/10/16/riding-bytes-plone/</loc>
     <lastmod>2017-10-16T10:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2017/10/16/riding-bytes-plone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2017/10/16/riding-bytes-plone/"
+                />
   </url>
   
   <url>
-    <loc>/2017/06/27/riding-bytes-mba/</loc>
+    <loc>/de/2017/06/27/riding-bytes-mba/</loc>
     <lastmod>2017-06-27T17:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2017/06/27/riding-bytes-mba/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2017/06/27/riding-bytes-mba/"
+                />
   </url>
   
   <url>
-    <loc>/categories/mba/</loc>
+    <loc>/de/categories/mba/</loc>
     <lastmod>2017-06-27T17:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/mba/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/mba/"
+                />
   </url>
   
   <url>
-    <loc>/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</loc>
+    <loc>/de/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</loc>
     <lastmod>2017-06-20T17:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/"
+                />
   </url>
   
   <url>
-    <loc>/categories/company/</loc>
+    <loc>/de/categories/company/</loc>
     <lastmod>2017-06-20T17:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/company/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/company/"
+                />
   </url>
   
   <url>
-    <loc>/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</loc>
+    <loc>/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/</loc>
     <lastmod>2017-03-06T11:24:31+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2017/03/06/how-to-configure-openldap-to-be-usable-for-owncloud/"
+                />
   </url>
   
   <url>
-    <loc>/categories/howto/</loc>
+    <loc>/de/categories/howto/</loc>
     <lastmod>2017-03-06T11:24:31+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/howto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/howto/"
+                />
   </url>
   
   <url>
-    <loc>/categories/server/</loc>
+    <loc>/de/categories/server/</loc>
     <lastmod>2017-03-06T11:24:31+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/server/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/server/"
+                />
   </url>
   
   <url>
-    <loc>/thanks/</loc>
+    <loc>/de/thanks/</loc>
     <lastmod>2017-03-02T09:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/thanks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/thanks/"
+                />
   </url>
   
   <url>
-    <loc>/tags/backbonejs/</loc>
+    <loc>/de/tags/backbonejs/</loc>
     <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/backbonejs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/backbonejs/"
+                />
   </url>
   
   <url>
-    <loc>/portfolio/bika-spotlight-search/</loc>
+    <loc>/de/portfolio/bika-spotlight-search/</loc>
     <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/bika-spotlight-search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/bika-spotlight-search/"
+                />
   </url>
   
   <url>
-    <loc>/categories/email/</loc>
+    <loc>/de/categories/email/</loc>
     <lastmod>2017-01-29T10:08:05+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/email/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/email/"
+                />
   </url>
   
   <url>
-    <loc>/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</loc>
+    <loc>/de/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/</loc>
     <lastmod>2017-01-29T10:08:05+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2017/01/29/mba-master-thesis-impact-of-netiquette-on-email-communication/"
+                />
   </url>
   
   <url>
-    <loc>/categories/netiquette/</loc>
+    <loc>/de/categories/netiquette/</loc>
     <lastmod>2017-01-29T10:08:05+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/netiquette/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/netiquette/"
+                />
   </url>
   
   <url>
-    <loc>/tags/extjs/</loc>
+    <loc>/de/tags/extjs/</loc>
     <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/extjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/extjs/"
+                />
   </url>
   
   <url>
-    <loc>/portfolio/bika-commander/</loc>
+    <loc>/de/portfolio/bika-commander/</loc>
     <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/bika-commander/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/bika-commander/"
+                />
   </url>
   
   <url>
-    <loc>/categories/development/</loc>
+    <loc>/de/categories/development/</loc>
     <lastmod>2016-03-06T23:44:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/development/"
+                />
   </url>
   
   <url>
-    <loc>/categories/odoo/</loc>
+    <loc>/de/categories/odoo/</loc>
     <lastmod>2016-03-06T23:44:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/odoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/odoo/"
+                />
   </url>
   
   <url>
-    <loc>/2016/03/06/odoo-developer-mode/</loc>
+    <loc>/de/2016/03/06/odoo-developer-mode/</loc>
     <lastmod>2016-03-06T23:44:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2016/03/06/odoo-developer-mode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2016/03/06/odoo-developer-mode/"
+                />
   </url>
   
   <url>
-    <loc>/2016/01/04/odoo-dynamic-image-resizing/</loc>
+    <loc>/de/2016/01/04/odoo-dynamic-image-resizing/</loc>
     <lastmod>2016-01-04T11:44:06+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2016/01/04/odoo-dynamic-image-resizing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2016/01/04/odoo-dynamic-image-resizing/"
+                />
   </url>
   
   <url>
-    <loc>/2016/01/02/odoo-remember-the-filename-of-binary-files/</loc>
+    <loc>/de/2016/01/02/odoo-remember-the-filename-of-binary-files/</loc>
     <lastmod>2016-01-02T19:26:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2016/01/02/odoo-remember-the-filename-of-binary-files/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2016/01/02/odoo-remember-the-filename-of-binary-files/"
+                />
   </url>
   
   <url>
-    <loc>/tags/odoo/</loc>
+    <loc>/de/tags/odoo/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/odoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/odoo/"
+                />
   </url>
   
   <url>
-    <loc>/portfolio/ridingbytes-odoo/</loc>
+    <loc>/de/portfolio/ridingbytes-odoo/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/ridingbytes-odoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/ridingbytes-odoo/"
+                />
   </url>
   
   <url>
-    <loc>/tags/web/</loc>
+    <loc>/de/tags/web/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/web/"
+                />
   </url>
   
   <url>
-    <loc>/2015/12/17/riding-bytes-bika-labs-partnership/</loc>
+    <loc>/de/2015/12/17/riding-bytes-bika-labs-partnership/</loc>
     <lastmod>2015-12-17T21:53:09+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2015/12/17/riding-bytes-bika-labs-partnership/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2015/12/17/riding-bytes-bika-labs-partnership/"
+                />
   </url>
   
   <url>
-    <loc>/portfolio/ridingbytes/</loc>
+    <loc>/de/portfolio/ridingbytes/</loc>
     <lastmod>2015-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/ridingbytes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/ridingbytes/"
+                />
   </url>
   
   <url>
-    <loc>/about/about/</loc>
+    <loc>/de/about/about/</loc>
     <lastmod>2015-09-24T14:18:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/about/about/"
+                />
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/de/about/</loc>
     <lastmod>2015-09-24T14:18:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/about/"
+                />
   </url>
   
   <url>
-    <loc>/categories/extjs/</loc>
+    <loc>/de/categories/extjs/</loc>
     <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/extjs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/extjs/"
+                />
   </url>
   
   <url>
-    <loc>/2015/09/23/plone-commander/</loc>
+    <loc>/de/2015/09/23/plone-commander/</loc>
     <lastmod>2015-09-23T20:26:22+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2015/09/23/plone-commander/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/2015/09/23/plone-commander/"
+                />
   </url>
   
   <url>
-    <loc>/legal/legal/</loc>
+    <loc>/de/legal/legal/</loc>
     <lastmod>2015-09-22T15:09:25+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/legal/legal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/legal/legal/"
+                />
   </url>
   
   <url>
-    <loc>/legal/</loc>
+    <loc>/de/legal/</loc>
     <lastmod>2015-09-22T15:09:25+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/legal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/legal/"
+                />
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>/de/contact/</loc>
     <lastmod>2015-09-22T10:55:01+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/contact/"
+                />
   </url>
   
   <url>
-    <loc>/contact/contact/</loc>
+    <loc>/de/contact/contact/</loc>
     <lastmod>2015-09-22T10:55:01+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/contact/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/contact/contact/"
+                />
   </url>
   
   <url>
-    <loc>/tags/api/</loc>
+    <loc>/de/tags/api/</loc>
     <lastmod>2015-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/api/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/api/"
+                />
   </url>
   
   <url>
-    <loc>/tags/plone/</loc>
+    <loc>/de/tags/plone/</loc>
     <lastmod>2015-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/plone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/plone/"
+                />
   </url>
   
   <url>
-    <loc>/portfolio/plone-jsonapi/</loc>
+    <loc>/de/portfolio/plone-jsonapi/</loc>
     <lastmod>2015-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/plone-jsonapi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/plone-jsonapi/"
+                />
   </url>
   
   <url>
-    <loc>/portfolio/plone-commander/</loc>
+    <loc>/de/portfolio/plone-commander/</loc>
     <lastmod>2015-09-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/portfolio/plone-commander/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/portfolio/plone-commander/"
+                />
   </url>
   
   <url>
-    <loc>/home/</loc>
+    <loc>/de/home/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/home/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/home/"
+                />
   </url>
   
   <url>
-    <loc>/start.html</loc>
+    <loc>/de/start.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/start.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/start.html"
+                />
   </url>
   
   <url>
-    <loc>/packages/</loc>
+    <loc>/de/packages/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/packages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/packages/"
+                />
   </url>
   
   <url>
-    <loc>/reviews/</loc>
+    <loc>/de/reviews/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/reviews/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/reviews/"
+                />
   </url>
   
 </urlset>
