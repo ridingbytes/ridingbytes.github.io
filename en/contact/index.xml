@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on RIDING BYTES</title>
+    <link>/en/contact/</link>
+    <description>Recent content in Contacts on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 22 Sep 2015 10:55:01 +0200</lastBuildDate>
+    
+	<atom:link href="/en/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RIDING BYTES</title>
+      <link>/en/contact/contact/</link>
+      <pubDate>Tue, 22 Sep 2015 10:55:01 +0200</pubDate>
+      
+      <guid>/en/contact/contact/</guid>
+      <description> Würzburger Straße 81 • 90766 Fürth • Germany &amp;#43;49 (0) 911 974 930 90  • hello@ridingbytes.com  • https://www.ridingbytes.com  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Odoo on RIDING BYTES</title>
+    <link>/en/categories/odoo/</link>
+    <description>Recent content in Odoo on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 04 Jan 2016 11:44:06 +0100</lastBuildDate>
+    
+	<atom:link href="/en/categories/odoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Odoo: Dynamic image resizing</title>
+      <link>/en/2016/01/04/odoo-dynamic-image-resizing/</link>
+      <pubDate>Mon, 04 Jan 2016 11:44:06 +0100</pubDate>
+      
+      <guid>/en/2016/01/04/odoo-dynamic-image-resizing/</guid>
+      <description>Scale images on the fly</description>
+    </item>
+    
+    <item>
+      <title>Odoo: Remember the filename of binary files</title>
+      <link>/en/2016/01/02/odoo-remember-the-filename-of-binary-files/</link>
+      <pubDate>Sat, 02 Jan 2016 19:26:32 +0100</pubDate>
+      
+      <guid>/en/2016/01/02/odoo-remember-the-filename-of-binary-files/</guid>
+      <description>&lt;h1 id=&#34;odoo-remember-the-filename-of-binary-files&#34;&gt;Odoo: Remember the filename of binary files&lt;/h1&gt;
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+&lt;p&gt;I wanted to use a binary field to store image data to a custom model.
+Therefore I used a field of the type &lt;code&gt;Binary&lt;/code&gt; in my model. Unfortunately only
+the base64 encoded file was stored in the database but not the filename. This
+resulted in an unknown binary file download with the name of the current model.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

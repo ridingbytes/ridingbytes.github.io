@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Company on RIDING BYTES</title>
+    <link>/en/categories/company/</link>
+    <description>Recent content in Company on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 20 Jun 2017 17:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/en/categories/company/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coding Know-how kehrt in die Metropolregion Nürnberg ein</title>
+      <link>/en/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</link>
+      <pubDate>Tue, 20 Jun 2017 17:00:00 +0200</pubDate>
+      
+      <guid>/en/2017/06/20/riding-bytes-in-der-metropolregion-nuernberg/</guid>
+      <description>Riding Bytes sind umgezogen</description>
+    </item>
+    
+    <item>
+      <title>RIDING BYTES-Bika Labs-Partnership</title>
+      <link>/en/2015/12/17/riding-bytes-bika-labs-partnership/</link>
+      <pubDate>Thu, 17 Dec 2015 21:53:09 +0100</pubDate>
+      
+      <guid>/en/2015/12/17/riding-bytes-bika-labs-partnership/</guid>
+      <description>&lt;h1 id=&#34;riding-bytes--bika-labs---partnership&#34;&gt;RIDING BYTES / Bika Labs - Partnership&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Since December 15, 2015 RIDING BYTES and Bika Labs (South Africa) are official Partners.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

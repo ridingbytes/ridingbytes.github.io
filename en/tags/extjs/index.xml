@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extjs on RIDING BYTES</title>
+    <link>/en/tags/extjs/</link>
+    <description>Recent content in extjs on RIDING BYTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 29 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/extjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SENAITE Commander</title>
+      <link>/en/portfolio/bika-commander/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/portfolio/bika-commander/</guid>
+      <description>Overview SENAITE Commander is a cross platform web application based on Electron and ExtJS. It communicates with SENAITE LIMS through plone.jsonapi.routes.
+See it in Action    &amp;mdash; &amp;mdash;    </description>
+    </item>
+    
+    <item>
+      <title>Plone Commander</title>
+      <link>/en/portfolio/plone-commander/</link>
+      <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/en/portfolio/plone-commander/</guid>
+      <description>Overview Plone Commander is a cross platform web application based on Electron and ExtJS. It communicates with Plone through plone.jsonapi.routes.
+See it in Action    &amp;mdash; &amp;mdash;    </description>
+    </item>
+    
+  </channel>
+</rss>
