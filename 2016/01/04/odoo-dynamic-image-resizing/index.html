@@ -198,10 +198,10 @@ This functionality ships with the <code>image.py</code> module, which is located
 <h2 id="problem">Problem</h2>
 <p>I implemented a custom model which defined a binary field called <code>image</code>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyModel</span>(models<span style="color:#f92672">.</span>Model):
-    _name <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">my.model</span><span style="color:#e6db74">&#39;</span>
+    _name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;my.model&#39;</span>
 
-    image <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Image</span><span style="color:#e6db74">&#39;</span>, required<span style="color:#f92672">=</span>True)
-    image_filename <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Char(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Image Filename</span><span style="color:#e6db74">&#34;</span>)</code></pre></div>
+    image <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(<span style="color:#e6db74">&#39;Image&#39;</span>, required<span style="color:#f92672">=</span>True)
+    image_filename <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Char(<span style="color:#e6db74">&#34;Image Filename&#34;</span>)</code></pre></div>
 <p>I wanted to use this model within in a website view, but struggled with finding
 a suitable image source URL for the image field. Unfortunately it was only
 possible to access the <code>base64</code> encoded image data.</p>
@@ -216,25 +216,25 @@ was not suitable for me.</p>
 fields of any model through an URL. This controller is located in
 <code>odoo/addons/website/controllers/main.py</code> and offers this route:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a6e22e">@http.route</span>([
-    <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">/website/image</span><span style="color:#e6db74">&#39;</span>,
-    <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">/website/image/&lt;model&gt;/&lt;id&gt;/&lt;field&gt;</span><span style="color:#e6db74">&#39;</span>,
-    <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">/website/image/&lt;model&gt;/&lt;id&gt;/&lt;field&gt;/&lt;int:max_width&gt;x&lt;int:max_height&gt;</span><span style="color:#e6db74">&#39;</span>
-    ], auth<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">public</span><span style="color:#e6db74">&#34;</span>, website<span style="color:#f92672">=</span>True, multilang<span style="color:#f92672">=</span>False)
+    <span style="color:#e6db74">&#39;/website/image&#39;</span>,
+    <span style="color:#e6db74">&#39;/website/image/&lt;model&gt;/&lt;id&gt;/&lt;field&gt;&#39;</span>,
+    <span style="color:#e6db74">&#39;/website/image/&lt;model&gt;/&lt;id&gt;/&lt;field&gt;/&lt;int:max_width&gt;x&lt;int:max_height&gt;&#39;</span>
+    ], auth<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;public&#34;</span>, website<span style="color:#f92672">=</span>True, multilang<span style="color:#f92672">=</span>False)
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">website_image</span>(self, model, id, field, max_width<span style="color:#f92672">=</span>None, max_height<span style="color:#f92672">=</span>None):
-    <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;&#34;&#34;</span><span style="color:#e6db74"> Fetches the requested field and ensures it does not go above</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    (max_width, max_height), resizing it if necessary.</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    If the record is not found or does not have the requested field,</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    returns a placeholder image via :meth:`~.placeholder`.</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    Sets and checks conditional response parameters:</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    * :mailheader:`ETag` is always set (and checked)</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    * :mailheader:`Last-Modified is set iif the record has a concurrency</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">      field (``__last_update``)</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    The requested field is assumed to be base64-encoded image data in</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    all cases.</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">    </span><span style="color:#e6db74">&#34;&#34;&#34;</span></code></pre></div>
+    <span style="color:#e6db74">&#34;&#34;&#34; Fetches the requested field and ensures it does not go above
+</span><span style="color:#e6db74">    (max_width, max_height), resizing it if necessary.
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">    If the record is not found or does not have the requested field,
+</span><span style="color:#e6db74">    returns a placeholder image via :meth:`~.placeholder`.
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">    Sets and checks conditional response parameters:
+</span><span style="color:#e6db74">    * :mailheader:`ETag` is always set (and checked)
+</span><span style="color:#e6db74">    * :mailheader:`Last-Modified is set iif the record has a concurrency
+</span><span style="color:#e6db74">      field (``__last_update``)
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">    The requested field is assumed to be base64-encoded image data in
+</span><span style="color:#e6db74">    all cases.
+</span><span style="color:#e6db74">    &#34;&#34;&#34;</span></code></pre></div>
 <p>With this route, I could change my inline rendered image to use this URL and do
 the resizing as well:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">t-attf-src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/website/image/my.model/{{ my.model.id }}/image/128x128&#34;</span> /&gt;</code></pre></div>
@@ -244,25 +244,25 @@ about using an attribute on the model to provide the scaled image directly.
 Therefore I changed the code of my model and added the fields <code>image_medium</code>
 and <code>image_small</code>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyModel</span>(models<span style="color:#f92672">.</span>Model):
-    _name <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">my.model</span><span style="color:#e6db74">&#39;</span>
+    _name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;my.model&#39;</span>
 
-    image <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Image</span><span style="color:#e6db74">&#39;</span>, required<span style="color:#f92672">=</span>True)
-    image_filename <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Char(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Image Filename</span><span style="color:#e6db74">&#34;</span>)
+    image <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(<span style="color:#e6db74">&#39;Image&#39;</span>, required<span style="color:#f92672">=</span>True)
+    image_filename <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Char(<span style="color:#e6db74">&#34;Image Filename&#34;</span>)
 
     <span style="color:#75715e"># Scaled Images</span>
-    image_medium <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(string<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Medium-sized image</span><span style="color:#e6db74">&#34;</span>,
+    image_medium <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(string<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Medium-sized image&#34;</span>,
                                  store<span style="color:#f92672">=</span>False,
-                                 compute<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">_get_image</span><span style="color:#e6db74">&#34;</span>,
-                                 help<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Medium-sized image of this model. It is automatically </span><span style="color:#e6db74">&#34;</span> \
-                                      <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">resized as a 128x128px image, with aspect ratio preserved. </span><span style="color:#e6db74">&#34;</span> \
-                                      <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Use this field in form views or some kanban views.</span><span style="color:#e6db74">&#34;</span>)
+                                 compute<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_get_image&#34;</span>,
+                                 help<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Medium-sized image of this model. It is automatically &#34;</span> \
+                                      <span style="color:#e6db74">&#34;resized as a 128x128px image, with aspect ratio preserved. &#34;</span> \
+                                      <span style="color:#e6db74">&#34;Use this field in form views or some kanban views.&#34;</span>)
 
-    image_small <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(string<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Small-sized image</span><span style="color:#e6db74">&#34;</span>,
+    image_small <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(string<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Small-sized image&#34;</span>,
                                 store<span style="color:#f92672">=</span>False,
-                                compute<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">_get_image</span><span style="color:#e6db74">&#34;</span>,
-                                help<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Small sized image of this model. It is automatically </span><span style="color:#e6db74">&#34;</span> \
-                                     <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">resized as a 64x64px image, with aspect ratio preserved. </span><span style="color:#e6db74">&#34;</span> \
-                                     <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Use this field in form views or some kanban views.</span><span style="color:#e6db74">&#34;</span>)</code></pre></div>
+                                compute<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_get_image&#34;</span>,
+                                help<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Small sized image of this model. It is automatically &#34;</span> \
+                                     <span style="color:#e6db74">&#34;resized as a 64x64px image, with aspect ratio preserved. &#34;</span> \
+                                     <span style="color:#e6db74">&#34;Use this field in form views or some kanban views.&#34;</span>)</code></pre></div>
 
 <figure  class="image-left">
     
@@ -277,21 +277,21 @@ unnecessary data growth. Therefore I used a computed field
 (<code>compute=&quot;_get_image&quot;</code>) and passed in the <code>store=False</code> option.</p>
 <p>My first shot of the <code>_get_image</code> method looked like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyModel</span>(models<span style="color:#f92672">.</span>Model):
-    _name <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">my.model</span><span style="color:#e6db74">&#39;</span>
+    _name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;my.model&#39;</span>
 
-    [<span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>]
+    [<span style="color:#f92672">...</span>]
 
     <span style="color:#a6e22e">@api.one</span>
-    <span style="color:#a6e22e">@api.depends</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">image</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#a6e22e">@api.depends</span>(<span style="color:#e6db74">&#34;image&#34;</span>)
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">_get_image</span>(self):
-        <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;&#34;&#34;</span><span style="color:#e6db74"> calculate the images sizes and set the images to the corresponding</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">            fields</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">        </span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+        <span style="color:#e6db74">&#34;&#34;&#34; calculate the images sizes and set the images to the corresponding
+</span><span style="color:#e6db74">            fields
+</span><span style="color:#e6db74">        &#34;&#34;&#34;</span>
         image <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>image
 
         data <span style="color:#f92672">=</span> tools<span style="color:#f92672">.</span>image_get_resized_images(image)
-        self<span style="color:#f92672">.</span>image_medium <span style="color:#f92672">=</span> data[<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">image_medium</span><span style="color:#e6db74">&#34;</span>]
-        self<span style="color:#f92672">.</span>image_small <span style="color:#f92672">=</span> data[<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">image_small</span><span style="color:#e6db74">&#34;</span>]
+        self<span style="color:#f92672">.</span>image_medium <span style="color:#f92672">=</span> data[<span style="color:#e6db74">&#34;image_medium&#34;</span>]
+        self<span style="color:#f92672">.</span>image_small <span style="color:#f92672">=</span> data[<span style="color:#e6db74">&#34;image_small&#34;</span>]
         <span style="color:#66d9ef">return</span> True</code></pre></div>
 <p>I was unlucky again, since this code worked exactly once, and that was when the
 <code>image</code> field was initially set.</p>
@@ -300,47 +300,47 @@ with the name <code>bin_size</code> and the value <code>True</code> was set, whi
 image field to return only the image size instead of the full <code>base64</code> encoded
 image. The complete <code>context</code> I inspected within this method looked like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">ipdb<span style="color:#f92672">&gt;</span> self<span style="color:#f92672">.</span>env<span style="color:#f92672">.</span>context
-{<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">lang</span><span style="color:#e6db74">&#39;</span>: <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">en_US</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">bin_size</span><span style="color:#e6db74">&#39;</span>: True, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">tz</span><span style="color:#e6db74">&#39;</span>: <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Europe/Berlin</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">uid</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">1</span>}</code></pre></div>
+{<span style="color:#e6db74">&#39;lang&#39;</span>: <span style="color:#e6db74">&#39;en_US&#39;</span>, <span style="color:#e6db74">&#39;bin_size&#39;</span>: True, <span style="color:#e6db74">&#39;tz&#39;</span>: <span style="color:#e6db74">&#39;Europe/Berlin&#39;</span>, <span style="color:#e6db74">&#39;uid&#39;</span>: <span style="color:#ae81ff">1</span>}</code></pre></div>
 <p>I found the corresponding field definition for the binary field in <code>openerp.osv.fields</code>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">binary</span>(_column):
-    _type <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">binary</span><span style="color:#e6db74">&#39;</span>
-    [<span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>]
+    _type <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;binary&#39;</span>
+    [<span style="color:#f92672">...</span>]
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get</span>(self, cr, obj, ids, name, user<span style="color:#f92672">=</span>None, context<span style="color:#f92672">=</span>None, values<span style="color:#f92672">=</span>None):
-        [<span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>]
+        [<span style="color:#f92672">...</span>]
 
         <span style="color:#75715e"># If client is requesting only the size of the field, we return it instead</span>
         <span style="color:#75715e"># of the content. Presumably a separate request will be done to read the actual</span>
         <span style="color:#75715e"># content if it&#39;s needed at some point.</span>
         <span style="color:#75715e"># TODO: after 6.0 we should consider returning a dict with size and content instead of</span>
         <span style="color:#75715e">#       having an implicit convention for the value</span>
-        <span style="color:#66d9ef">if</span> val <span style="color:#f92672">and</span> context<span style="color:#f92672">.</span>get(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">bin_size_</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">%</span> name, context<span style="color:#f92672">.</span>get(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">bin_size</span><span style="color:#e6db74">&#39;</span>)):
+        <span style="color:#66d9ef">if</span> val <span style="color:#f92672">and</span> context<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;bin_size_</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">%</span> name, context<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;bin_size&#39;</span>)):
             res[i] <span style="color:#f92672">=</span> tools<span style="color:#f92672">.</span>human_size(long(val))
-        [<span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>]</code></pre></div>
+        [<span style="color:#f92672">...</span>]</code></pre></div>
 <p>After some research I figured out that it is possible to overwrite this
 immutable <code>context</code> with the method <code>with_context</code> on the model itself.</p>
 <p><a href="http://odoo-new-api-guide-line.readthedocs.org/en/latest/environment.html#modifing-environment">http://odoo-new-api-guide-line.readthedocs.org/en/latest/environment.html#modifing-environment</a></p>
 <p>So the final version of my <code>_get_image</code> method looked like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyModel</span>(models<span style="color:#f92672">.</span>Model):
-    _name <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">my.model</span><span style="color:#e6db74">&#39;</span>
+    _name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;my.model&#39;</span>
 
-    [<span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>]
+    [<span style="color:#f92672">...</span>]
 
     <span style="color:#a6e22e">@api.one</span>
-    <span style="color:#a6e22e">@api.depends</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">image</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#a6e22e">@api.depends</span>(<span style="color:#e6db74">&#34;image&#34;</span>)
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">_get_image</span>(self):
-        <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;&#34;&#34;</span><span style="color:#e6db74"> calculate the images sizes and set the images to the corresponding</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">            fields</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"></span><span style="color:#e6db74">        </span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+        <span style="color:#e6db74">&#34;&#34;&#34; calculate the images sizes and set the images to the corresponding
+</span><span style="color:#e6db74">            fields
+</span><span style="color:#e6db74">        &#34;&#34;&#34;</span>
         image <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>image
 
         <span style="color:#75715e"># check if the context contains the magic `bin_size` key</span>
-        <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>env<span style="color:#f92672">.</span>context<span style="color:#f92672">.</span>get(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">bin_size</span><span style="color:#e6db74">&#34;</span>):
+        <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>env<span style="color:#f92672">.</span>context<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;bin_size&#34;</span>):
             <span style="color:#75715e"># refetch the image with a clean context</span>
             image <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>env[self<span style="color:#f92672">.</span>_name]<span style="color:#f92672">.</span>with_context({})<span style="color:#f92672">.</span>browse(self<span style="color:#f92672">.</span>id)<span style="color:#f92672">.</span>image
 
         data <span style="color:#f92672">=</span> tools<span style="color:#f92672">.</span>image_get_resized_images(image)
-        self<span style="color:#f92672">.</span>image_medium <span style="color:#f92672">=</span> data[<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">image_medium</span><span style="color:#e6db74">&#34;</span>]
-        self<span style="color:#f92672">.</span>image_small <span style="color:#f92672">=</span> data[<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">image_small</span><span style="color:#e6db74">&#34;</span>]
+        self<span style="color:#f92672">.</span>image_medium <span style="color:#f92672">=</span> data[<span style="color:#e6db74">&#34;image_medium&#34;</span>]
+        self<span style="color:#f92672">.</span>image_small <span style="color:#f92672">=</span> data[<span style="color:#e6db74">&#34;image_small&#34;</span>]
         <span style="color:#66d9ef">return</span> True</code></pre></div>
 <p>Now it was possible to access the computed fields directly with the URL of the
 <code>website</code> controller:</p>
@@ -461,7 +461,7 @@ instructions in the internet on how to do this using the old Odoo V7 API.</p>
   <h2 class="font-accident-one-bold">Über uns</h2>
 
   
-  <p class=" ">RIDING BYTES ist spezialisiert auf die Bedarfsanalyse Ihres Labors, die Integration individueller Anpassungen und der stätigen Präsenz am Kunden.</p>
+  <p class=" ">RIDING BYTES ist spezialisiert auf die Bedarfsanalyse Ihres Labors, die Integration individueller Anpassungen und der stetigen Präsenz am Kunden.</p>
   
   <p class=" ">Unser LIMS passt sich perfekt an Ihre IT-Landschaft an.</p>
   

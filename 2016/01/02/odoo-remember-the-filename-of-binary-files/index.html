@@ -205,17 +205,17 @@ The next step was to tell the image widget to use this field to store the filena
 <p>Below is the full code listing to make it work:</p>
 <h3 id="python-code">Python Code</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyModel</span>(models<span style="color:#f92672">.</span>Model):
-    _name <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">my.model</span><span style="color:#e6db74">&#39;</span>
+    _name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;my.model&#39;</span>
 
-    image <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Image</span><span style="color:#e6db74">&#39;</span>, required<span style="color:#f92672">=</span>True)
-    image_filename <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Char(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Image Filename</span><span style="color:#e6db74">&#34;</span>)</code></pre></div>
+    image <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Binary(<span style="color:#e6db74">&#39;Image&#39;</span>, required<span style="color:#f92672">=</span>True)
+    image_filename <span style="color:#f92672">=</span> fields<span style="color:#f92672">.</span>Char(<span style="color:#e6db74">&#34;Image Filename&#34;</span>)</code></pre></div>
 <h3 id="xml-view">XML View</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;record</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;view_form_my_model&#34;</span> <span style="color:#a6e22e">model=</span><span style="color:#e6db74">&#34;ir.ui.view&#34;</span><span style="color:#f92672">&gt;</span>
   <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;name&#34;</span><span style="color:#f92672">&gt;</span>My Model Form<span style="color:#f92672">&lt;/field&gt;</span>
   <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;model&#34;</span><span style="color:#f92672">&gt;</span>my.model<span style="color:#f92672">&lt;/field&gt;</span>
   <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;arch&#34;</span> <span style="color:#a6e22e">type=</span><span style="color:#e6db74">&#34;xml&#34;</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;form</span><span style="color:#f92672">&gt;</span>
-      <span style="color:#f92672">&lt;sheet</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;form&gt;</span>
+      <span style="color:#f92672">&lt;sheet&gt;</span>
         <span style="color:#f92672">&lt;group</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;group_top&#34;</span><span style="color:#f92672">&gt;</span>
           <span style="color:#f92672">&lt;group</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;group_left&#34;</span><span style="color:#f92672">&gt;</span>
             <span style="color:#f92672">&lt;field</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;image_filename&#34;</span> <span style="color:#a6e22e">invisible=</span><span style="color:#e6db74">&#34;0&#34;</span><span style="color:#f92672">/&gt;</span>
@@ -340,7 +340,7 @@ filename directly.</p>
   <h2 class="font-accident-one-bold">Über uns</h2>
 
   
-  <p class=" ">RIDING BYTES ist spezialisiert auf die Bedarfsanalyse Ihres Labors, die Integration individueller Anpassungen und der stätigen Präsenz am Kunden.</p>
+  <p class=" ">RIDING BYTES ist spezialisiert auf die Bedarfsanalyse Ihres Labors, die Integration individueller Anpassungen und der stetigen Präsenz am Kunden.</p>
   
   <p class=" ">Unser LIMS passt sich perfekt an Ihre IT-Landschaft an.</p>
   

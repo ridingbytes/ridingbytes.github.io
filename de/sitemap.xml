@@ -43,21 +43,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-08-15T22:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/"
-                />
-  </url>
-  
-  <url>
     <loc>/tags/lims/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -289,6 +274,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="/thanks/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-03-02T09:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/"
                 />
   </url>
   
