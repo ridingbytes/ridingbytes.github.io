@@ -6,11 +6,7 @@
     <description>Recent content in ExtJS on RIDING BYTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright (c) 2015-2020, RIDING BYTES; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 23 Sep 2015 20:26:22 +0200</lastBuildDate>
-    
-	<atom:link href="/en/categories/extjs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 23 Sep 2015 20:26:22 +0200</lastBuildDate><atom:link href="/en/categories/extjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Plone Commander</title>
       <link>/en/2015/09/23/plone-commander/</link>
